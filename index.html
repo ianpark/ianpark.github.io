@@ -7,15 +7,23 @@
 
 <body>
 
-<div ng-app="myApp" ng-controller="myCtrl">
 
-First Name: <input type="text" ng-model="firstName"><br>
-Last Name: <input type="text" ng-model="lastName"><br>
-<br>
-Full Name: {{firstName + " " + lastName}}
-Reverse: {{lastName + ", " + firstName}}
-
+<div ng-app="myApp">
+	<div ng-controller="myCtrl">
+		First Name: <input type="text" ng-model="firstName"><br>
+		Last Name: <input type="text" ng-model="lastName"><br>
+		<br>
+		Full Name: {{firstName + " " + lastName}}
+		Reverse: {{lastName + ", " + firstName}}
+	</div>
+	<div ng-controller="UserCtrl">
+		<p class="username">Welcome, {{user.details.username}} </p>
+		<p class="id">User ID: {{user.details.id}}</p>
+	</div>
 </div>
+
+
+
 
 <script>
 var app = angular.module('myApp', []);
@@ -23,6 +31,14 @@ app.controller('myCtrl', function($scope) {
     $scope.firstName = "John";
     $scope.lastName = "Doe";
 });
+
+app.controller('UserCtrl', ['$scope', function($scope) {
+	$scope.user = {};
+	$scope.user.details = {
+		"username": "Tood Motto",
+		"id": "98123213"		
+	};
+}]);
 </script>
 
 </body>
