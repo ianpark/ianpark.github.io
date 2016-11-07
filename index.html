@@ -2,16 +2,16 @@
 <html>
    <head>
       <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
    </head>
    <body>
-      <a href='/files/links.ppsx'>links.ppsx</a>
-		<div id="main" ng-app>
-			<nav class="{{active}}" ng-click="$event.preventDefault()">
-				<a href="#" class="Doc" ng-click="active='doc'">Documents</a>
-				<a href="#" class="File" ng-click="active='file'">Files</a>
-			</nav>
-      </div>
-		<p ng-hide="active">Not selected</p>
-      <p ng-show="active">Files</p>
+      <div ng-app="docs" ng-controller="docsController">
+         <div class="bar">
+            <!-- Create a binding between the searchString model and the text field -->
+            <input type="text" ng-model="searchString" placeholder="Enter your search terms" />
+         </div>
+         <li ng-repeat="i in items | searchFor:searchString">
+            <a href="{{i.url}}">{{i.title}}</a>
+         </li>
    </body>
 </html>
