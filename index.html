@@ -2,22 +2,8 @@
 <html>
    <head>
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+      <script src="docs.js"></script>
       <link rel="stylesheet" type="text/css" href="style.css">
-      <script>
-         var app = angular.module("docs", []);
-         function DocsController($scope) {
-            $scope.items = [
-            {
-               url: "/files/links.ppsx",
-               title: "PPT with links"
-            },
-            {
-               url: "http://www.spicytan.com/Chinese.pdf",
-               title: "Chinese (Spicytan)"
-            }
-            ];
-         }
-      </script>
    </head>
    <body>
       <div ng-app="docs" ng-controller="DocsController">
@@ -26,7 +12,7 @@
             <input type="text" ng-model="searchString" placeholder="Enter your search terms" />
          </div>
          <ul>
-            <li ng-repeat="i in items">
+            <li ng-repeat="i in items | searchFor:searchString">
                <a href="{{i.url}}">{{i.title}}</a>
             </li>
          </ul>
