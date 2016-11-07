@@ -5,5 +5,13 @@
    </head>
    <body>
       <a href='/files/links.ppsx'>links.ppsx</a>
+		<div id="main" ng-app>
+			<nav class="{{active}}" ng-click="$event.preventDefault()">
+				<a href="#" class="Doc" ng-click="active='doc'">Documents</a>
+				<a href="#" class="File" ng-click="active='file'">Files</a>
+			</nav>
+      </div>
+		<p ng-hide="active">Not selected</p>
+      <p ng-show="active">Files</p>
    </body>
 </html>
