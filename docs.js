@@ -30,7 +30,7 @@ app.filter('searchFor', function(){
 
 });
 
-App.controller('DocsController', function($scope, $http) {
+app.controller('DocsController', function($scope, $http) {
    $http.get('file_list.json')
       .then(function(res) {
          $scope.items = res.data;
