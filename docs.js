@@ -30,16 +30,9 @@ app.filter('searchFor', function(){
 
 });
 
-function DocsController($scope) {
-   $scope.items = [
-   {
-      url: "/files/links.ppsx",
-      title: "PPT with links"
-   },
-   {
-      url: "http://www.spicytan.com/Chinese.pdf",
-      title: "Chinese (Spicytan)"
-   }
-   ];
-}
-
+App.controller('DocsController', function($scope, $http) {
+   $http.get('file_list.json')
+      .then(function(res) {
+         $scope.items = res.data;
+      });
+});
