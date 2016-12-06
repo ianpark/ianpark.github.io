@@ -1,75 +1,74 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://cdn.quilljs.com/1.1.5/quill.snow.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<body style="width:100%">
-<table style="margin-left: auto; margin-right: auto;">
-<tr><td>
-<div id="card" style="width:595;margin:0 auto;">
-<img src='/files/header.gif' width=595/>
-<p><h1><span id="title_body">Lorem Ipsum</span></h1></p>
-<p style='vertical-align: middle;'>
-<span id="contents_body">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span></p>
-<p><h4><span id="bottom_body">Thanks</span></h4></p>
-<img src='/files/footer.jpg' width=595/>
-
-</div>
-</td></tr>
-<tr><td>
-Title: <br><input id="title" style="width:400px"></input><br>
-Body:<br>
-<textarea id="contents" style="width:400px;height:150"></textarea><br>
-Bye:<br>
-<input id="bottom" style="width:400px"></><br>
-<button id="apply_change">Apply</button>
-
-<button id="copy_button">Copy to Clipboard</button>
-</td></tr>
-</body>
+<script src="http://cdn.tinymce.com/4/tinymce.min.js"></script>
 <script>
-$('#title').val($('#title_body').text());
-$('#contents').val($('#contents_body').text());
-$('#bottom').val($('#bottom_body').text());
-$('#apply_change').click(function() {
-    $('#title_body').text($('#title').val());
-    $('#contents_body').text($('#contents').val());
-    $('#bottom_body').text($('#bottom').val());
-});
+//tinymce.init({ selector:'textarea' });
+tinymce.init({
+  selector: 'textarea',
+  width:550,
+  height: 300,
+  menubar: false,
+  fontsize_formats: "7pt 8pt 9pt 10pt 11pt 12pt 13pt 14pt 15pt 18pt 24pt 36pt",
+  theme: 'modern',
+  plugins: [
+    'advlist autolink lists link image charmap print preview hr anchor pagebreak',
+    'searchreplace wordcount visualblocks visualchars code fullscreen',
+    'insertdatetime media nonbreaking save table contextmenu directionality',
+    'emoticons template paste textcolor colorpicker textpattern imagetools codesample toc'
+  ],
+  toolbar1: 'undo redo | insert | styleselect | fontsizeselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media | forecolor backcolor',
+  image_advtab: true,
+  content_css: [
+  ]
+ });
+</script>
+<body style="width:100%">
+<div id="card">
+<div style="width:595px;margin:0 auto;">
+<img src='http://ianpark.github.io//files/header.gif' width=595/>
+<div id="contents_body" style="float:left;width:595px;padding:25px;margin:0 auto;">
+</div>
+<img src='http://ianpark.github.io/files/footer.jpg' width=595/>
+</div>
+</div>
+<hr>
+<div style="width:595px;margin:0 auto;">
+<button id="apply_change">Apply Text</button>
+<button id="copy_button">Copy to Clipboard</button>
+<textarea id='my_content'>
+Dear xxx<br><br>
 
+Message<br><br>
 
-function html2clipboard(html, el) {
-    var tmpEl;
-    if (typeof el !== "undefined") {
-        // you may want some specific styling for your content - then provide a custom DOM node with classes, inline styles or whatever you want
-        tmpEl = el;
-    } else {
-        // else we'll just create one
-        tmpEl = document.createElement("div");
+XXX
+</textarea>
+</div>
+</body>
 
-        // since we remove the element immedeately we'd actually not have to style it - but IE 11 prompts us to confirm the clipboard interaction and until you click the confirm button, the element would show. so: still extra stuff for IE, as usual.
-        tmpEl.style.opacity = 0;
-        tmpEl.style.position = "absolute";
-        tmpEl.style.pointerEvents = "none";
-        tmpEl.style.zIndex = -1;
-    }
-
-    // fill it with your HTML
-    tmpEl.innerHTML = html;
-
-    // append the temporary node to the DOM
-    document.body.appendChild(tmpEl);
-
-    // select the newly added node
-    var range = document.createRange();
-    range.selectNode(tmpEl);
-    window.getSelection().addRange(range);
-
-    // copy
-    document.execCommand("copy");
-
-    // and remove the element immediately
-    document.body.removeChild(tmpEl);
+<script>
+function get_editor_content() {
+  return tinyMCE.get('my_content').getContent();
 }
+$(function() {
+  $('#contents_body').html(get_editor_content());
+});
+$('#apply_change').click(function() {
+    var contents = get_editor_content();
+    contents = contents.replace(/span/g, 'font');
+    $('#contents_body').html(contents);
+});
 
 document.getElementById("copy_button").addEventListener("click", function () {
-    html2clipboard($('#card').html());
+    //html2clipboard($('#card').html());
+    var range = document.createRange();
+    //range.selectNode(tmpEl);
+    range.selectNode(document.getElementById("card"));
+    window.getSelection().addRange(range);
+    // copy
+    document.execCommand("copy");
+    alert('Copied to clipboard. CTRL+V in your email app.');
 });
+
+
 </script>
