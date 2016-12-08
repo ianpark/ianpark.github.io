@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="http://cdn.tinymce.com/4/tinymce.min.js"></script>
 <script>
@@ -17,7 +16,7 @@ tinymce.init({
     'insertdatetime media nonbreaking save table contextmenu directionality',
     'emoticons template paste textcolor colorpicker textpattern imagetools codesample toc'
   ],
-  toolbar1: 'undo redo | insert | styleselect | fontsizeselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media | forecolor backcolor',
+  toolbar1: 'undo redo | insert | styleselect | fontselect | fontsizeselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media | forecolor backcolor',
   image_advtab: true,
   content_css: [
   ]
@@ -27,7 +26,7 @@ tinymce.init({
 <div id="card">
 <div style="width:595px;margin:0 auto;">
 <img src='http://ianpark.github.io//files/200_Header.gif' width=595/>
-<div id="contents_body" style="float:left;width:595px;padding:25px;margin:0 auto;;background-color: #efefef;font-family: 'Droid Serif', serif;">
+<div id="contents_body" style="float:left;width:595px;padding:25px;padding-top:0px;padding-bottom:0px;margin:0 auto;background-color: #f8f8f8;">
 </div>
 <img src='http://ianpark.github.io/files/200_footer.jpg' width=595/>
 </div>
@@ -60,11 +59,19 @@ $('#apply_change').click(function() {
 });
 
 document.getElementById("copy_button").addEventListener("click", function () {
+    var sel = window.getSelection ? window.getSelection() : document.selection;
+    if (sel) {
+        if (sel.removeAllRanges) {
+            sel.removeAllRanges();
+        } else if (sel.empty) {
+            sel.empty();
+        }
+    }
     //html2clipboard($('#card').html());
     var range = document.createRange();
     //range.selectNode(tmpEl);
     range.selectNode(document.getElementById("card"));
-    window.getSelection().addRange(range);
+    sel.addRange(range);
     // copy
     document.execCommand("copy");
     alert('Copied to clipboard. CTRL+V in your email app.');
