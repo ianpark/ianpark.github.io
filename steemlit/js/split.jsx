@@ -205,13 +205,11 @@ class Pay extends React.Component {
                         onBlur={this.applyValues.bind(this)}
                         placeholder="Put a message. {user} will be replaced by the receiver ID."/>
                 </div>
-                <div className="panel panel-default">
-                <div className="panel-heading">Receivers</div>
-                <div className="panel-body">
+                
+                <div className="input-group">
                     { this.state.receivers.length > 0 && this.state.receivers.map((user, id) =>
                         <UserBlock user={user} key={id}/>
                     )}
-                </div>
                 </div>
                 </div>
                 }
@@ -244,9 +242,11 @@ class Pay extends React.Component {
                         )}
                     </div>
                 }
+                <div>
                 <pre>
                 SteemLit! v0.1, created by <a href="http://steemit.com/@asbear">@asbear</a>
                 </pre>
+                </div>
             </div>
         )
     }
@@ -254,5 +254,5 @@ class Pay extends React.Component {
 
 ReactDOM.render(
     <Pay/>,
-    document.getElementById('main_panel')
+    document.getElementById('transfer_money_panel')
 );

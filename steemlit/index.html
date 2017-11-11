@@ -14,12 +14,29 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>        
     </head>
     <body>
-        <div id="main_panel"></div>
+        <div style="background-color: #363636; height:40px">
+            <span style="color:#cccccc;font-size:18pt;margin:5px">SteemLit</span>
+        </div>
+        <div class="tabbable tabs-left" style="width: 100%">
+            <ul class="nav nav-tabs">
+                <li class="active">
+                    <a href="#send_sbd_tab" data-toggle="tab">Send SBD</a>
+                </li>
+                <li>
+                    <a href="#delegate_tab" data-toggle="tab">Delegate STEEM POWER</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="send_sbd_tab">
+                        <div id="transfer_money_panel"></div>
+                </div>
+                <div class="tab-pane" id="delegate_tab">
+                        <div id="delegate_steem_power"></div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
-
-<script>
-   //steem.api.setWebSocket('wss://steemd-int.steemit.com');
-</script>
     
 <script type="text/babel" src="./js/split.jsx"></script>
+<script type="text/babel" src="./js/delegate.jsx"></script>
