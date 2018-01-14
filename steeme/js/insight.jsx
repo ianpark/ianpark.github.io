@@ -656,7 +656,7 @@ class PostingAnalyser extends React.Component {
                     });
                 }
 
-                steem.api.getRebloggedBy(post.author, post.permlink).then(reblogger => {
+                steem.api.getRebloggedByAsync(post.author, post.permlink).then(reblogger => {
                     post.reblogged_by = reblogger.filter(id => post.author != id);
                     --in_progress;
                     if (!in_progress) {
