@@ -203,7 +203,7 @@ class Pay extends React.Component {
                         className="form-control"
                         ref={(input) => { this.message = input; }}
                         onBlur={this.applyValues.bind(this)}
-                        placeholder="Put a message. {user} will be replaced by the receiver ID."/>
+                        placeholder="Put a message. {name} will be replaced by the receiver ID."/>
                 </div>
                 
                 <div className="input-group">
