@@ -23,15 +23,18 @@ def calc(acc_name ,res, last_day, numdays):
             vtarget[name] += float(v['rshares'])
         else:
             break
-    for v in vtarget:
-        sum_of_share_squared += (vtarget[v] / float(all_rshares)) ** 2
-    inverse_simpson = 1.0 / float(sum_of_share_squared)
+    if all_rshares == 0:
+        inverse_simpson = 100
+    else:
+        for v in vtarget:
+            sum_of_share_squared += (vtarget[v] / float(all_rshares)) ** 2
+        inverse_simpson = 1.0 / float(sum_of_share_squared)
     result = {}
     result['start_date'] = min_day.timestamp()
     result['end_date'] = last_day.timestamp()
     result['days'] = numdays
     result['avg_full_voting_per_day'] = all_vweight/10000/numdays
-    result['self_vote'] = self_rshares/all_rshares*100
+    result['self_vote'] = self_rshares/all_rshares*100 if all_rshares > 0 else 0
     result['invers_simpson'] = inverse_simpson
     result['top_votee'] = []
     for v in sorted(vtarget, key=vtarget.get, reverse=True)[0:10]:
@@ -51,7 +54,8 @@ def vote_stats(acc_name, last_day):
 
 
 def main():
-    users = ['asbear', 'clayop', 'shiho', 'dakfn', 'noctisk', 'uksama', 'umkin', 'kimthewriter']
+    users = open("users.txt").read().replace("\n", " ").split()
+    #users = ['asbear', 'clayop', 'shiho', 'dakfn', 'noctisk', 'uksama', 'umkin', 'kimthewriter']
     start_date = datetime.datetime.now()
     for idx, user in enumerate(users):
         print('Processing %s [%d/%d]' % (user, idx+1, len(users)))

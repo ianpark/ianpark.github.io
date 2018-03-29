@@ -1,0 +1,89 @@
+[
+    {
+        "start_date": 1521694813.932483,
+        "end_date": 1522296013.932483,
+        "days": 7,
+        "avg_full_voting_per_day": 0.0,
+        "self_vote": 0,
+        "invers_simpson": 100,
+        "top_votee": []
+    },
+    {
+        "start_date": 1521090013.932483,
+        "end_date": 1522296013.932483,
+        "days": 14,
+        "avg_full_voting_per_day": 0.0,
+        "self_vote": 0,
+        "invers_simpson": 100,
+        "top_votee": []
+    },
+    {
+        "start_date": 1519707613.932483,
+        "end_date": 1522296013.932483,
+        "days": 30,
+        "avg_full_voting_per_day": 0.0,
+        "self_vote": 0,
+        "invers_simpson": 100,
+        "top_votee": []
+    },
+    {
+        "start_date": 1517115613.932483,
+        "end_date": 1522296013.932483,
+        "days": 60,
+        "avg_full_voting_per_day": 0.16666666666666666,
+        "self_vote": 99.55018836417034,
+        "invers_simpson": 1.0090469858756244,
+        "top_votee": [
+            {
+                "account": "patipatipati",
+                "percentage": 99.55018836417034,
+                "rshares": 810124220496
+            },
+            {
+                "account": "ahn",
+                "percentage": 0.3001257855327443,
+                "rshares": 2442377780
+            },
+            {
+                "account": "daegufood",
+                "percentage": 0.07540848885264022,
+                "rshares": 613662759
+            },
+            {
+                "account": "xoman",
+                "percentage": 0.07427736144427781,
+                "rshares": 604457817
+            }
+        ]
+    },
+    {
+        "start_date": 1514523613.932483,
+        "end_date": 1522296013.932483,
+        "days": 90,
+        "avg_full_voting_per_day": 0.1111111111111111,
+        "self_vote": 99.55018836417034,
+        "invers_simpson": 1.0090469858756244,
+        "top_votee": [
+            {
+                "account": "patipatipati",
+                "percentage": 99.55018836417034,
+                "rshares": 810124220496
+            },
+            {
+                "account": "ahn",
+                "percentage": 0.3001257855327443,
+                "rshares": 2442377780
+            },
+            {
+                "account": "daegufood",
+                "percentage": 0.07540848885264022,
+                "rshares": 613662759
+            },
+            {
+                "account": "xoman",
+                "percentage": 0.07427736144427781,
+                "rshares": 604457817
+            }
+        ]
+    }
+]

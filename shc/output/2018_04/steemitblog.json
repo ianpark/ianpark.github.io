@@ -1,0 +1,87 @@
+[
+    {
+        "start_date": 1521694210.027161,
+        "end_date": 1522295410.027161,
+        "days": 7,
+        "avg_full_voting_per_day": 0.14285714285714285,
+        "self_vote": 100.0,
+        "invers_simpson": 1.0,
+        "top_votee": [
+            {
+                "account": "steemitblog",
+                "percentage": 100.0,
+                "rshares": 1870813909383
+            }
+        ]
+    },
+    {
+        "start_date": 1521089410.027161,
+        "end_date": 1522295410.027161,
+        "days": 14,
+        "avg_full_voting_per_day": 0.07142857142857142,
+        "self_vote": 100.0,
+        "invers_simpson": 1.0,
+        "top_votee": [
+            {
+                "account": "steemitblog",
+                "percentage": 100.0,
+                "rshares": 1870813909383
+            }
+        ]
+    },
+    {
+        "start_date": 1519707010.027161,
+        "end_date": 1522295410.027161,
+        "days": 30,
+        "avg_full_voting_per_day": 0.1,
+        "self_vote": 100.0,
+        "invers_simpson": 1.0,
+        "top_votee": [
+            {
+                "account": "steemitblog",
+                "percentage": 100.0,
+                "rshares": 5612441728149
+            }
+        ]
+    },
+    {
+        "start_date": 1517115010.027161,
+        "end_date": 1522295410.027161,
+        "days": 60,
+        "avg_full_voting_per_day": 0.13333333333333333,
+        "self_vote": 100.0,
+        "invers_simpson": 1.0,
+        "top_votee": [
+            {
+                "account": "steemitblog",
+                "percentage": 100.0,
+                "rshares": 14938449066423
+            },
+            {
+                "account": "steemitdev",
+                "percentage": 0.0,
+                "rshares": 0
+            }
+        ]
+    },
+    {
+        "start_date": 1514523010.027161,
+        "end_date": 1522295410.027161,
+        "days": 90,
+        "avg_full_voting_per_day": 0.1111111111111111,
+        "self_vote": 90.12036108325084,
+        "invers_simpson": 1.2166505814839192,
+        "top_votee": [
+            {
+                "account": "steemitblog",
+                "percentage": 90.12036108325084,
+                "rshares": 16809262975806
+            },
+            {
+                "account": "steemitdev",
+                "percentage": 9.879638916749153,
+                "rshares": 1842751700742
+            }
+        ]
+    }
+]
