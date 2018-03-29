@@ -109,4 +109,28 @@ html {
   code {
     font-size: 80%;
   }
-  
+
+  /* header */
+  div.page_header {
+    padding-left: 20;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 60px;
+    background-color: #363636;
+    text-align: left;
+    vertical-align:middle;
+    display: table-cell;
+    color:#cccccc;
+    font-size:18pt
+  }
+
+  /* Chart cell style */
+  div.chart_frame {
+      width: 300;
+  }
+  div.chart_cell {
+      width: 250;
+      height: 250;
+  }
