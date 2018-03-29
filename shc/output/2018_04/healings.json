@@ -1,302 +1,841 @@
-[
-    {
-        "start_date": 1521711608.506135,
-        "end_date": 1522312808.506135,
-        "days": 7,
-        "avg_full_voting_per_day": 4.3185714285714285,
-        "self_vote": 16.848507570279388,
-        "invers_simpson": 13.203747339716767,
-        "top_votee": [
-            {
-                "account": "healings",
-                "percentage": 16.848507570279388,
-                "rshares": 8650537258673
-            },
-            {
-                "account": "cheongpyeongyull",
-                "percentage": 13.436806273590932,
-                "rshares": 6898865838557
-            },
-            {
-                "account": "leomichael",
-                "percentage": 6.667215582767819,
-                "rshares": 3423151669058
-            },
-            {
-                "account": "nobless",
-                "percentage": 6.6168917255684345,
-                "rshares": 3397313867111
-            },
-            {
-                "account": "kim066",
-                "percentage": 6.5999092337070655,
-                "rshares": 3388594538234
-            },
-            {
-                "account": "kuri12",
-                "percentage": 3.393570586570158,
-                "rshares": 1742362560993
-            },
-            {
-                "account": "leesol",
-                "percentage": 3.393570586570158,
-                "rshares": 1742362560993
-            },
-            {
-                "account": "best-player",
-                "percentage": 3.3929850293990156,
-                "rshares": 1742061918096
-            },
-            {
-                "account": "blaire0323",
-                "percentage": 3.3590551791049474,
-                "rshares": 1724641298915
-            },
-            {
-                "account": "xiian",
-                "percentage": 3.3426670277714017,
-                "rshares": 1716227122578
-            }
-        ]
-    },
-    {
-        "start_date": 1521106808.506135,
-        "end_date": 1522312808.506135,
-        "days": 14,
-        "avg_full_voting_per_day": 3.6592857142857143,
-        "self_vote": 16.515387315364016,
-        "invers_simpson": 16.17590061614558,
-        "top_votee": [
-            {
-                "account": "healings",
-                "percentage": 16.515387315364016,
-                "rshares": 13876723012961
-            },
-            {
-                "account": "cheongpyeongyull",
-                "percentage": 8.210687873072315,
-                "rshares": 6898865838557
-            },
-            {
-                "account": "kim066",
-                "percentage": 8.044802939712605,
-                "rshares": 6759484349749
-            },
-            {
-                "account": "nobless",
-                "percentage": 6.426277295846511,
-                "rshares": 5399550633365
-            },
-            {
-                "account": "best-player",
-                "percentage": 6.2199470172812,
-                "rshares": 5226185754288
-            },
-            {
-                "account": "leomichael",
-                "percentage": 6.074814920209782,
-                "rshares": 5104241420020
-            },
-            {
-                "account": "kuri12",
-                "percentage": 2.073673482688389,
-                "rshares": 1742362560993
-            },
-            {
-                "account": "leesol",
-                "percentage": 2.073673482688389,
-                "rshares": 1742362560993
-            },
-            {
-                "account": "kangsukin",
-                "percentage": 2.0733156724270665,
-                "rshares": 1742061918096
-            },
-            {
-                "account": "asbear",
-                "percentage": 2.0733156724270665,
-                "rshares": 1742061918096
-            }
-        ]
-    },
-    {
-        "start_date": 1519724408.506135,
-        "end_date": 1522312808.506135,
-        "days": 30,
-        "avg_full_voting_per_day": 3.1839999999999997,
-        "self_vote": 16.204133851570862,
-        "invers_simpson": 18.529232023877686,
-        "top_votee": [
-            {
-                "account": "healings",
-                "percentage": 16.204133851570862,
-                "rshares": 24109558746099
-            },
-            {
-                "account": "twinbraid",
-                "percentage": 7.228026904640711,
-                "rshares": 10754326079510
-            },
-            {
-                "account": "kim066",
-                "percentage": 6.730059765070805,
-                "rshares": 10013418350960
-            },
-            {
-                "account": "leomichael",
-                "percentage": 5.681037467003084,
-                "rshares": 8452615104523
-            },
-            {
-                "account": "cheongpyeongyull",
-                "percentage": 5.075221193335753,
-                "rshares": 7551242456462
-            },
-            {
-                "account": "nobless",
-                "percentage": 4.8569695631457535,
-                "rshares": 7226513560262
-            },
-            {
-                "account": "best-player",
-                "percentage": 3.5125409961871656,
-                "rshares": 5226185754288
-            },
-            {
-                "account": "carrotcake",
-                "percentage": 3.422281865763608,
-                "rshares": 5091892380310
-            },
-            {
-                "account": "koreangirl",
-                "percentage": 3.4206855560557665,
-                "rshares": 5089517287446
-            },
-            {
-                "account": "muwon123",
-                "percentage": 2.2821050434221246,
-                "rshares": 3395463534993
-            }
-        ]
-    },
-    {
-        "start_date": 1517132408.506135,
-        "end_date": 1522312808.506135,
-        "days": 60,
-        "avg_full_voting_per_day": 5.743166666666666,
-        "self_vote": 16.862087925940823,
-        "invers_simpson": 23.476539237877528,
-        "top_votee": [
-            {
-                "account": "healings",
-                "percentage": 16.862087925940823,
-                "rshares": 92361886164863
-            },
-            {
-                "account": "koreangirl",
-                "percentage": 5.984990585408346,
-                "rshares": 32782714784499
-            },
-            {
-                "account": "twinbraid",
-                "percentage": 5.38582704231083,
-                "rshares": 29500803599789
-            },
-            {
-                "account": "nobless",
-                "percentage": 3.7509123756056577,
-                "rshares": 20545577948096
-            },
-            {
-                "account": "cheongpyeongyull",
-                "percentage": 2.5245735717480757,
-                "rshares": 13828321728171
-            },
-            {
-                "account": "leomichael",
-                "percentage": 2.4653873431101507,
-                "rshares": 13504129864388
-            },
-            {
-                "account": "carrotcake",
-                "percentage": 2.42965412894939,
-                "rshares": 13308401608604
-            },
-            {
-                "account": "kim066",
-                "percentage": 2.197121925071529,
-                "rshares": 12034709226109
-            },
-            {
-                "account": "lalaflor",
-                "percentage": 1.8905584497393693,
-                "rshares": 10355511434276
-            },
-            {
-                "account": "cyan2017",
-                "percentage": 1.7744818992939684,
-                "rshares": 9719703509081
-            }
-        ]
-    },
-    {
-        "start_date": 1514540408.506135,
-        "end_date": 1522312808.506135,
-        "days": 90,
-        "avg_full_voting_per_day": 7.092666666666667,
-        "self_vote": 14.0347907582496,
-        "invers_simpson": 25.527817395575045,
-        "top_votee": [
-            {
-                "account": "healings",
-                "percentage": 14.0347907582496,
-                "rshares": 124759839992754
-            },
-            {
-                "account": "loteem",
-                "percentage": 10.113574116784939,
-                "rshares": 89902864267733
-            },
-            {
-                "account": "twinbraid",
-                "percentage": 4.498218614731911,
-                "rshares": 39986134762751
-            },
-            {
-                "account": "koreangirl",
-                "percentage": 4.313020314848884,
-                "rshares": 38339846573755
-            },
-            {
-                "account": "nobless",
-                "percentage": 3.3445161361323,
-                "rshares": 29730496534249
-            },
-            {
-                "account": "stella12",
-                "percentage": 1.7979289838420862,
-                "rshares": 15982378092144
-            },
-            {
-                "account": "leomichael",
-                "percentage": 1.7063097050662484,
-                "rshares": 15167944392546
-            },
-            {
-                "account": "cheongpyeongyull",
-                "percentage": 1.6967077400923563,
-                "rshares": 15082589389084
-            },
-            {
-                "account": "yourhoney",
-                "percentage": 1.6283444520929953,
-                "rshares": 14474885788860
-            },
-            {
-                "account": "lalaflor",
-                "percentage": 1.5671193031902275,
-                "rshares": 13930635438982
-            }
-        ]
-    }
-]
+{
+    "accumulated": [
+        {
+            "start_date": "2018-03-22",
+            "end_date": "2018-03-29",
+            "days": 7,
+            "all_vweight": 302300.0,
+            "plus_rshares": 51343047582045.0,
+            "minus_rshares": 51343047582045.0,
+            "self_rshares": 8650537258673.0,
+            "sum_of_share_squared": 0.07573607509074397,
+            "vcount": 31,
+            "inverse_simpson": 13.203747339716767,
+            "avg_full_voting_per_day": 4.3185714285714285,
+            "upvcount": 31,
+            "upvotee_count": 21,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 16.848507570279388,
+            "upvotee": [
+                {
+                    "account": "healings",
+                    "percentage": 16.85,
+                    "rshares": 8650537258673
+                },
+                {
+                    "account": "cheongpyeongyull",
+                    "percentage": 13.44,
+                    "rshares": 6898865838557
+                },
+                {
+                    "account": "leomichael",
+                    "percentage": 6.67,
+                    "rshares": 3423151669058
+                },
+                {
+                    "account": "nobless",
+                    "percentage": 6.62,
+                    "rshares": 3397313867111
+                },
+                {
+                    "account": "kim066",
+                    "percentage": 6.6,
+                    "rshares": 3388594538234
+                },
+                {
+                    "account": "kuri12",
+                    "percentage": 3.39,
+                    "rshares": 1742362560993
+                },
+                {
+                    "account": "leesol",
+                    "percentage": 3.39,
+                    "rshares": 1742362560993
+                },
+                {
+                    "account": "best-player",
+                    "percentage": 3.39,
+                    "rshares": 1742061918096
+                },
+                {
+                    "account": "blaire0323",
+                    "percentage": 3.36,
+                    "rshares": 1724641298915
+                },
+                {
+                    "account": "xiian",
+                    "percentage": 3.34,
+                    "rshares": 1716227122578
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-15",
+            "end_date": "2018-03-29",
+            "days": 14,
+            "all_vweight": 502300.0,
+            "plus_rshares": 83762819877807.0,
+            "minus_rshares": 83762819877807.0,
+            "self_rshares": 13876723012961.0,
+            "sum_of_share_squared": 0.061814191564523134,
+            "vcount": 51,
+            "inverse_simpson": 16.17751481803618,
+            "avg_full_voting_per_day": 3.5878571428571426,
+            "upvcount": 51,
+            "upvotee_count": 32,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 16.56668559296873,
+            "upvotee": [
+                {
+                    "account": "healings",
+                    "percentage": 16.57,
+                    "rshares": 13876723012961
+                },
+                {
+                    "account": "cheongpyeongyull",
+                    "percentage": 8.24,
+                    "rshares": 6898865838557
+                },
+                {
+                    "account": "kim066",
+                    "percentage": 8.07,
+                    "rshares": 6759484349749
+                },
+                {
+                    "account": "best-player",
+                    "percentage": 6.24,
+                    "rshares": 5226185754288
+                },
+                {
+                    "account": "nobless",
+                    "percentage": 6.14,
+                    "rshares": 5139375785207
+                },
+                {
+                    "account": "leomichael",
+                    "percentage": 6.09,
+                    "rshares": 5104241420020
+                },
+                {
+                    "account": "kuri12",
+                    "percentage": 2.08,
+                    "rshares": 1742362560993
+                },
+                {
+                    "account": "leesol",
+                    "percentage": 2.08,
+                    "rshares": 1742362560993
+                },
+                {
+                    "account": "kangsukin",
+                    "percentage": 2.08,
+                    "rshares": 1742061918096
+                },
+                {
+                    "account": "asbear",
+                    "percentage": 2.08,
+                    "rshares": 1742061918096
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-27",
+            "end_date": "2018-03-29",
+            "days": 30,
+            "all_vweight": 985200.0,
+            "plus_rshares": 153703882855577.0,
+            "minus_rshares": 153703882855577.0,
+            "self_rshares": 24109558746099.0,
+            "sum_of_share_squared": 0.051378301154784686,
+            "vcount": 104,
+            "inverse_simpson": 19.46346954889289,
+            "avg_full_voting_per_day": 3.284,
+            "upvcount": 104,
+            "upvotee_count": 50,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 15.685718732787501,
+            "upvotee": [
+                {
+                    "account": "healings",
+                    "percentage": 15.69,
+                    "rshares": 24109558746099
+                },
+                {
+                    "account": "twinbraid",
+                    "percentage": 7.0,
+                    "rshares": 10754326079510
+                },
+                {
+                    "account": "kim066",
+                    "percentage": 6.51,
+                    "rshares": 10013418350960
+                },
+                {
+                    "account": "leomichael",
+                    "percentage": 5.5,
+                    "rshares": 8452615104523
+                },
+                {
+                    "account": "cheongpyeongyull",
+                    "percentage": 4.91,
+                    "rshares": 7551242456462
+                },
+                {
+                    "account": "nobless",
+                    "percentage": 4.7,
+                    "rshares": 7226513560262
+                },
+                {
+                    "account": "best-player",
+                    "percentage": 3.4,
+                    "rshares": 5226185754288
+                },
+                {
+                    "account": "carrotcake",
+                    "percentage": 3.31,
+                    "rshares": 5091892380310
+                },
+                {
+                    "account": "koreangirl",
+                    "percentage": 3.31,
+                    "rshares": 5089517287446
+                },
+                {
+                    "account": "xiian",
+                    "percentage": 2.22,
+                    "rshares": 3410897360438
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-01-28",
+            "end_date": "2018-03-29",
+            "days": 60,
+            "all_vweight": 3418100.0,
+            "plus_rshares": 544263588144958.0,
+            "minus_rshares": 544263588144958.0,
+            "self_rshares": 92361886164863.0,
+            "sum_of_share_squared": 0.04307871830512416,
+            "vcount": 496,
+            "inverse_simpson": 23.213318300629464,
+            "avg_full_voting_per_day": 5.696833333333333,
+            "upvcount": 494,
+            "upvotee_count": 207,
+            "dnvcount": 2,
+            "dnvotee_count": 1,
+            "self_vote_rate": 16.970065272906616,
+            "upvotee": [
+                {
+                    "account": "healings",
+                    "percentage": 16.97,
+                    "rshares": 92361886164863
+                },
+                {
+                    "account": "koreangirl",
+                    "percentage": 6.02,
+                    "rshares": 32782714784499
+                },
+                {
+                    "account": "twinbraid",
+                    "percentage": 5.42,
+                    "rshares": 29500803599789
+                },
+                {
+                    "account": "nobless",
+                    "percentage": 3.77,
+                    "rshares": 20545577948096
+                },
+                {
+                    "account": "cheongpyeongyull",
+                    "percentage": 2.54,
+                    "rshares": 13828321728171
+                },
+                {
+                    "account": "leomichael",
+                    "percentage": 2.48,
+                    "rshares": 13504129864388
+                },
+                {
+                    "account": "carrotcake",
+                    "percentage": 2.45,
+                    "rshares": 13308401608604
+                },
+                {
+                    "account": "kim066",
+                    "percentage": 2.21,
+                    "rshares": 12034709226109
+                },
+                {
+                    "account": "lalaflor",
+                    "percentage": 1.9,
+                    "rshares": 10355511434276
+                },
+                {
+                    "account": "cyan2017",
+                    "percentage": 1.79,
+                    "rshares": 9719703509081
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "ruponti",
+                    "percentage": 100.0,
+                    "rshares": 3366834760267
+                }
+            ]
+        },
+        {
+            "start_date": "2017-12-29",
+            "end_date": "2018-03-29",
+            "days": 90,
+            "all_vweight": 6353400.0,
+            "plus_rshares": 891084463804380.0,
+            "minus_rshares": 891084463804380.0,
+            "self_rshares": 124759839992754.0,
+            "sum_of_share_squared": 0.03887399878369564,
+            "vcount": 894,
+            "inverse_simpson": 25.724135187744448,
+            "avg_full_voting_per_day": 7.059333333333334,
+            "upvcount": 892,
+            "upvotee_count": 279,
+            "dnvcount": 2,
+            "dnvotee_count": 1,
+            "self_vote_rate": 14.000899472549053,
+            "upvotee": [
+                {
+                    "account": "healings",
+                    "percentage": 14.0,
+                    "rshares": 124759839992754
+                },
+                {
+                    "account": "loteem",
+                    "percentage": 10.04,
+                    "rshares": 89502842505405
+                },
+                {
+                    "account": "twinbraid",
+                    "percentage": 4.49,
+                    "rshares": 39986134762751
+                },
+                {
+                    "account": "koreangirl",
+                    "percentage": 4.3,
+                    "rshares": 38339846573755
+                },
+                {
+                    "account": "nobless",
+                    "percentage": 3.34,
+                    "rshares": 29730496534249
+                },
+                {
+                    "account": "stella12",
+                    "percentage": 1.79,
+                    "rshares": 15982378092144
+                },
+                {
+                    "account": "leomichael",
+                    "percentage": 1.7,
+                    "rshares": 15167944392546
+                },
+                {
+                    "account": "cheongpyeongyull",
+                    "percentage": 1.69,
+                    "rshares": 15082589389084
+                },
+                {
+                    "account": "yourhoney",
+                    "percentage": 1.62,
+                    "rshares": 14474885788860
+                },
+                {
+                    "account": "lalaflor",
+                    "percentage": 1.56,
+                    "rshares": 13930635438982
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "ruponti",
+                    "percentage": 100.0,
+                    "rshares": 3366834760267
+                }
+            ]
+        }
+    ],
+    "weekly": [
+        {
+            "start_date": "2018-03-22",
+            "end_date": "2018-03-29",
+            "days": 7,
+            "all_vweight": 302300.0,
+            "plus_rshares": 51343047582045.0,
+            "minus_rshares": 51343047582045.0,
+            "self_rshares": 8650537258673.0,
+            "sum_of_share_squared": 0.07573607509074397,
+            "vcount": 31,
+            "inverse_simpson": 13.203747339716767,
+            "avg_full_voting_per_day": 4.3185714285714285,
+            "upvcount": 31,
+            "upvotee_count": 21,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 16.848507570279388,
+            "upvotee": [
+                {
+                    "account": "healings",
+                    "percentage": 16.85,
+                    "rshares": 8650537258673
+                },
+                {
+                    "account": "cheongpyeongyull",
+                    "percentage": 13.44,
+                    "rshares": 6898865838557
+                },
+                {
+                    "account": "leomichael",
+                    "percentage": 6.67,
+                    "rshares": 3423151669058
+                },
+                {
+                    "account": "nobless",
+                    "percentage": 6.62,
+                    "rshares": 3397313867111
+                },
+                {
+                    "account": "kim066",
+                    "percentage": 6.6,
+                    "rshares": 3388594538234
+                },
+                {
+                    "account": "kuri12",
+                    "percentage": 3.39,
+                    "rshares": 1742362560993
+                },
+                {
+                    "account": "leesol",
+                    "percentage": 3.39,
+                    "rshares": 1742362560993
+                },
+                {
+                    "account": "best-player",
+                    "percentage": 3.39,
+                    "rshares": 1742061918096
+                },
+                {
+                    "account": "blaire0323",
+                    "percentage": 3.36,
+                    "rshares": 1724641298915
+                },
+                {
+                    "account": "xiian",
+                    "percentage": 3.34,
+                    "rshares": 1716227122578
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-15",
+            "end_date": "2018-03-22",
+            "days": 7,
+            "all_vweight": 200000.0,
+            "plus_rshares": 32419772295762.0,
+            "minus_rshares": 32419772295762.0,
+            "self_rshares": 5226185754288.0,
+            "sum_of_share_squared": 0.0811614054833554,
+            "vcount": 20,
+            "inverse_simpson": 12.321127191483644,
+            "avg_full_voting_per_day": 2.857142857142857,
+            "upvcount": 20,
+            "upvotee_count": 16,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 16.120365394951218,
+            "upvotee": [
+                {
+                    "account": "healings",
+                    "percentage": 16.12,
+                    "rshares": 5226185754288
+                },
+                {
+                    "account": "best-player",
+                    "percentage": 10.75,
+                    "rshares": 3484123836192
+                },
+                {
+                    "account": "kim066",
+                    "percentage": 10.4,
+                    "rshares": 3370889811515
+                },
+                {
+                    "account": "kangsukin",
+                    "percentage": 5.37,
+                    "rshares": 1742061918096
+                },
+                {
+                    "account": "nobless",
+                    "percentage": 5.37,
+                    "rshares": 1742061918096
+                },
+                {
+                    "account": "asbear",
+                    "percentage": 5.37,
+                    "rshares": 1742061918096
+                },
+                {
+                    "account": "tworld",
+                    "percentage": 5.29,
+                    "rshares": 1715930989324
+                },
+                {
+                    "account": "yann03",
+                    "percentage": 5.27,
+                    "rshares": 1707220679734
+                },
+                {
+                    "account": "b2autifullife",
+                    "percentage": 5.27,
+                    "rshares": 1707220679734
+                },
+                {
+                    "account": "leomichael",
+                    "percentage": 5.19,
+                    "rshares": 1681089750962
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-08",
+            "end_date": "2018-03-15",
+            "days": 7,
+            "all_vweight": 70000.0,
+            "plus_rshares": 1804031104100.0,
+            "minus_rshares": 1804031104100.0,
+            "self_rshares": 0,
+            "sum_of_share_squared": 0.42466473536506427,
+            "vcount": 7,
+            "inverse_simpson": 2.3547987782417277,
+            "avg_full_voting_per_day": 1.0,
+            "upvcount": 7,
+            "upvotee_count": 3,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 0.0,
+            "upvotee": [
+                {
+                    "account": "twinbraid",
+                    "percentage": 56.57,
+                    "rshares": 1020461932580
+                },
+                {
+                    "account": "nobless",
+                    "percentage": 28.92,
+                    "rshares": 521689335669
+                },
+                {
+                    "account": "yourhoney",
+                    "percentage": 14.52,
+                    "rshares": 261879835851
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-01",
+            "end_date": "2018-03-08",
+            "days": 7,
+            "all_vweight": 364300.0,
+            "plus_rshares": 60152999819423.0,
+            "minus_rshares": 60152999819423.0,
+            "self_rshares": 8564731249535.0,
+            "sum_of_share_squared": 0.06278671566668054,
+            "vcount": 38,
+            "inverse_simpson": 15.926935966976801,
+            "avg_full_voting_per_day": 5.204285714285715,
+            "upvcount": 38,
+            "upvotee_count": 25,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 14.238244601675717,
+            "upvotee": [
+                {
+                    "account": "healings",
+                    "percentage": 14.24,
+                    "rshares": 8564731249535
+                },
+                {
+                    "account": "twinbraid",
+                    "percentage": 10.63,
+                    "rshares": 6392996530295
+                },
+                {
+                    "account": "koreangirl",
+                    "percentage": 8.46,
+                    "rshares": 5089517287446
+                },
+                {
+                    "account": "carrotcake",
+                    "percentage": 5.67,
+                    "rshares": 3410802629348
+                },
+                {
+                    "account": "leomichael",
+                    "percentage": 5.57,
+                    "rshares": 3348373684503
+                },
+                {
+                    "account": "kim066",
+                    "percentage": 5.41,
+                    "rshares": 3253934001211
+                },
+                {
+                    "account": "cyan2017",
+                    "percentage": 5.33,
+                    "rshares": 3208490994233
+                },
+                {
+                    "account": "chartdoc",
+                    "percentage": 2.88,
+                    "rshares": 1729432704278
+                },
+                {
+                    "account": "muwon123",
+                    "percentage": 2.85,
+                    "rshares": 1714373784031
+                },
+                {
+                    "account": "xiian",
+                    "percentage": 2.82,
+                    "rshares": 1694670237860
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-22",
+            "end_date": "2018-03-01",
+            "days": 7,
+            "all_vweight": 504000.0,
+            "plus_rshares": 85736399277192.0,
+            "minus_rshares": 85736399277192.0,
+            "self_rshares": 13603804605936.0,
+            "sum_of_share_squared": 0.054701841616272916,
+            "vcount": 61,
+            "inverse_simpson": 18.28092017477006,
+            "avg_full_voting_per_day": 7.2,
+            "upvcount": 59,
+            "upvotee_count": 40,
+            "dnvcount": 2,
+            "dnvotee_count": 1,
+            "self_vote_rate": 15.867011818345569,
+            "upvotee": [
+                {
+                    "account": "healings",
+                    "percentage": 15.87,
+                    "rshares": 13603804605936
+                },
+                {
+                    "account": "koreangirl",
+                    "percentage": 7.88,
+                    "rshares": 6758204269776
+                },
+                {
+                    "account": "twinbraid",
+                    "percentage": 7.44,
+                    "rshares": 6382993071889
+                },
+                {
+                    "account": "carrotcake",
+                    "percentage": 5.84,
+                    "rshares": 5008414052518
+                },
+                {
+                    "account": "sweetlife",
+                    "percentage": 5.7,
+                    "rshares": 4888231834346
+                },
+                {
+                    "account": "nobless",
+                    "percentage": 4.05,
+                    "rshares": 3472654992864
+                },
+                {
+                    "account": "soyo",
+                    "percentage": 2.03,
+                    "rshares": 1736362350611
+                },
+                {
+                    "account": "tip2yo",
+                    "percentage": 2.0,
+                    "rshares": 1718384974714
+                },
+                {
+                    "account": "nhj12311",
+                    "percentage": 1.99,
+                    "rshares": 1709706262720
+                },
+                {
+                    "account": "isi3",
+                    "percentage": 1.98,
+                    "rshares": 1701635103599
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "ruponti",
+                    "percentage": 100.0,
+                    "rshares": 3366834760267
+                }
+            ]
+        },
+        {
+            "start_date": "2018-02-15",
+            "end_date": "2018-02-22",
+            "days": 7,
+            "all_vweight": 717800.0,
+            "plus_rshares": 113742512745682.0,
+            "minus_rshares": 113742512745682.0,
+            "self_rshares": 19094436647361.0,
+            "sum_of_share_squared": 0.050021577193179255,
+            "vcount": 122,
+            "inverse_simpson": 19.991372845723784,
+            "avg_full_voting_per_day": 10.254285714285714,
+            "upvcount": 122,
+            "upvotee_count": 77,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 16.78742291376527,
+            "upvotee": [
+                {
+                    "account": "healings",
+                    "percentage": 16.79,
+                    "rshares": 19094436647361
+                },
+                {
+                    "account": "koreangirl",
+                    "percentage": 9.71,
+                    "rshares": 11043763435532
+                },
+                {
+                    "account": "cowongloball",
+                    "percentage": 3.57,
+                    "rshares": 4060075505716
+                },
+                {
+                    "account": "twinbraid",
+                    "percentage": 3.47,
+                    "rshares": 3947221688922
+                },
+                {
+                    "account": "cheongpyeongyull",
+                    "percentage": 3.42,
+                    "rshares": 3886492918126
+                },
+                {
+                    "account": "leomichael",
+                    "percentage": 3.08,
+                    "rshares": 3504820884151
+                },
+                {
+                    "account": "wonnieyoon",
+                    "percentage": 2.71,
+                    "rshares": 3079616724391
+                },
+                {
+                    "account": "zzings",
+                    "percentage": 2.2,
+                    "rshares": 2498396612349
+                },
+                {
+                    "account": "stella12",
+                    "percentage": 2.09,
+                    "rshares": 2376930611929
+                },
+                {
+                    "account": "lalaflor",
+                    "percentage": 1.83,
+                    "rshares": 2082039854450
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-08",
+            "end_date": "2018-02-15",
+            "days": 7,
+            "all_vweight": 210300.0,
+            "plus_rshares": 33531317395981.0,
+            "minus_rshares": 33531317395981.0,
+            "self_rshares": 1697711424018.0,
+            "sum_of_share_squared": 0.08507577406755168,
+            "vcount": 22,
+            "inverse_simpson": 11.754227463225691,
+            "avg_full_voting_per_day": 3.0042857142857144,
+            "upvcount": 22,
+            "upvotee_count": 18,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 5.063062103910909,
+            "upvotee": [
+                {
+                    "account": "koreangirl",
+                    "percentage": 19.96,
+                    "rshares": 6693976258898
+                },
+                {
+                    "account": "nobless",
+                    "percentage": 10.3,
+                    "rshares": 3453185671447
+                },
+                {
+                    "account": "twinbraid",
+                    "percentage": 5.17,
+                    "rshares": 1732301141753
+                },
+                {
+                    "account": "easysteemit",
+                    "percentage": 5.13,
+                    "rshares": 1720904603585
+                },
+                {
+                    "account": "yourhoney",
+                    "percentage": 5.13,
+                    "rshares": 1720852741645
+                },
+                {
+                    "account": "healings",
+                    "percentage": 5.06,
+                    "rshares": 1697711424018
+                },
+                {
+                    "account": "jamesshin",
+                    "percentage": 5.06,
+                    "rshares": 1695039950521
+                },
+                {
+                    "account": "carrotcake",
+                    "percentage": 5.03,
+                    "rshares": 1686486511514
+                },
+                {
+                    "account": "jangkeum",
+                    "percentage": 4.99,
+                    "rshares": 1671726045078
+                },
+                {
+                    "account": "woo7739",
+                    "percentage": 4.98,
+                    "rshares": 1668248728534
+                }
+            ],
+            "downvotee": []
+        }
+    ]
+}

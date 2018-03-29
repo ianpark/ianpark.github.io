@@ -1,302 +1,858 @@
-[
-    {
-        "start_date": 1521711608.506135,
-        "end_date": 1522312808.506135,
-        "days": 7,
-        "avg_full_voting_per_day": 9.235714285714286,
-        "self_vote": 1.478523935942859,
-        "invers_simpson": 63.78889889131359,
-        "top_votee": [
-            {
-                "account": "realmankwon",
-                "percentage": 6.122314572736465,
-                "rshares": 1472666907829
-            },
-            {
-                "account": "koreaculture",
-                "percentage": 4.205152493139909,
-                "rshares": 1011511062597
-            },
-            {
-                "account": "otac",
-                "percentage": 2.9850514741512075,
-                "rshares": 718026895208
-            },
-            {
-                "account": "jack8831",
-                "percentage": 2.920209631141502,
-                "rshares": 702429781517
-            },
-            {
-                "account": "rbaggo",
-                "percentage": 2.7765084823061037,
-                "rshares": 667863781356
-            },
-            {
-                "account": "hjk96",
-                "percentage": 1.9215434307058477,
-                "rshares": 462209739264
-            },
-            {
-                "account": "supergiant",
-                "percentage": 1.911137022476524,
-                "rshares": 459706572717
-            },
-            {
-                "account": "leemikyung",
-                "percentage": 1.8923494035226647,
-                "rshares": 455187382404
-            },
-            {
-                "account": "leesol",
-                "percentage": 1.8357332549332004,
-                "rshares": 441568884451
-            },
-            {
-                "account": "healings",
-                "percentage": 1.7680298624285304,
-                "rshares": 425283451139
-            }
-        ]
-    },
-    {
-        "start_date": 1521106808.506135,
-        "end_date": 1522312808.506135,
-        "days": 14,
-        "avg_full_voting_per_day": 10.934285714285716,
-        "self_vote": 1.2193283582991032,
-        "invers_simpson": 21.181835958020564,
-        "top_votee": [
-            {
-                "account": "koreaculture",
-                "percentage": 19.61328455437476,
-                "rshares": 11140395672960
-            },
-            {
-                "account": "realmankwon",
-                "percentage": 3.8858647287296475,
-                "rshares": 2207181081253
-            },
-            {
-                "account": "otac",
-                "percentage": 3.1940870226484077,
-                "rshares": 1814249579030
-            },
-            {
-                "account": "leemikyung",
-                "percentage": 2.970634429551505,
-                "rshares": 1687327935980
-            },
-            {
-                "account": "happyworkingmom",
-                "percentage": 2.3724175931395988,
-                "rshares": 1347539246463
-            },
-            {
-                "account": "eunstar",
-                "percentage": 1.828846266655927,
-                "rshares": 1038789346021
-            },
-            {
-                "account": "leomichael",
-                "percentage": 1.8000991056267992,
-                "rshares": 1022460885204
-            },
-            {
-                "account": "rbaggo",
-                "percentage": 1.4927618267423326,
-                "rshares": 847892526583
-            },
-            {
-                "account": "ribai",
-                "percentage": 1.4877601503241744,
-                "rshares": 845051561615
-            },
-            {
-                "account": "hjk96",
-                "percentage": 1.4434334027097,
-                "rshares": 819873855864
-            }
-        ]
-    },
-    {
-        "start_date": 1519724408.506135,
-        "end_date": 1522312808.506135,
-        "days": 30,
-        "avg_full_voting_per_day": 12.208666666666666,
-        "self_vote": 2.199782130658427,
-        "invers_simpson": 13.922318907088068,
-        "top_votee": [
-            {
-                "account": "koreaculture",
-                "percentage": 24.604332700675982,
-                "rshares": 31110988584082
-            },
-            {
-                "account": "krexchange",
-                "percentage": 7.188094878527583,
-                "rshares": 9088998284478
-            },
-            {
-                "account": "happyworkingmom",
-                "percentage": 3.216003542627874,
-                "rshares": 4066480920993
-            },
-            {
-                "account": "realmankwon",
-                "percentage": 2.588020987358419,
-                "rshares": 3272427355482
-            },
-            {
-                "account": "otac",
-                "percentage": 2.260043187135261,
-                "rshares": 2857715291444
-            },
-            {
-                "account": "happyberrysboy",
-                "percentage": 2.199782130658427,
-                "rshares": 2781518100367
-            },
-            {
-                "account": "pokersteem",
-                "percentage": 2.0156690049008597,
-                "rshares": 2548715958431
-            },
-            {
-                "account": "leemikyung",
-                "percentage": 1.918825400040212,
-                "rshares": 2426261904427
-            },
-            {
-                "account": "eunstar",
-                "percentage": 1.4724309492039056,
-                "rshares": 1861817713523
-            },
-            {
-                "account": "leomichael",
-                "percentage": 1.3779678884542421,
-                "rshares": 1742373742400
-            }
-        ]
-    },
-    {
-        "start_date": 1517132408.506135,
-        "end_date": 1522312808.506135,
-        "days": 60,
-        "avg_full_voting_per_day": 13.052,
-        "self_vote": 2.498494469012771,
-        "invers_simpson": 11.069459789453312,
-        "top_votee": [
-            {
-                "account": "koreaculture",
-                "percentage": 24.9995567196295,
-                "rshares": 65238861749831
-            },
-            {
-                "account": "krexchange",
-                "percentage": 14.939751503611514,
-                "rshares": 38986786599926
-            },
-            {
-                "account": "realmankwon",
-                "percentage": 3.7709201549310025,
-                "rshares": 9840596032010
-            },
-            {
-                "account": "happyworkingmom",
-                "percentage": 3.1221553924517687,
-                "rshares": 8147579026860
-            },
-            {
-                "account": "happyberrysboy",
-                "percentage": 2.498494469012771,
-                "rshares": 6520073018681
-            },
-            {
-                "account": "holic7",
-                "percentage": 1.6198401321553126,
-                "rshares": 4227136009797
-            },
-            {
-                "account": "leemikyung",
-                "percentage": 1.2968358156012123,
-                "rshares": 3384223705847
-            },
-            {
-                "account": "otac",
-                "percentage": 1.1854994996068176,
-                "rshares": 3093680373085
-            },
-            {
-                "account": "loteem",
-                "percentage": 1.1746434620798016,
-                "rshares": 3065350449506
-            },
-            {
-                "account": "eunstar",
-                "percentage": 1.1741404960405202,
-                "rshares": 3064037908957
-            }
-        ]
-    },
-    {
-        "start_date": 1514540408.506135,
-        "end_date": 1522312808.506135,
-        "days": 90,
-        "avg_full_voting_per_day": 12.869555555555555,
-        "self_vote": 3.1025476378342023,
-        "invers_simpson": 11.80619283867767,
-        "top_votee": [
-            {
-                "account": "koreaculture",
-                "percentage": 21.96238856688424,
-                "rshares": 88051793629773
-            },
-            {
-                "account": "krexchange",
-                "percentage": 17.26871085776897,
-                "rshares": 69233861338435
-            },
-            {
-                "account": "realmankwon",
-                "percentage": 4.7003305896393535,
-                "rshares": 18844605076093
-            },
-            {
-                "account": "happyworkingmom",
-                "percentage": 3.2581886614762197,
-                "rshares": 13062757484391
-            },
-            {
-                "account": "happyberrysboy",
-                "percentage": 3.1025476378342023,
-                "rshares": 12438760178619
-            },
-            {
-                "account": "loteem",
-                "percentage": 1.5992213628470506,
-                "rshares": 6411611787165
-            },
-            {
-                "account": "virus707",
-                "percentage": 1.3925870190893854,
-                "rshares": 5583171631944
-            },
-            {
-                "account": "holic7",
-                "percentage": 1.3058293780342372,
-                "rshares": 5235342165093
-            },
-            {
-                "account": "eunstar",
-                "percentage": 1.1619749456931843,
-                "rshares": 4658599760657
-            },
-            {
-                "account": "haejin",
-                "percentage": 1.126922083134529,
-                "rshares": 4518065528201
-            }
-        ]
-    }
-]
+{
+    "accumulated": [
+        {
+            "start_date": "2018-03-22",
+            "end_date": "2018-03-29",
+            "days": 7,
+            "all_vweight": 721100.0,
+            "plus_rshares": 27215640330890.0,
+            "minus_rshares": 27215640330890.0,
+            "self_rshares": 355645442100.0,
+            "sum_of_share_squared": 0.01623060529638174,
+            "vcount": 263,
+            "inverse_simpson": 61.61199670248455,
+            "avg_full_voting_per_day": 10.301428571428572,
+            "upvcount": 263,
+            "upvotee_count": 181,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 1.306768599878722,
+            "upvotee": [
+                {
+                    "account": "realmankwon",
+                    "percentage": 6.73,
+                    "rshares": 1831008149138
+                },
+                {
+                    "account": "koreaculture",
+                    "percentage": 3.72,
+                    "rshares": 1011511062597
+                },
+                {
+                    "account": "jack8831",
+                    "percentage": 3.37,
+                    "rshares": 917515977085
+                },
+                {
+                    "account": "leesol",
+                    "percentage": 2.7,
+                    "rshares": 734996026270
+                },
+                {
+                    "account": "otac",
+                    "percentage": 2.64,
+                    "rshares": 718026895208
+                },
+                {
+                    "account": "rbaggo",
+                    "percentage": 2.45,
+                    "rshares": 667863781356
+                },
+                {
+                    "account": "virus707",
+                    "percentage": 2.37,
+                    "rshares": 644409086535
+                },
+                {
+                    "account": "ribai",
+                    "percentage": 2.14,
+                    "rshares": 582309057444
+                },
+                {
+                    "account": "happyworkingmom",
+                    "percentage": 1.85,
+                    "rshares": 503762782472
+                },
+                {
+                    "account": "cjsdns",
+                    "percentage": 1.77,
+                    "rshares": 483061540177
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-15",
+            "end_date": "2018-03-29",
+            "days": 14,
+            "all_vweight": 1639400.0,
+            "plus_rshares": 61325436030633.0,
+            "minus_rshares": 61325436030633.0,
+            "self_rshares": 692581618803.0,
+            "sum_of_share_squared": 0.04636281097201323,
+            "vcount": 599,
+            "inverse_simpson": 21.569011434695945,
+            "avg_full_voting_per_day": 11.709999999999999,
+            "upvcount": 599,
+            "upvotee_count": 306,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 1.129354577205199,
+            "upvotee": [
+                {
+                    "account": "koreaculture",
+                    "percentage": 19.45,
+                    "rshares": 11928876060799
+                },
+                {
+                    "account": "realmankwon",
+                    "percentage": 3.6,
+                    "rshares": 2207181081253
+                },
+                {
+                    "account": "happyworkingmom",
+                    "percentage": 3.07,
+                    "rshares": 1883350930144
+                },
+                {
+                    "account": "otac",
+                    "percentage": 2.96,
+                    "rshares": 1814249579030
+                },
+                {
+                    "account": "leemikyung",
+                    "percentage": 2.75,
+                    "rshares": 1687327935980
+                },
+                {
+                    "account": "ribai",
+                    "percentage": 1.72,
+                    "rshares": 1057759875070
+                },
+                {
+                    "account": "eunstar",
+                    "percentage": 1.69,
+                    "rshares": 1038789346021
+                },
+                {
+                    "account": "leomichael",
+                    "percentage": 1.67,
+                    "rshares": 1022460885204
+                },
+                {
+                    "account": "jack8831",
+                    "percentage": 1.5,
+                    "rshares": 917515977085
+                },
+                {
+                    "account": "rbaggo",
+                    "percentage": 1.38,
+                    "rshares": 847892526583
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-27",
+            "end_date": "2018-03-29",
+            "days": 30,
+            "all_vweight": 3735000.0,
+            "plus_rshares": 129327142821364.0,
+            "minus_rshares": 129327142821364.0,
+            "self_rshares": 2494744805369.0,
+            "sum_of_share_squared": 0.06745389481940589,
+            "vcount": 1230,
+            "inverse_simpson": 14.824940838142808,
+            "avg_full_voting_per_day": 12.45,
+            "upvcount": 1230,
+            "upvotee_count": 494,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 1.9290187279672002,
+            "upvotee": [
+                {
+                    "account": "koreaculture",
+                    "percentage": 23.62,
+                    "rshares": 30552112428670
+                },
+                {
+                    "account": "krexchange",
+                    "percentage": 6.8,
+                    "rshares": 8793861438361
+                },
+                {
+                    "account": "realmankwon",
+                    "percentage": 3.99,
+                    "rshares": 5154246276671
+                },
+                {
+                    "account": "happyworkingmom",
+                    "percentage": 3.38,
+                    "rshares": 4364826289039
+                },
+                {
+                    "account": "otac",
+                    "percentage": 2.21,
+                    "rshares": 2857715291444
+                },
+                {
+                    "account": "pokersteem",
+                    "percentage": 2.14,
+                    "rshares": 2768360412542
+                },
+                {
+                    "account": "happyberrysboy",
+                    "percentage": 1.93,
+                    "rshares": 2494744805369
+                },
+                {
+                    "account": "leemikyung",
+                    "percentage": 1.88,
+                    "rshares": 2426261904427
+                },
+                {
+                    "account": "eunstar",
+                    "percentage": 1.39,
+                    "rshares": 1803207113086
+                },
+                {
+                    "account": "holic7",
+                    "percentage": 1.37,
+                    "rshares": 1768242521122
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-01-28",
+            "end_date": "2018-03-29",
+            "days": 60,
+            "all_vweight": 7864900.0,
+            "plus_rshares": 262916546640245.0,
+            "minus_rshares": 262916546640245.0,
+            "self_rshares": 6520073018681.0,
+            "sum_of_share_squared": 0.08815422192342906,
+            "vcount": 2445,
+            "inverse_simpson": 11.343756182983523,
+            "avg_full_voting_per_day": 13.108166666666667,
+            "upvcount": 2445,
+            "upvotee_count": 708,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 2.4799021217947805,
+            "upvotee": [
+                {
+                    "account": "koreaculture",
+                    "percentage": 24.7,
+                    "rshares": 64931580383924
+                },
+                {
+                    "account": "krexchange",
+                    "percentage": 14.71,
+                    "rshares": 38672676759221
+                },
+                {
+                    "account": "realmankwon",
+                    "percentage": 3.74,
+                    "rshares": 9840596032010
+                },
+                {
+                    "account": "happyworkingmom",
+                    "percentage": 3.16,
+                    "rshares": 8297971114762
+                },
+                {
+                    "account": "happyberrysboy",
+                    "percentage": 2.48,
+                    "rshares": 6520073018681
+                },
+                {
+                    "account": "holic7",
+                    "percentage": 1.58,
+                    "rshares": 4165679736616
+                },
+                {
+                    "account": "leemikyung",
+                    "percentage": 1.29,
+                    "rshares": 3384223705847
+                },
+                {
+                    "account": "otac",
+                    "percentage": 1.18,
+                    "rshares": 3093680373085
+                },
+                {
+                    "account": "loteem",
+                    "percentage": 1.15,
+                    "rshares": 3035759748252
+                },
+                {
+                    "account": "eunstar",
+                    "percentage": 1.13,
+                    "rshares": 2975265805195
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2017-12-29",
+            "end_date": "2018-03-29",
+            "days": 90,
+            "all_vweight": 11613900.0,
+            "plus_rshares": 401941165088763.0,
+            "minus_rshares": 401941165088763.0,
+            "self_rshares": 12022360216841.0,
+            "sum_of_share_squared": 0.08376860266658903,
+            "vcount": 3611,
+            "inverse_simpson": 11.937646900714608,
+            "avg_full_voting_per_day": 12.904333333333334,
+            "upvcount": 3611,
+            "upvotee_count": 861,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 2.991074630085732,
+            "upvotee": [
+                {
+                    "account": "koreaculture",
+                    "percentage": 21.8,
+                    "rshares": 87621291315444
+                },
+                {
+                    "account": "krexchange",
+                    "percentage": 17.22,
+                    "rshares": 69233861338435
+                },
+                {
+                    "account": "realmankwon",
+                    "percentage": 4.69,
+                    "rshares": 18844605076093
+                },
+                {
+                    "account": "happyworkingmom",
+                    "percentage": 3.27,
+                    "rshares": 13142493251120
+                },
+                {
+                    "account": "happyberrysboy",
+                    "percentage": 2.99,
+                    "rshares": 12022360216841
+                },
+                {
+                    "account": "loteem",
+                    "percentage": 1.6,
+                    "rshares": 6411611787165
+                },
+                {
+                    "account": "holic7",
+                    "percentage": 1.3,
+                    "rshares": 5235342165093
+                },
+                {
+                    "account": "virus707",
+                    "percentage": 1.28,
+                    "rshares": 5163939011707
+                },
+                {
+                    "account": "eunstar",
+                    "percentage": 1.16,
+                    "rshares": 4658599760657
+                },
+                {
+                    "account": "haejin",
+                    "percentage": 1.12,
+                    "rshares": 4518065528201
+                }
+            ],
+            "downvotee": []
+        }
+    ],
+    "weekly": [
+        {
+            "start_date": "2018-03-22",
+            "end_date": "2018-03-29",
+            "days": 7,
+            "all_vweight": 721100.0,
+            "plus_rshares": 27215640330890.0,
+            "minus_rshares": 27215640330890.0,
+            "self_rshares": 355645442100.0,
+            "sum_of_share_squared": 0.01623060529638174,
+            "vcount": 263,
+            "inverse_simpson": 61.61199670248455,
+            "avg_full_voting_per_day": 10.301428571428572,
+            "upvcount": 263,
+            "upvotee_count": 181,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 1.306768599878722,
+            "upvotee": [
+                {
+                    "account": "realmankwon",
+                    "percentage": 6.73,
+                    "rshares": 1831008149138
+                },
+                {
+                    "account": "koreaculture",
+                    "percentage": 3.72,
+                    "rshares": 1011511062597
+                },
+                {
+                    "account": "jack8831",
+                    "percentage": 3.37,
+                    "rshares": 917515977085
+                },
+                {
+                    "account": "leesol",
+                    "percentage": 2.7,
+                    "rshares": 734996026270
+                },
+                {
+                    "account": "otac",
+                    "percentage": 2.64,
+                    "rshares": 718026895208
+                },
+                {
+                    "account": "rbaggo",
+                    "percentage": 2.45,
+                    "rshares": 667863781356
+                },
+                {
+                    "account": "virus707",
+                    "percentage": 2.37,
+                    "rshares": 644409086535
+                },
+                {
+                    "account": "ribai",
+                    "percentage": 2.14,
+                    "rshares": 582309057444
+                },
+                {
+                    "account": "happyworkingmom",
+                    "percentage": 1.85,
+                    "rshares": 503762782472
+                },
+                {
+                    "account": "cjsdns",
+                    "percentage": 1.77,
+                    "rshares": 483061540177
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-15",
+            "end_date": "2018-03-22",
+            "days": 7,
+            "all_vweight": 918300.0,
+            "plus_rshares": 34109795699743.0,
+            "minus_rshares": 34109795699743.0,
+            "self_rshares": 336936176703.0,
+            "sum_of_share_squared": 0.11067190188099905,
+            "vcount": 336,
+            "inverse_simpson": 9.035717133290605,
+            "avg_full_voting_per_day": 13.118571428571428,
+            "upvcount": 336,
+            "upvotee_count": 204,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 0.9877988706497549,
+            "upvotee": [
+                {
+                    "account": "koreaculture",
+                    "percentage": 32.01,
+                    "rshares": 10917364998202
+                },
+                {
+                    "account": "happyworkingmom",
+                    "percentage": 4.04,
+                    "rshares": 1379588147672
+                },
+                {
+                    "account": "leemikyung",
+                    "percentage": 3.61,
+                    "rshares": 1232140553576
+                },
+                {
+                    "account": "otac",
+                    "percentage": 3.21,
+                    "rshares": 1096222683822
+                },
+                {
+                    "account": "leomichael",
+                    "percentage": 2.49,
+                    "rshares": 849256936129
+                },
+                {
+                    "account": "eunstar",
+                    "percentage": 2.2,
+                    "rshares": 749923084369
+                },
+                {
+                    "account": "ilovemylife",
+                    "percentage": 1.62,
+                    "rshares": 553661755790
+                },
+                {
+                    "account": "dakfn",
+                    "percentage": 1.39,
+                    "rshares": 475460532267
+                },
+                {
+                    "account": "ribai",
+                    "percentage": 1.39,
+                    "rshares": 475450817626
+                },
+                {
+                    "account": "asbear",
+                    "percentage": 1.34,
+                    "rshares": 456782509840
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-08",
+            "end_date": "2018-03-15",
+            "days": 7,
+            "all_vweight": 837800.0,
+            "plus_rshares": 28523498001918.0,
+            "minus_rshares": 28523498001918.0,
+            "self_rshares": 992587118280.0,
+            "sum_of_share_squared": 0.11177452266074364,
+            "vcount": 271,
+            "inverse_simpson": 8.946582603937259,
+            "avg_full_voting_per_day": 11.968571428571428,
+            "upvcount": 271,
+            "upvotee_count": 162,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 3.479892677305062,
+            "upvotee": [
+                {
+                    "account": "koreaculture",
+                    "percentage": 31.75,
+                    "rshares": 9055456737982
+                },
+                {
+                    "account": "pokersteem",
+                    "percentage": 5.77,
+                    "rshares": 1645196057101
+                },
+                {
+                    "account": "happyberrysboy",
+                    "percentage": 3.48,
+                    "rshares": 992587118280
+                },
+                {
+                    "account": "krexchange",
+                    "percentage": 3.33,
+                    "rshares": 950786255942
+                },
+                {
+                    "account": "happyworkingmom",
+                    "percentage": 3.13,
+                    "rshares": 893691821521
+                },
+                {
+                    "account": "otac",
+                    "percentage": 2.84,
+                    "rshares": 808742391048
+                },
+                {
+                    "account": "holic7",
+                    "percentage": 2.07,
+                    "rshares": 591808621928
+                },
+                {
+                    "account": "jack8831",
+                    "percentage": 1.57,
+                    "rshares": 446747785505
+                },
+                {
+                    "account": "nhj12311",
+                    "percentage": 1.53,
+                    "rshares": 435331289950
+                },
+                {
+                    "account": "eunstar",
+                    "percentage": 1.45,
+                    "rshares": 412369034431
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-01",
+            "end_date": "2018-03-08",
+            "days": 7,
+            "all_vweight": 1036100.0,
+            "plus_rshares": 33190322338103.0,
+            "minus_rshares": 33190322338103.0,
+            "self_rshares": 809576068286.0,
+            "sum_of_share_squared": 0.1081875875470028,
+            "vcount": 316,
+            "inverse_simpson": 9.243204536431163,
+            "avg_full_voting_per_day": 14.801428571428572,
+            "upvcount": 316,
+            "upvotee_count": 175,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 2.4391931480478397,
+            "upvotee": [
+                {
+                    "account": "koreaculture",
+                    "percentage": 23.94,
+                    "rshares": 7947415171569
+                },
+                {
+                    "account": "krexchange",
+                    "percentage": 21.15,
+                    "rshares": 7020331011761
+                },
+                {
+                    "account": "happyworkingmom",
+                    "percentage": 3.67,
+                    "rshares": 1219246970956
+                },
+                {
+                    "account": "realmankwon",
+                    "percentage": 3.21,
+                    "rshares": 1065246274229
+                },
+                {
+                    "account": "holic7",
+                    "percentage": 2.45,
+                    "rshares": 814242023011
+                },
+                {
+                    "account": "happyberrysboy",
+                    "percentage": 2.44,
+                    "rshares": 809576068286
+                },
+                {
+                    "account": "pokersteem",
+                    "percentage": 1.67,
+                    "rshares": 554721845658
+                },
+                {
+                    "account": "virus707",
+                    "percentage": 1.61,
+                    "rshares": 536004130169
+                },
+                {
+                    "account": "dr-papa",
+                    "percentage": 1.35,
+                    "rshares": 448529959649
+                },
+                {
+                    "account": "leemikyung",
+                    "percentage": 1.28,
+                    "rshares": 425640544862
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-22",
+            "end_date": "2018-03-01",
+            "days": 7,
+            "all_vweight": 882500.0,
+            "plus_rshares": 26115010291586.0,
+            "minus_rshares": 26115010291586.0,
+            "self_rshares": 1140289488991.0,
+            "sum_of_share_squared": 0.13019275245436485,
+            "vcount": 241,
+            "inverse_simpson": 7.680919107617146,
+            "avg_full_voting_per_day": 12.607142857142858,
+            "upvcount": 241,
+            "upvotee_count": 118,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 4.366414090054524,
+            "upvotee": [
+                {
+                    "account": "koreaculture",
+                    "percentage": 27.59,
+                    "rshares": 7204714633044
+                },
+                {
+                    "account": "krexchange",
+                    "percentage": 19.36,
+                    "rshares": 5055510667855
+                },
+                {
+                    "account": "realmankwon",
+                    "percentage": 10.38,
+                    "rshares": 2710067018003
+                },
+                {
+                    "account": "happyberrysboy",
+                    "percentage": 4.37,
+                    "rshares": 1140289488991
+                },
+                {
+                    "account": "happyworkingmom",
+                    "percentage": 4.17,
+                    "rshares": 1088251002232
+                },
+                {
+                    "account": "holic7",
+                    "percentage": 1.98,
+                    "rshares": 517008035174
+                },
+                {
+                    "account": "healings",
+                    "percentage": 1.35,
+                    "rshares": 353581761738
+                },
+                {
+                    "account": "loteem",
+                    "percentage": 1.27,
+                    "rshares": 330536501655
+                },
+                {
+                    "account": "dr-papa",
+                    "percentage": 1.06,
+                    "rshares": 276090279316
+                },
+                {
+                    "account": "ilovemylife",
+                    "percentage": 1.05,
+                    "rshares": 274235782423
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-15",
+            "end_date": "2018-02-22",
+            "days": 7,
+            "all_vweight": 937100.0,
+            "plus_rshares": 31332546187423.0,
+            "minus_rshares": 31332546187423.0,
+            "self_rshares": 305330049430.0,
+            "sum_of_share_squared": 0.14621811204208432,
+            "vcount": 314,
+            "inverse_simpson": 6.839098016203227,
+            "avg_full_voting_per_day": 13.387142857142857,
+            "upvcount": 314,
+            "upvotee_count": 158,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 0.9744820851889803,
+            "upvotee": [
+                {
+                    "account": "koreaculture",
+                    "percentage": 29.99,
+                    "rshares": 9397088444600
+                },
+                {
+                    "account": "krexchange",
+                    "percentage": 22.63,
+                    "rshares": 7090357389174
+                },
+                {
+                    "account": "realmankwon",
+                    "percentage": 4.37,
+                    "rshares": 1369306480024
+                },
+                {
+                    "account": "happyworkingmom",
+                    "percentage": 2.61,
+                    "rshares": 817189098474
+                },
+                {
+                    "account": "loteem",
+                    "percentage": 2.39,
+                    "rshares": 749625205209
+                },
+                {
+                    "account": "virus707",
+                    "percentage": 1.33,
+                    "rshares": 417586665533
+                },
+                {
+                    "account": "valueup",
+                    "percentage": 1.31,
+                    "rshares": 410844076626
+                },
+                {
+                    "account": "pius.pius",
+                    "percentage": 1.23,
+                    "rshares": 385322113955
+                },
+                {
+                    "account": "holic7",
+                    "percentage": 1.05,
+                    "rshares": 328166720789
+                },
+                {
+                    "account": "noctisk",
+                    "percentage": 1.02,
+                    "rshares": 318072003916
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-08",
+            "end_date": "2018-02-15",
+            "days": 7,
+            "all_vweight": 997200.0,
+            "plus_rshares": 33408088864022.0,
+            "minus_rshares": 33408088864022.0,
+            "self_rshares": 650362291809.0,
+            "sum_of_share_squared": 0.13362419765360806,
+            "vcount": 292,
+            "inverse_simpson": 7.4836744957846975,
+            "avg_full_voting_per_day": 14.245714285714286,
+            "upvcount": 292,
+            "upvotee_count": 142,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 1.9467210305148321,
+            "upvotee": [
+                {
+                    "account": "koreaculture",
+                    "percentage": 28.61,
+                    "rshares": 9558942632931
+                },
+                {
+                    "account": "krexchange",
+                    "percentage": 21.5,
+                    "rshares": 7182551545580
+                },
+                {
+                    "account": "realmankwon",
+                    "percentage": 3.72,
+                    "rshares": 1241641001028
+                },
+                {
+                    "account": "loteem",
+                    "percentage": 2.42,
+                    "rshares": 808163848368
+                },
+                {
+                    "account": "happyworkingmom",
+                    "percentage": 2.36,
+                    "rshares": 787833429194
+                },
+                {
+                    "account": "happyberrysboy",
+                    "percentage": 1.95,
+                    "rshares": 650362291809
+                },
+                {
+                    "account": "holic7",
+                    "percentage": 1.91,
+                    "rshares": 636779884512
+                },
+                {
+                    "account": "leeja19",
+                    "percentage": 1.56,
+                    "rshares": 520140400004
+                },
+                {
+                    "account": "rbaggo",
+                    "percentage": 1.54,
+                    "rshares": 513212242444
+                },
+                {
+                    "account": "megaspore",
+                    "percentage": 1.41,
+                    "rshares": 471740828417
+                }
+            ],
+            "downvotee": []
+        }
+    ]
+}

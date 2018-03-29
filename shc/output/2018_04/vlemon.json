@@ -1,302 +1,1069 @@
-[
-    {
-        "start_date": 1521711959.18049,
-        "end_date": 1522313159.18049,
-        "days": 7,
-        "avg_full_voting_per_day": 9.782857142857143,
-        "self_vote": 22.960025959590794,
-        "invers_simpson": 7.331554640102416,
-        "top_votee": [
-            {
-                "account": "vlemon",
-                "percentage": 22.960025959590794,
-                "rshares": 13859823490465
-            },
-            {
-                "account": "cryptopassion",
-                "percentage": 20.15529948175658,
-                "rshares": 12166749885486
-            },
-            {
-                "account": "lemon-shot",
-                "percentage": 19.543037227479594,
-                "rshares": 11797157673827
-            },
-            {
-                "account": "nainaztengra",
-                "percentage": 3.137720765812864,
-                "rshares": 1894085662319
-            },
-            {
-                "account": "silverstackeruk",
-                "percentage": 2.252975312444019,
-                "rshares": 1360008922194
-            },
-            {
-                "account": "sheikh27",
-                "percentage": 1.622631916818963,
-                "rshares": 979502026552
-            },
-            {
-                "account": "dhruv123",
-                "percentage": 1.6013796707373382,
-                "rshares": 966673104669
-            },
-            {
-                "account": "mohammadsafwan2",
-                "percentage": 1.5980502058469834,
-                "rshares": 964663272634
-            },
-            {
-                "account": "mcitron",
-                "percentage": 1.491979106457443,
-                "rshares": 900633435840
-            },
-            {
-                "account": "nelkeljdm",
-                "percentage": 1.4573402294542435,
-                "rshares": 879723671974
-            }
-        ]
-    },
-    {
-        "start_date": 1521107159.18049,
-        "end_date": 1522313159.18049,
-        "days": 14,
-        "avg_full_voting_per_day": 10.305000000000001,
-        "self_vote": 30.530450537809116,
-        "invers_simpson": 6.082118105316421,
-        "top_votee": [
-            {
-                "account": "vlemon",
-                "percentage": 30.530450537809116,
-                "rshares": 39240109004250
-            },
-            {
-                "account": "cryptopassion",
-                "percentage": 19.218314994968928,
-                "rshares": 24700872800638
-            },
-            {
-                "account": "lemon-shot",
-                "percentage": 17.088666769101394,
-                "rshares": 21963683304523
-            },
-            {
-                "account": "mcitron",
-                "percentage": 5.395980761233274,
-                "rshares": 6935334052585
-            },
-            {
-                "account": "nainaztengra",
-                "percentage": 2.9922908173551597,
-                "rshares": 3845924831670
-            },
-            {
-                "account": "silverstackeruk",
-                "percentage": 1.0581439803219173,
-                "rshares": 1360008922194
-            },
-            {
-                "account": "minnowbooster",
-                "percentage": 0.8116438404441872,
-                "rshares": 1043187775176
-            },
-            {
-                "account": "tej37",
-                "percentage": 0.78888693619126,
-                "rshares": 1013938832309
-            },
-            {
-                "account": "sheikh27",
-                "percentage": 0.7620936570306349,
-                "rshares": 979502026552
-            },
-            {
-                "account": "dhruv123",
-                "percentage": 0.7521122177599151,
-                "rshares": 966673104669
-            }
-        ]
-    },
-    {
-        "start_date": 1519724759.18049,
-        "end_date": 1522313159.18049,
-        "days": 30,
-        "avg_full_voting_per_day": 10.492666666666667,
-        "self_vote": 28.83026143645575,
-        "invers_simpson": 7.483778628708933,
-        "top_votee": [
-            {
-                "account": "vlemon",
-                "percentage": 28.83026143645575,
-                "rshares": 80525007832994
-            },
-            {
-                "account": "cryptopassion",
-                "percentage": 18.88299230805652,
-                "rshares": 52741564861215
-            },
-            {
-                "account": "lemon-shot",
-                "percentage": 9.693892266797874,
-                "rshares": 27075743049941
-            },
-            {
-                "account": "mcitron",
-                "percentage": 6.21650159735648,
-                "rshares": 17363139107298
-            },
-            {
-                "account": "nainaztengra",
-                "percentage": 1.7962450078626033,
-                "rshares": 5017042375662
-            },
-            {
-                "account": "fotosedjarah",
-                "percentage": 1.6960686597592767,
-                "rshares": 4737242581495
-            },
-            {
-                "account": "elprutest",
-                "percentage": 0.8482137879321563,
-                "rshares": 2369122530083
-            },
-            {
-                "account": "aungzawhtwe",
-                "percentage": 0.7749307067466973,
-                "rshares": 2164437577798
-            },
-            {
-                "account": "braxton101",
-                "percentage": 0.7587513937486592,
-                "rshares": 2119247585027
-            },
-            {
-                "account": "minnowbooster",
-                "percentage": 0.7557965565653577,
-                "rshares": 2110994510810
-            }
-        ]
-    },
-    {
-        "start_date": 1517132759.18049,
-        "end_date": 1522313159.18049,
-        "days": 60,
-        "avg_full_voting_per_day": 10.72,
-        "self_vote": 25.185488496938113,
-        "invers_simpson": 11.066448217896777,
-        "top_votee": [
-            {
-                "account": "vlemon",
-                "percentage": 25.185488496938113,
-                "rshares": 143796616777532
-            },
-            {
-                "account": "lemon-shot",
-                "percentage": 11.149766616420331,
-                "rshares": 63659623576300
-            },
-            {
-                "account": "cryptopassion",
-                "percentage": 10.170091492780486,
-                "rshares": 58066165727045
-            },
-            {
-                "account": "mcitron",
-                "percentage": 5.059682789892031,
-                "rshares": 28888272992697
-            },
-            {
-                "account": "fotosedjarah",
-                "percentage": 2.107798475437189,
-                "rshares": 12034481270973
-            },
-            {
-                "account": "nainaztengra",
-                "percentage": 1.4626666089162623,
-                "rshares": 8351099080774
-            },
-            {
-                "account": "d-pend",
-                "percentage": 0.7571031094829075,
-                "rshares": 4322682314009
-            },
-            {
-                "account": "overkillcoin",
-                "percentage": 0.7534916659344107,
-                "rshares": 4302062767002
-            },
-            {
-                "account": "head10",
-                "percentage": 0.604449181099353,
-                "rshares": 3451104284382
-            },
-            {
-                "account": "sou1iane",
-                "percentage": 0.5503296559434836,
-                "rshares": 3142108704647
-            }
-        ]
-    },
-    {
-        "start_date": 1514540759.18049,
-        "end_date": 1522313159.18049,
-        "days": 90,
-        "avg_full_voting_per_day": 10.737111111111112,
-        "self_vote": 23.84688172375037,
-        "invers_simpson": 11.842482498115057,
-        "top_votee": [
-            {
-                "account": "vlemon",
-                "percentage": 23.84688172375037,
-                "rshares": 209414903835190
-            },
-            {
-                "account": "lemon-shot",
-                "percentage": 12.487424345430249,
-                "rshares": 109660155937412
-            },
-            {
-                "account": "mcitron",
-                "percentage": 7.59533270469972,
-                "rshares": 66699532726194
-            },
-            {
-                "account": "cryptopassion",
-                "percentage": 7.100797513535338,
-                "rshares": 62356699113795
-            },
-            {
-                "account": "nainaztengra",
-                "percentage": 1.664242587346346,
-                "rshares": 14614791377124
-            },
-            {
-                "account": "fotosedjarah",
-                "percentage": 1.3704127367240295,
-                "rshares": 12034481270973
-            },
-            {
-                "account": "d-pend",
-                "percentage": 0.6717900900909558,
-                "rshares": 5899423612007
-            },
-            {
-                "account": "ecostory",
-                "percentage": 0.6472647488022439,
-                "rshares": 5684050715584
-            },
-            {
-                "account": "reko",
-                "percentage": 0.5418467634998493,
-                "rshares": 4758307152533
-            },
-            {
-                "account": "overkillcoin",
-                "percentage": 0.5077696874043427,
-                "rshares": 4459054290201
-            }
-        ]
-    }
-]
+{
+    "accumulated": [
+        {
+            "start_date": "2018-03-22",
+            "end_date": "2018-03-29",
+            "days": 7,
+            "all_vweight": 728500.0,
+            "plus_rshares": 64678151646017.0,
+            "minus_rshares": 64678151646017.0,
+            "self_rshares": 17216267750388.0,
+            "sum_of_share_squared": 0.14080218606910253,
+            "vcount": 152,
+            "inverse_simpson": 7.102162458679602,
+            "avg_full_voting_per_day": 10.407142857142857,
+            "upvcount": 151,
+            "upvotee_count": 62,
+            "dnvcount": 1,
+            "dnvotee_count": 1,
+            "self_vote_rate": 26.618366963565215,
+            "upvotee": [
+                {
+                    "account": "vlemon",
+                    "percentage": 26.62,
+                    "rshares": 17216267750388
+                },
+                {
+                    "account": "cryptopassion",
+                    "percentage": 18.81,
+                    "rshares": 12166749885486
+                },
+                {
+                    "account": "lemon-shot",
+                    "percentage": 17.24,
+                    "rshares": 11150629851957
+                },
+                {
+                    "account": "nainaztengra",
+                    "percentage": 2.93,
+                    "rshares": 1894085662319
+                },
+                {
+                    "account": "mcitron",
+                    "percentage": 2.65,
+                    "rshares": 1711119882772
+                },
+                {
+                    "account": "silverstackeruk",
+                    "percentage": 2.1,
+                    "rshares": 1360008922194
+                },
+                {
+                    "account": "sheikh27",
+                    "percentage": 1.51,
+                    "rshares": 979502026552
+                },
+                {
+                    "account": "dhruv123",
+                    "percentage": 1.49,
+                    "rshares": 966673104669
+                },
+                {
+                    "account": "mohammadsafwan2",
+                    "percentage": 1.49,
+                    "rshares": 964663272634
+                },
+                {
+                    "account": "nelkeljdm",
+                    "percentage": 1.36,
+                    "rshares": 879723671974
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "sahra-bot",
+                    "percentage": 100.0,
+                    "rshares": 19066642954
+                }
+            ]
+        },
+        {
+            "start_date": "2018-03-15",
+            "end_date": "2018-03-29",
+            "days": 14,
+            "all_vweight": 1547100.0,
+            "plus_rshares": 137607542930899.0,
+            "minus_rshares": 137607542930899.0,
+            "self_rshares": 40892846954173.0,
+            "sum_of_share_squared": 0.15259425197889856,
+            "vcount": 326,
+            "inverse_simpson": 6.553326793320397,
+            "avg_full_voting_per_day": 11.050714285714287,
+            "upvcount": 322,
+            "upvotee_count": 123,
+            "dnvcount": 4,
+            "dnvotee_count": 4,
+            "self_vote_rate": 29.71700975338812,
+            "upvotee": [
+                {
+                    "account": "vlemon",
+                    "percentage": 29.72,
+                    "rshares": 40892846954173
+                },
+                {
+                    "account": "cryptopassion",
+                    "percentage": 17.95,
+                    "rshares": 24700872800638
+                },
+                {
+                    "account": "lemon-shot",
+                    "percentage": 16.57,
+                    "rshares": 22798096801882
+                },
+                {
+                    "account": "mcitron",
+                    "percentage": 5.0,
+                    "rshares": 6886185433705
+                },
+                {
+                    "account": "nainaztengra",
+                    "percentage": 2.66,
+                    "rshares": 3656991516510
+                },
+                {
+                    "account": "elprutest",
+                    "percentage": 1.23,
+                    "rshares": 1694766454011
+                },
+                {
+                    "account": "silverstackeruk",
+                    "percentage": 0.99,
+                    "rshares": 1360008922194
+                },
+                {
+                    "account": "minnowbooster",
+                    "percentage": 0.76,
+                    "rshares": 1039970628829
+                },
+                {
+                    "account": "tej37",
+                    "percentage": 0.74,
+                    "rshares": 1013938832309
+                },
+                {
+                    "account": "sheikh27",
+                    "percentage": 0.71,
+                    "rshares": 979502026552
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "soysoy",
+                    "percentage": 37.78,
+                    "rshares": 28205477824
+                },
+                {
+                    "account": "sahra-bot",
+                    "percentage": 25.54,
+                    "rshares": 19066642954
+                },
+                {
+                    "account": "nirayma",
+                    "percentage": 23.95,
+                    "rshares": 17882220433
+                },
+                {
+                    "account": "marryqueen",
+                    "percentage": 12.72,
+                    "rshares": 9499309797
+                }
+            ]
+        },
+        {
+            "start_date": "2018-02-27",
+            "end_date": "2018-03-29",
+            "days": 30,
+            "all_vweight": 3263300.0,
+            "plus_rshares": 289632351895168.0,
+            "minus_rshares": 289632351895168.0,
+            "self_rshares": 80469281077836.0,
+            "sum_of_share_squared": 0.12448135514497534,
+            "vcount": 753,
+            "inverse_simpson": 8.033331568694484,
+            "avg_full_voting_per_day": 10.877666666666666,
+            "upvcount": 748,
+            "upvotee_count": 282,
+            "dnvcount": 5,
+            "dnvotee_count": 5,
+            "self_vote_rate": 27.783250231300727,
+            "upvotee": [
+                {
+                    "account": "vlemon",
+                    "percentage": 27.78,
+                    "rshares": 80469281077836
+                },
+                {
+                    "account": "cryptopassion",
+                    "percentage": 17.9,
+                    "rshares": 51837095847753
+                },
+                {
+                    "account": "lemon-shot",
+                    "percentage": 9.64,
+                    "rshares": 27910156547300
+                },
+                {
+                    "account": "mcitron",
+                    "percentage": 6.27,
+                    "rshares": 18173625554230
+                },
+                {
+                    "account": "fotosedjarah",
+                    "percentage": 2.65,
+                    "rshares": 7666135190067
+                },
+                {
+                    "account": "nainaztengra",
+                    "percentage": 1.73,
+                    "rshares": 5017042375662
+                },
+                {
+                    "account": "elprutest",
+                    "percentage": 0.98,
+                    "rshares": 2849839718802
+                },
+                {
+                    "account": "aungzawhtwe",
+                    "percentage": 0.91,
+                    "rshares": 2648655643094
+                },
+                {
+                    "account": "minnowbooster",
+                    "percentage": 0.78,
+                    "rshares": 2273091800196
+                },
+                {
+                    "account": "head10",
+                    "percentage": 0.76,
+                    "rshares": 2212539057865
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "soysoy",
+                    "percentage": 33.47,
+                    "rshares": 28205477824
+                },
+                {
+                    "account": "sahra-bot",
+                    "percentage": 22.63,
+                    "rshares": 19066642954
+                },
+                {
+                    "account": "nirayma",
+                    "percentage": 21.22,
+                    "rshares": 17882220433
+                },
+                {
+                    "account": "killermanprapto",
+                    "percentage": 11.4,
+                    "rshares": 9608931443
+                },
+                {
+                    "account": "marryqueen",
+                    "percentage": 11.27,
+                    "rshares": 9499309797
+                }
+            ]
+        },
+        {
+            "start_date": "2018-01-28",
+            "end_date": "2018-03-29",
+            "days": 60,
+            "all_vweight": 6529100.0,
+            "plus_rshares": 579560242448778.0,
+            "minus_rshares": 579560242448778.0,
+            "self_rshares": 147143996734798.0,
+            "sum_of_share_squared": 0.09073671335826912,
+            "vcount": 1682,
+            "inverse_simpson": 11.0208973081442,
+            "avg_full_voting_per_day": 10.881833333333333,
+            "upvcount": 1670,
+            "upvotee_count": 607,
+            "dnvcount": 12,
+            "dnvotee_count": 11,
+            "self_vote_rate": 25.38890454477693,
+            "upvotee": [
+                {
+                    "account": "vlemon",
+                    "percentage": 25.39,
+                    "rshares": 147143996734798
+                },
+                {
+                    "account": "lemon-shot",
+                    "percentage": 10.98,
+                    "rshares": 63619427850235
+                },
+                {
+                    "account": "cryptopassion",
+                    "percentage": 10.02,
+                    "rshares": 58066165727045
+                },
+                {
+                    "account": "mcitron",
+                    "percentage": 5.12,
+                    "rshares": 29698759439629
+                },
+                {
+                    "account": "fotosedjarah",
+                    "percentage": 2.08,
+                    "rshares": 12034481270973
+                },
+                {
+                    "account": "nainaztengra",
+                    "percentage": 1.44,
+                    "rshares": 8341326910680
+                },
+                {
+                    "account": "d-pend",
+                    "percentage": 0.75,
+                    "rshares": 4322682314009
+                },
+                {
+                    "account": "overkillcoin",
+                    "percentage": 0.74,
+                    "rshares": 4302062767002
+                },
+                {
+                    "account": "head10",
+                    "percentage": 0.6,
+                    "rshares": 3451104284382
+                },
+                {
+                    "account": "sou1iane",
+                    "percentage": 0.54,
+                    "rshares": 3142108704647
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "muhammad67",
+                    "percentage": 19.37,
+                    "rshares": 38919789144
+                },
+                {
+                    "account": "mykarma",
+                    "percentage": 14.6,
+                    "rshares": 29323442376
+                },
+                {
+                    "account": "soysoy",
+                    "percentage": 14.04,
+                    "rshares": 28205477824
+                },
+                {
+                    "account": "cryptogainz",
+                    "percentage": 9.63,
+                    "rshares": 19346669238
+                },
+                {
+                    "account": "sahra-bot",
+                    "percentage": 9.49,
+                    "rshares": 19066642954
+                },
+                {
+                    "account": "nirayma",
+                    "percentage": 8.9,
+                    "rshares": 17882220433
+                },
+                {
+                    "account": "akmal1",
+                    "percentage": 4.82,
+                    "rshares": 9680160332
+                },
+                {
+                    "account": "clickbaster",
+                    "percentage": 4.82,
+                    "rshares": 9680160332
+                },
+                {
+                    "account": "umerfarooqorak",
+                    "percentage": 4.82,
+                    "rshares": 9680160332
+                },
+                {
+                    "account": "killermanprapto",
+                    "percentage": 4.78,
+                    "rshares": 9608931443
+                }
+            ]
+        },
+        {
+            "start_date": "2017-12-29",
+            "end_date": "2018-03-29",
+            "days": 90,
+            "all_vweight": 9815600.0,
+            "plus_rshares": 892496051634104.0,
+            "minus_rshares": 892496051634104.0,
+            "self_rshares": 217554779116587.0,
+            "sum_of_share_squared": 0.08599905267276696,
+            "vcount": 2461,
+            "inverse_simpson": 11.62803506458469,
+            "avg_full_voting_per_day": 10.906222222222222,
+            "upvcount": 2446,
+            "upvotee_count": 863,
+            "dnvcount": 15,
+            "dnvotee_count": 13,
+            "self_vote_rate": 24.375993453221213,
+            "upvotee": [
+                {
+                    "account": "vlemon",
+                    "percentage": 24.38,
+                    "rshares": 217554779116587
+                },
+                {
+                    "account": "lemon-shot",
+                    "percentage": 12.26,
+                    "rshares": 109397204960034
+                },
+                {
+                    "account": "mcitron",
+                    "percentage": 7.44,
+                    "rshares": 66442278115288
+                },
+                {
+                    "account": "cryptopassion",
+                    "percentage": 6.99,
+                    "rshares": 62356699113795
+                },
+                {
+                    "account": "nainaztengra",
+                    "percentage": 1.62,
+                    "rshares": 14490208982461
+                },
+                {
+                    "account": "fotosedjarah",
+                    "percentage": 1.35,
+                    "rshares": 12034481270973
+                },
+                {
+                    "account": "d-pend",
+                    "percentage": 0.66,
+                    "rshares": 5911292024096
+                },
+                {
+                    "account": "ecostory",
+                    "percentage": 0.59,
+                    "rshares": 5239158608152
+                },
+                {
+                    "account": "reko",
+                    "percentage": 0.53,
+                    "rshares": 4758307152533
+                },
+                {
+                    "account": "overkillcoin",
+                    "percentage": 0.5,
+                    "rshares": 4459054290201
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "muhammad67",
+                    "percentage": 16.2,
+                    "rshares": 38919789144
+                },
+                {
+                    "account": "mykarma",
+                    "percentage": 12.2,
+                    "rshares": 29323442376
+                },
+                {
+                    "account": "soysoy",
+                    "percentage": 11.74,
+                    "rshares": 28205477824
+                },
+                {
+                    "account": "coin.info",
+                    "percentage": 8.22,
+                    "rshares": 19739754976
+                },
+                {
+                    "account": "aaabangganteng",
+                    "percentage": 8.18,
+                    "rshares": 19642919842
+                },
+                {
+                    "account": "cryptogainz",
+                    "percentage": 8.05,
+                    "rshares": 19346669238
+                },
+                {
+                    "account": "sahra-bot",
+                    "percentage": 7.94,
+                    "rshares": 19066642954
+                },
+                {
+                    "account": "nirayma",
+                    "percentage": 7.44,
+                    "rshares": 17882220433
+                },
+                {
+                    "account": "akmal1",
+                    "percentage": 4.03,
+                    "rshares": 9680160332
+                },
+                {
+                    "account": "clickbaster",
+                    "percentage": 4.03,
+                    "rshares": 9680160332
+                }
+            ]
+        }
+    ],
+    "weekly": [
+        {
+            "start_date": "2018-03-22",
+            "end_date": "2018-03-29",
+            "days": 7,
+            "all_vweight": 728500.0,
+            "plus_rshares": 64678151646017.0,
+            "minus_rshares": 64678151646017.0,
+            "self_rshares": 17216267750388.0,
+            "sum_of_share_squared": 0.14080218606910253,
+            "vcount": 152,
+            "inverse_simpson": 7.102162458679602,
+            "avg_full_voting_per_day": 10.407142857142857,
+            "upvcount": 151,
+            "upvotee_count": 62,
+            "dnvcount": 1,
+            "dnvotee_count": 1,
+            "self_vote_rate": 26.618366963565215,
+            "upvotee": [
+                {
+                    "account": "vlemon",
+                    "percentage": 26.62,
+                    "rshares": 17216267750388
+                },
+                {
+                    "account": "cryptopassion",
+                    "percentage": 18.81,
+                    "rshares": 12166749885486
+                },
+                {
+                    "account": "lemon-shot",
+                    "percentage": 17.24,
+                    "rshares": 11150629851957
+                },
+                {
+                    "account": "nainaztengra",
+                    "percentage": 2.93,
+                    "rshares": 1894085662319
+                },
+                {
+                    "account": "mcitron",
+                    "percentage": 2.65,
+                    "rshares": 1711119882772
+                },
+                {
+                    "account": "silverstackeruk",
+                    "percentage": 2.1,
+                    "rshares": 1360008922194
+                },
+                {
+                    "account": "sheikh27",
+                    "percentage": 1.51,
+                    "rshares": 979502026552
+                },
+                {
+                    "account": "dhruv123",
+                    "percentage": 1.49,
+                    "rshares": 966673104669
+                },
+                {
+                    "account": "mohammadsafwan2",
+                    "percentage": 1.49,
+                    "rshares": 964663272634
+                },
+                {
+                    "account": "nelkeljdm",
+                    "percentage": 1.36,
+                    "rshares": 879723671974
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "sahra-bot",
+                    "percentage": 100.0,
+                    "rshares": 19066642954
+                }
+            ]
+        },
+        {
+            "start_date": "2018-03-15",
+            "end_date": "2018-03-22",
+            "days": 7,
+            "all_vweight": 818600.0,
+            "plus_rshares": 72929391284882.0,
+            "minus_rshares": 72929391284882.0,
+            "self_rshares": 23676579203785.0,
+            "sum_of_share_squared": 0.16829979855367,
+            "vcount": 174,
+            "inverse_simpson": 5.941777759651357,
+            "avg_full_voting_per_day": 11.694285714285714,
+            "upvcount": 171,
+            "upvotee_count": 77,
+            "dnvcount": 3,
+            "dnvotee_count": 3,
+            "self_vote_rate": 32.465071744940055,
+            "upvotee": [
+                {
+                    "account": "vlemon",
+                    "percentage": 32.47,
+                    "rshares": 23676579203785
+                },
+                {
+                    "account": "cryptopassion",
+                    "percentage": 17.19,
+                    "rshares": 12534122915152
+                },
+                {
+                    "account": "lemon-shot",
+                    "percentage": 15.97,
+                    "rshares": 11647466949925
+                },
+                {
+                    "account": "mcitron",
+                    "percentage": 7.1,
+                    "rshares": 5175065550933
+                },
+                {
+                    "account": "nainaztengra",
+                    "percentage": 2.42,
+                    "rshares": 1762905854191
+                },
+                {
+                    "account": "elprutest",
+                    "percentage": 2.32,
+                    "rshares": 1694766454011
+                },
+                {
+                    "account": "tej37",
+                    "percentage": 1.39,
+                    "rshares": 1013938832309
+                },
+                {
+                    "account": "rowland",
+                    "percentage": 1.25,
+                    "rshares": 910400752157
+                },
+                {
+                    "account": "christianvas",
+                    "percentage": 1.15,
+                    "rshares": 835605066134
+                },
+                {
+                    "account": "jingyun",
+                    "percentage": 1.14,
+                    "rshares": 830910655650
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "soysoy",
+                    "percentage": 50.74,
+                    "rshares": 28205477824
+                },
+                {
+                    "account": "nirayma",
+                    "percentage": 32.17,
+                    "rshares": 17882220433
+                },
+                {
+                    "account": "marryqueen",
+                    "percentage": 17.09,
+                    "rshares": 9499309797
+                }
+            ]
+        },
+        {
+            "start_date": "2018-03-08",
+            "end_date": "2018-03-15",
+            "days": 7,
+            "all_vweight": 720000.0,
+            "plus_rshares": 62998844285821.0,
+            "minus_rshares": 62998844285821.0,
+            "self_rshares": 18219905633357.0,
+            "sum_of_share_squared": 0.12438459222614037,
+            "vcount": 180,
+            "inverse_simpson": 8.039580964995457,
+            "avg_full_voting_per_day": 10.285714285714286,
+            "upvcount": 179,
+            "upvotee_count": 97,
+            "dnvcount": 1,
+            "dnvotee_count": 1,
+            "self_vote_rate": 28.92101567878716,
+            "upvotee": [
+                {
+                    "account": "vlemon",
+                    "percentage": 28.92,
+                    "rshares": 18219905633357
+                },
+                {
+                    "account": "cryptopassion",
+                    "percentage": 16.48,
+                    "rshares": 10381947237745
+                },
+                {
+                    "account": "lemon-shot",
+                    "percentage": 8.11,
+                    "rshares": 5112059745418
+                },
+                {
+                    "account": "mcitron",
+                    "percentage": 5.38,
+                    "rshares": 3389810989061
+                },
+                {
+                    "account": "fotosedjarah",
+                    "percentage": 2.81,
+                    "rshares": 1770138615674
+                },
+                {
+                    "account": "head10",
+                    "percentage": 1.51,
+                    "rshares": 949572700017
+                },
+                {
+                    "account": "nainaztengra",
+                    "percentage": 1.47,
+                    "rshares": 927206744510
+                },
+                {
+                    "account": "moiscapsesii",
+                    "percentage": 1.44,
+                    "rshares": 907118093866
+                },
+                {
+                    "account": "minnowbooster",
+                    "percentage": 1.38,
+                    "rshares": 870811317181
+                },
+                {
+                    "account": "salimch",
+                    "percentage": 1.17,
+                    "rshares": 738448699048
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "killermanprapto",
+                    "percentage": 100.0,
+                    "rshares": 9608931443
+                }
+            ]
+        },
+        {
+            "start_date": "2018-03-01",
+            "end_date": "2018-03-08",
+            "days": 7,
+            "all_vweight": 780200.0,
+            "plus_rshares": 69488060313611.0,
+            "minus_rshares": 69488060313611.0,
+            "self_rshares": 15934372131073.0,
+            "sum_of_share_squared": 0.10014437316574588,
+            "vcount": 190,
+            "inverse_simpson": 9.985583496987202,
+            "avg_full_voting_per_day": 11.145714285714286,
+            "upvcount": 190,
+            "upvotee_count": 98,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 22.931093570835863,
+            "upvotee": [
+                {
+                    "account": "vlemon",
+                    "percentage": 22.93,
+                    "rshares": 15934372131073
+                },
+                {
+                    "account": "cryptopassion",
+                    "percentage": 17.71,
+                    "rshares": 12304233783338
+                },
+                {
+                    "account": "mcitron",
+                    "percentage": 8.78,
+                    "rshares": 6101665976367
+                },
+                {
+                    "account": "fotosedjarah",
+                    "percentage": 6.4,
+                    "rshares": 4444081645306
+                },
+                {
+                    "account": "braxton101",
+                    "percentage": 3.05,
+                    "rshares": 2119247585027
+                },
+                {
+                    "account": "aungzawhtwe",
+                    "percentage": 2.12,
+                    "rshares": 1475435855026
+                },
+                {
+                    "account": "sou1iane",
+                    "percentage": 1.52,
+                    "rshares": 1058156854749
+                },
+                {
+                    "account": "voaputra",
+                    "percentage": 1.47,
+                    "rshares": 1021848519221
+                },
+                {
+                    "account": "head10",
+                    "percentage": 1.33,
+                    "rshares": 924140566080
+                },
+                {
+                    "account": "elevator09",
+                    "percentage": 1.12,
+                    "rshares": 779799918133
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-22",
+            "end_date": "2018-03-01",
+            "days": 7,
+            "all_vweight": 738400.0,
+            "plus_rshares": 66825782978682.0,
+            "minus_rshares": 66825782978682.0,
+            "self_rshares": 15155955581759.0,
+            "sum_of_share_squared": 0.07069433135001858,
+            "vcount": 219,
+            "inverse_simpson": 14.145405733436322,
+            "avg_full_voting_per_day": 10.54857142857143,
+            "upvcount": 218,
+            "upvotee_count": 136,
+            "dnvcount": 1,
+            "dnvotee_count": 1,
+            "self_vote_rate": 22.67980247473326,
+            "upvotee": [
+                {
+                    "account": "vlemon",
+                    "percentage": 22.68,
+                    "rshares": 15155955581759
+                },
+                {
+                    "account": "cryptopassion",
+                    "percentage": 8.03,
+                    "rshares": 5364157621730
+                },
+                {
+                    "account": "fotosedjarah",
+                    "percentage": 7.11,
+                    "rshares": 4753962043311
+                },
+                {
+                    "account": "lemon-shot",
+                    "percentage": 5.33,
+                    "rshares": 3563877964509
+                },
+                {
+                    "account": "mcitron",
+                    "percentage": 2.69,
+                    "rshares": 1795963155097
+                },
+                {
+                    "account": "kouhei-gahaku",
+                    "percentage": 2.09,
+                    "rshares": 1394775853356
+                },
+                {
+                    "account": "sou1iane",
+                    "percentage": 1.62,
+                    "rshares": 1081899816279
+                },
+                {
+                    "account": "edelyn",
+                    "percentage": 1.45,
+                    "rshares": 972183271154
+                },
+                {
+                    "account": "skyefox",
+                    "percentage": 1.45,
+                    "rshares": 966357805161
+                },
+                {
+                    "account": "head10",
+                    "percentage": 1.4,
+                    "rshares": 932480248824
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "cryptogainz",
+                    "percentage": 100.0,
+                    "rshares": 19346669238
+                }
+            ]
+        },
+        {
+            "start_date": "2018-02-15",
+            "end_date": "2018-02-22",
+            "days": 7,
+            "all_vweight": 780400.0,
+            "plus_rshares": 67463542359396.0,
+            "minus_rshares": 67463542359396.0,
+            "self_rshares": 12540002477989.0,
+            "sum_of_share_squared": 0.07099902499049125,
+            "vcount": 244,
+            "inverse_simpson": 14.084700460801086,
+            "avg_full_voting_per_day": 11.14857142857143,
+            "upvcount": 241,
+            "upvotee_count": 151,
+            "dnvcount": 3,
+            "dnvotee_count": 3,
+            "self_vote_rate": 18.587820976232045,
+            "upvotee": [
+                {
+                    "account": "vlemon",
+                    "percentage": 18.59,
+                    "rshares": 12540002477989
+                },
+                {
+                    "account": "lemon-shot",
+                    "percentage": 17.4,
+                    "rshares": 11741743077136
+                },
+                {
+                    "account": "katysavage",
+                    "percentage": 2.98,
+                    "rshares": 2011256802290
+                },
+                {
+                    "account": "andysign",
+                    "percentage": 2.81,
+                    "rshares": 1898919701399
+                },
+                {
+                    "account": "fairlotto",
+                    "percentage": 1.9,
+                    "rshares": 1283078633875
+                },
+                {
+                    "account": "nazmul82",
+                    "percentage": 1.72,
+                    "rshares": 1157025184224
+                },
+                {
+                    "account": "fotosedjarah",
+                    "percentage": 1.58,
+                    "rshares": 1066298966682
+                },
+                {
+                    "account": "mcitron",
+                    "percentage": 1.36,
+                    "rshares": 914901721280
+                },
+                {
+                    "account": "sarahandrew",
+                    "percentage": 1.28,
+                    "rshares": 866484446128
+                },
+                {
+                    "account": "overkillcoin",
+                    "percentage": 1.14,
+                    "rshares": 768956803428
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "akmal1",
+                    "percentage": 33.33,
+                    "rshares": 9680160332
+                },
+                {
+                    "account": "clickbaster",
+                    "percentage": 33.33,
+                    "rshares": 9680160332
+                },
+                {
+                    "account": "umerfarooqorak",
+                    "percentage": 33.33,
+                    "rshares": 9680160332
+                }
+            ]
+        },
+        {
+            "start_date": "2018-02-08",
+            "end_date": "2018-02-15",
+            "days": 7,
+            "all_vweight": 780400.0,
+            "plus_rshares": 69554798647478.0,
+            "minus_rshares": 69554798647478.0,
+            "self_rshares": 16126679642430.0,
+            "sum_of_share_squared": 0.0873717940675831,
+            "vcount": 219,
+            "inverse_simpson": 11.445341264556024,
+            "avg_full_voting_per_day": 11.14857142857143,
+            "upvcount": 218,
+            "upvotee_count": 119,
+            "dnvcount": 1,
+            "dnvotee_count": 1,
+            "self_vote_rate": 23.18557447655661,
+            "upvotee": [
+                {
+                    "account": "vlemon",
+                    "percentage": 23.19,
+                    "rshares": 16126679642430
+                },
+                {
+                    "account": "lemon-shot",
+                    "percentage": 16.57,
+                    "rshares": 11525755756784
+                },
+                {
+                    "account": "cryptopassion",
+                    "percentage": 2.43,
+                    "rshares": 1692358227702
+                },
+                {
+                    "account": "dana-edwards",
+                    "percentage": 2.2,
+                    "rshares": 1532970578118
+                },
+                {
+                    "account": "lexiconical",
+                    "percentage": 2.02,
+                    "rshares": 1402749479600
+                },
+                {
+                    "account": "d-pend",
+                    "percentage": 1.99,
+                    "rshares": 1382300909151
+                },
+                {
+                    "account": "overkillcoin",
+                    "percentage": 1.86,
+                    "rshares": 1292627808575
+                },
+                {
+                    "account": "fatkat",
+                    "percentage": 1.65,
+                    "rshares": 1145426410065
+                },
+                {
+                    "account": "mindtrap",
+                    "percentage": 1.6,
+                    "rshares": 1110262242468
+                },
+                {
+                    "account": "reko",
+                    "percentage": 1.29,
+                    "rshares": 898145660014
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "muhammad67",
+                    "percentage": 100.0,
+                    "rshares": 38919789144
+                }
+            ]
+        }
+    ]
+}

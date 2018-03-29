@@ -1,302 +1,876 @@
-[
-    {
-        "start_date": 1521711608.506135,
-        "end_date": 1522312808.506135,
-        "days": 7,
-        "avg_full_voting_per_day": 4.881428571428572,
-        "self_vote": 5.563516504168077,
-        "invers_simpson": 22.715756178670237,
-        "top_votee": [
-            {
-                "account": "keepit",
-                "percentage": 9.043708473245637,
-                "rshares": 2980585915167
-            },
-            {
-                "account": "annvely",
-                "percentage": 6.231907236196045,
-                "rshares": 2053884751790
-            },
-            {
-                "account": "mangoanddaddy",
-                "percentage": 6.1884128673262,
-                "rshares": 2039550067780
-            },
-            {
-                "account": "sunnyshiny",
-                "percentage": 5.9731668300932395,
-                "rshares": 1968610219512
-            },
-            {
-                "account": "familydoctor",
-                "percentage": 5.844383477453558,
-                "rshares": 1926166364967
-            },
-            {
-                "account": "forhappywomen",
-                "percentage": 5.563516504168077,
-                "rshares": 1833599455376
-            },
-            {
-                "account": "gochuchamchi",
-                "percentage": 5.532066048063411,
-                "rshares": 1823234151500
-            },
-            {
-                "account": "hjk96",
-                "percentage": 4.140920264267989,
-                "rshares": 1364746403759
-            },
-            {
-                "account": "hyokhyok",
-                "percentage": 3.1239062083764506,
-                "rshares": 1029563355844
-            },
-            {
-                "account": "yourhoney",
-                "percentage": 3.080402789341088,
-                "rshares": 1015225689120
-            }
-        ]
-    },
-    {
-        "start_date": 1521106808.506135,
-        "end_date": 1522312808.506135,
-        "days": 14,
-        "avg_full_voting_per_day": 10.349285714285713,
-        "self_vote": 4.315535265473789,
-        "invers_simpson": 53.35595604625902,
-        "top_votee": [
-            {
-                "account": "keepit",
-                "percentage": 4.994190011084579,
-                "rshares": 5763421373196
-            },
-            {
-                "account": "familydoctor",
-                "percentage": 4.648288178875623,
-                "rshares": 5364241925006
-            },
-            {
-                "account": "hjk96",
-                "percentage": 4.475608941487151,
-                "rshares": 5164965725009
-            },
-            {
-                "account": "annvely",
-                "percentage": 4.434029413143131,
-                "rshares": 5116981899441
-            },
-            {
-                "account": "forhappywomen",
-                "percentage": 4.315535265473789,
-                "rshares": 4980236661122
-            },
-            {
-                "account": "mangoanddaddy",
-                "percentage": 3.549958623973495,
-                "rshares": 4096741886464
-            },
-            {
-                "account": "lovehm1223",
-                "percentage": 2.359011824218485,
-                "rshares": 2722359208830
-            },
-            {
-                "account": "yourhoney",
-                "percentage": 2.0877307072635776,
-                "rshares": 2409293950173
-            },
-            {
-                "account": "feelingofwine",
-                "percentage": 1.7615942090769503,
-                "rshares": 2032924196508
-            },
-            {
-                "account": "slowwalker",
-                "percentage": 1.7335597129736442,
-                "rshares": 2000571680150
-            }
-        ]
-    },
-    {
-        "start_date": 1519724408.506135,
-        "end_date": 1522312808.506135,
-        "days": 30,
-        "avg_full_voting_per_day": 9.881333333333334,
-        "self_vote": 4.196838981778081,
-        "invers_simpson": 75.39695968693407,
-        "top_votee": [
-            {
-                "account": "familydoctor",
-                "percentage": 5.053570021435053,
-                "rshares": 10161343986006
-            },
-            {
-                "account": "forhappywomen",
-                "percentage": 4.196838981778081,
-                "rshares": 8438692719571
-            },
-            {
-                "account": "annvely",
-                "percentage": 4.098458986508369,
-                "rshares": 8240877517835
-            },
-            {
-                "account": "hjk96",
-                "percentage": 4.021812191696451,
-                "rshares": 8086761824532
-            },
-            {
-                "account": "keepit",
-                "percentage": 3.0599118194474286,
-                "rshares": 6152643860156
-            },
-            {
-                "account": "mangoanddaddy",
-                "percentage": 2.0374442604741807,
-                "rshares": 4096741886464
-            },
-            {
-                "account": "gochuchamchi",
-                "percentage": 1.8460153268234372,
-                "rshares": 3711830777001
-            },
-            {
-                "account": "lovehm1223",
-                "percentage": 1.7124024105907725,
-                "rshares": 3443171829553
-            },
-            {
-                "account": "pediatrics",
-                "percentage": 1.5293758578884653,
-                "rshares": 3075155604846
-            },
-            {
-                "account": "mystory03",
-                "percentage": 1.4135051263981384,
-                "rshares": 2842171327278
-            }
-        ]
-    },
-    {
-        "start_date": 1517132408.506135,
-        "end_date": 1522312808.506135,
-        "days": 60,
-        "avg_full_voting_per_day": 12.616833333333334,
-        "self_vote": 4.111836263478891,
-        "invers_simpson": 89.13119576735465,
-        "top_votee": [
-            {
-                "account": "familydoctor",
-                "percentage": 4.181340340212555,
-                "rshares": 11294282205766
-            },
-            {
-                "account": "forhappywomen",
-                "percentage": 4.111836263478891,
-                "rshares": 11106543683376
-            },
-            {
-                "account": "hjk96",
-                "percentage": 3.8080218288517287,
-                "rshares": 10285905877392
-            },
-            {
-                "account": "annvely",
-                "percentage": 3.2736974637300595,
-                "rshares": 8842634180261
-            },
-            {
-                "account": "keepit",
-                "percentage": 2.592968786085209,
-                "rshares": 7003907560249
-            },
-            {
-                "account": "lovehm1223",
-                "percentage": 1.9563438874221215,
-                "rshares": 5284310330727
-            },
-            {
-                "account": "gochuchamchi",
-                "percentage": 1.749892465454935,
-                "rshares": 4726661244128
-            },
-            {
-                "account": "mystory03",
-                "percentage": 1.6254397117992523,
-                "rshares": 4390500011914
-            },
-            {
-                "account": "mangoanddaddy",
-                "percentage": 1.5166853281357888,
-                "rshares": 4096741886464
-            },
-            {
-                "account": "pediatrics",
-                "percentage": 1.3801332302059564,
-                "rshares": 3727898930779
-            }
-        ]
-    },
-    {
-        "start_date": 1514540408.506135,
-        "end_date": 1522312808.506135,
-        "days": 90,
-        "avg_full_voting_per_day": 12.300222222222223,
-        "self_vote": 4.160016509680524,
-        "invers_simpson": 89.03845028584225,
-        "top_votee": [
-            {
-                "account": "familydoctor",
-                "percentage": 4.259832246168362,
-                "rshares": 12344315171189
-            },
-            {
-                "account": "forhappywomen",
-                "percentage": 4.160016509680524,
-                "rshares": 12055065069531
-            },
-            {
-                "account": "hjk96",
-                "percentage": 3.5760673639025624,
-                "rshares": 10362873480082
-            },
-            {
-                "account": "annvely",
-                "percentage": 3.051456293830042,
-                "rshares": 8842634180261
-            },
-            {
-                "account": "keepit",
-                "percentage": 2.4354394178385452,
-                "rshares": 7057515417697
-            },
-            {
-                "account": "gochuchamchi",
-                "percentage": 2.4003822070855834,
-                "rshares": 6955925206264
-            },
-            {
-                "account": "lovehm1223",
-                "percentage": 1.825403776599551,
-                "rshares": 5289729320513
-            },
-            {
-                "account": "mystory03",
-                "percentage": 1.515093649845007,
-                "rshares": 4390500011914
-            },
-            {
-                "account": "nhj12311",
-                "percentage": 1.4198156848083745,
-                "rshares": 4114399648962
-            },
-            {
-                "account": "mangoanddaddy",
-                "percentage": 1.4137222640684601,
-                "rshares": 4096741886464
-            }
-        ]
-    }
-]
+{
+    "accumulated": [
+        {
+            "start_date": "2018-03-22",
+            "end_date": "2018-03-29",
+            "days": 7,
+            "all_vweight": 351700.0,
+            "plus_rshares": 33909909077184.0,
+            "minus_rshares": 33909909077184.0,
+            "self_rshares": 1833599455376.0,
+            "sum_of_share_squared": 0.04731019128974761,
+            "vcount": 42,
+            "inverse_simpson": 21.13709483598528,
+            "avg_full_voting_per_day": 5.024285714285715,
+            "upvcount": 42,
+            "upvotee_count": 32,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 5.407267389607134,
+            "upvotee": [
+                {
+                    "account": "keepit",
+                    "percentage": 11.6,
+                    "rshares": 3932932019323
+                },
+                {
+                    "account": "annvely",
+                    "percentage": 6.06,
+                    "rshares": 2053884751790
+                },
+                {
+                    "account": "mangoanddaddy",
+                    "percentage": 6.01,
+                    "rshares": 2039550067780
+                },
+                {
+                    "account": "sunnyshiny",
+                    "percentage": 5.81,
+                    "rshares": 1968610219512
+                },
+                {
+                    "account": "familydoctor",
+                    "percentage": 5.68,
+                    "rshares": 1926166364967
+                },
+                {
+                    "account": "forhappywomen",
+                    "percentage": 5.41,
+                    "rshares": 1833599455376
+                },
+                {
+                    "account": "gochuchamchi",
+                    "percentage": 5.38,
+                    "rshares": 1823234151500
+                },
+                {
+                    "account": "hjk96",
+                    "percentage": 4.02,
+                    "rshares": 1364746403759
+                },
+                {
+                    "account": "hyokhyok",
+                    "percentage": 3.04,
+                    "rshares": 1029563355844
+                },
+                {
+                    "account": "yourhoney",
+                    "percentage": 2.99,
+                    "rshares": 1015225689120
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-15",
+            "end_date": "2018-03-29",
+            "days": 14,
+            "all_vweight": 1548900.0,
+            "plus_rshares": 121944120862969.0,
+            "minus_rshares": 121944120862969.0,
+            "self_rshares": 4980236661122.0,
+            "sum_of_share_squared": 0.020792521633130192,
+            "vcount": 191,
+            "inverse_simpson": 48.09421472028816,
+            "avg_full_voting_per_day": 11.063571428571427,
+            "upvcount": 191,
+            "upvotee_count": 125,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 4.08403178921466,
+            "upvotee": [
+                {
+                    "account": "familydoctor",
+                    "percentage": 7.34,
+                    "rshares": 8945584610586
+                },
+                {
+                    "account": "keepit",
+                    "percentage": 4.73,
+                    "rshares": 5763421373196
+                },
+                {
+                    "account": "hjk96",
+                    "percentage": 4.24,
+                    "rshares": 5164965725009
+                },
+                {
+                    "account": "annvely",
+                    "percentage": 4.2,
+                    "rshares": 5116981899441
+                },
+                {
+                    "account": "forhappywomen",
+                    "percentage": 4.08,
+                    "rshares": 4980236661122
+                },
+                {
+                    "account": "mangoanddaddy",
+                    "percentage": 3.36,
+                    "rshares": 4096741886464
+                },
+                {
+                    "account": "gochuchamchi",
+                    "percentage": 2.3,
+                    "rshares": 2799496863494
+                },
+                {
+                    "account": "lovehm1223",
+                    "percentage": 2.23,
+                    "rshares": 2722359208830
+                },
+                {
+                    "account": "yourhoney",
+                    "percentage": 1.98,
+                    "rshares": 2409293950173
+                },
+                {
+                    "account": "feelingofwine",
+                    "percentage": 1.67,
+                    "rshares": 2032924196508
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-27",
+            "end_date": "2018-03-29",
+            "days": 30,
+            "all_vweight": 3094400.0,
+            "plus_rshares": 203535974479217.0,
+            "minus_rshares": 203535974479217.0,
+            "self_rshares": 8438692719571.0,
+            "sum_of_share_squared": 0.013209976148502766,
+            "vcount": 533,
+            "inverse_simpson": 75.70036378251457,
+            "avg_full_voting_per_day": 10.314666666666666,
+            "upvcount": 533,
+            "upvotee_count": 312,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 4.146044816481655,
+            "upvotee": [
+                {
+                    "account": "familydoctor",
+                    "percentage": 4.99,
+                    "rshares": 10161343986006
+                },
+                {
+                    "account": "annvely",
+                    "percentage": 4.22,
+                    "rshares": 8585167143437
+                },
+                {
+                    "account": "forhappywomen",
+                    "percentage": 4.15,
+                    "rshares": 8438692719571
+                },
+                {
+                    "account": "hjk96",
+                    "percentage": 3.97,
+                    "rshares": 8086761824532
+                },
+                {
+                    "account": "keepit",
+                    "percentage": 3.02,
+                    "rshares": 6152643860156
+                },
+                {
+                    "account": "mangoanddaddy",
+                    "percentage": 2.01,
+                    "rshares": 4096741886464
+                },
+                {
+                    "account": "gochuchamchi",
+                    "percentage": 1.92,
+                    "rshares": 3916533645250
+                },
+                {
+                    "account": "lovehm1223",
+                    "percentage": 1.69,
+                    "rshares": 3443171829553
+                },
+                {
+                    "account": "pediatrics",
+                    "percentage": 1.51,
+                    "rshares": 3075155604846
+                },
+                {
+                    "account": "mystory03",
+                    "percentage": 1.4,
+                    "rshares": 2842171327278
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-01-28",
+            "end_date": "2018-03-29",
+            "days": 60,
+            "all_vweight": 7590100.0,
+            "plus_rshares": 270308261023007.0,
+            "minus_rshares": 270308261023007.0,
+            "self_rshares": 11106543683376.0,
+            "sum_of_share_squared": 0.011202667319524622,
+            "vcount": 990,
+            "inverse_simpson": 89.26445564059064,
+            "avg_full_voting_per_day": 12.650166666666667,
+            "upvcount": 989,
+            "upvotee_count": 393,
+            "dnvcount": 1,
+            "dnvotee_count": 1,
+            "self_vote_rate": 4.1088436000225235,
+            "upvotee": [
+                {
+                    "account": "familydoctor",
+                    "percentage": 4.18,
+                    "rshares": 11294282205766
+                },
+                {
+                    "account": "forhappywomen",
+                    "percentage": 4.11,
+                    "rshares": 11106543683376
+                },
+                {
+                    "account": "hjk96",
+                    "percentage": 3.81,
+                    "rshares": 10285905877392
+                },
+                {
+                    "account": "annvely",
+                    "percentage": 3.27,
+                    "rshares": 8842634180261
+                },
+                {
+                    "account": "keepit",
+                    "percentage": 2.59,
+                    "rshares": 7003907560249
+                },
+                {
+                    "account": "lovehm1223",
+                    "percentage": 1.95,
+                    "rshares": 5284310330727
+                },
+                {
+                    "account": "gochuchamchi",
+                    "percentage": 1.75,
+                    "rshares": 4726661244128
+                },
+                {
+                    "account": "mystory03",
+                    "percentage": 1.62,
+                    "rshares": 4390500011914
+                },
+                {
+                    "account": "mangoanddaddy",
+                    "percentage": 1.52,
+                    "rshares": 4096741886464
+                },
+                {
+                    "account": "pediatrics",
+                    "percentage": 1.38,
+                    "rshares": 3727898930779
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "kinz",
+                    "percentage": 100.0,
+                    "rshares": 183069095624
+                }
+            ]
+        },
+        {
+            "start_date": "2017-12-29",
+            "end_date": "2018-03-29",
+            "days": 90,
+            "all_vweight": 11140200.0,
+            "plus_rshares": 293031423242929.0,
+            "minus_rshares": 293031423242929.0,
+            "self_rshares": 12485231331965.0,
+            "sum_of_share_squared": 0.011400669522120705,
+            "vcount": 1346,
+            "inverse_simpson": 87.71414679284416,
+            "avg_full_voting_per_day": 12.378,
+            "upvcount": 1345,
+            "upvotee_count": 467,
+            "dnvcount": 1,
+            "dnvotee_count": 1,
+            "self_vote_rate": 4.260714156110995,
+            "upvotee": [
+                {
+                    "account": "familydoctor",
+                    "percentage": 4.38,
+                    "rshares": 12826728401205
+                },
+                {
+                    "account": "forhappywomen",
+                    "percentage": 4.26,
+                    "rshares": 12485231331965
+                },
+                {
+                    "account": "hjk96",
+                    "percentage": 3.54,
+                    "rshares": 10362873480082
+                },
+                {
+                    "account": "annvely",
+                    "percentage": 3.02,
+                    "rshares": 8842634180261
+                },
+                {
+                    "account": "keepit",
+                    "percentage": 2.41,
+                    "rshares": 7057515417697
+                },
+                {
+                    "account": "gochuchamchi",
+                    "percentage": 2.37,
+                    "rshares": 6955925206264
+                },
+                {
+                    "account": "lovehm1223",
+                    "percentage": 1.81,
+                    "rshares": 5289729320513
+                },
+                {
+                    "account": "nhj12311",
+                    "percentage": 1.54,
+                    "rshares": 4523756613836
+                },
+                {
+                    "account": "mystory03",
+                    "percentage": 1.5,
+                    "rshares": 4390500011914
+                },
+                {
+                    "account": "mangoanddaddy",
+                    "percentage": 1.4,
+                    "rshares": 4096741886464
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "kinz",
+                    "percentage": 100.0,
+                    "rshares": 183069095624
+                }
+            ]
+        }
+    ],
+    "weekly": [
+        {
+            "start_date": "2018-03-22",
+            "end_date": "2018-03-29",
+            "days": 7,
+            "all_vweight": 351700.0,
+            "plus_rshares": 33909909077184.0,
+            "minus_rshares": 33909909077184.0,
+            "self_rshares": 1833599455376.0,
+            "sum_of_share_squared": 0.04731019128974761,
+            "vcount": 42,
+            "inverse_simpson": 21.13709483598528,
+            "avg_full_voting_per_day": 5.024285714285715,
+            "upvcount": 42,
+            "upvotee_count": 32,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 5.407267389607134,
+            "upvotee": [
+                {
+                    "account": "keepit",
+                    "percentage": 11.6,
+                    "rshares": 3932932019323
+                },
+                {
+                    "account": "annvely",
+                    "percentage": 6.06,
+                    "rshares": 2053884751790
+                },
+                {
+                    "account": "mangoanddaddy",
+                    "percentage": 6.01,
+                    "rshares": 2039550067780
+                },
+                {
+                    "account": "sunnyshiny",
+                    "percentage": 5.81,
+                    "rshares": 1968610219512
+                },
+                {
+                    "account": "familydoctor",
+                    "percentage": 5.68,
+                    "rshares": 1926166364967
+                },
+                {
+                    "account": "forhappywomen",
+                    "percentage": 5.41,
+                    "rshares": 1833599455376
+                },
+                {
+                    "account": "gochuchamchi",
+                    "percentage": 5.38,
+                    "rshares": 1823234151500
+                },
+                {
+                    "account": "hjk96",
+                    "percentage": 4.02,
+                    "rshares": 1364746403759
+                },
+                {
+                    "account": "hyokhyok",
+                    "percentage": 3.04,
+                    "rshares": 1029563355844
+                },
+                {
+                    "account": "yourhoney",
+                    "percentage": 2.99,
+                    "rshares": 1015225689120
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-15",
+            "end_date": "2018-03-22",
+            "days": 7,
+            "all_vweight": 1197200.0,
+            "plus_rshares": 88034211785785.0,
+            "minus_rshares": 88034211785785.0,
+            "self_rshares": 3146637205746.0,
+            "sum_of_share_squared": 0.01931187963268223,
+            "vcount": 149,
+            "inverse_simpson": 51.781598633602805,
+            "avg_full_voting_per_day": 17.102857142857143,
+            "upvcount": 149,
+            "upvotee_count": 112,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 3.5743345023668307,
+            "upvotee": [
+                {
+                    "account": "familydoctor",
+                    "percentage": 7.97,
+                    "rshares": 7019418245619
+                },
+                {
+                    "account": "hjk96",
+                    "percentage": 4.32,
+                    "rshares": 3800219321250
+                },
+                {
+                    "account": "forhappywomen",
+                    "percentage": 3.57,
+                    "rshares": 3146637205746
+                },
+                {
+                    "account": "annvely",
+                    "percentage": 3.48,
+                    "rshares": 3063097147651
+                },
+                {
+                    "account": "mangoanddaddy",
+                    "percentage": 2.34,
+                    "rshares": 2057191818684
+                },
+                {
+                    "account": "slowwalker",
+                    "percentage": 2.27,
+                    "rshares": 2000571680150
+                },
+                {
+                    "account": "keepit",
+                    "percentage": 2.08,
+                    "rshares": 1830489353873
+                },
+                {
+                    "account": "lovehm1223",
+                    "percentage": 1.98,
+                    "rshares": 1743861787267
+                },
+                {
+                    "account": "wooboo",
+                    "percentage": 1.94,
+                    "rshares": 1706764080543
+                },
+                {
+                    "account": "sunnyy",
+                    "percentage": 1.75,
+                    "rshares": 1542765384226
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-08",
+            "end_date": "2018-03-15",
+            "days": 7,
+            "all_vweight": 678400.0,
+            "plus_rshares": 62647948405196.0,
+            "minus_rshares": 62647948405196.0,
+            "self_rshares": 1884624720007.0,
+            "sum_of_share_squared": 0.010266782555871545,
+            "vcount": 253,
+            "inverse_simpson": 97.40149794329702,
+            "avg_full_voting_per_day": 9.691428571428572,
+            "upvcount": 253,
+            "upvotee_count": 200,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 3.008278432068639,
+            "upvotee": [
+                {
+                    "account": "annvely",
+                    "percentage": 3.27,
+                    "rshares": 2048507713558
+                },
+                {
+                    "account": "crowsaint",
+                    "percentage": 3.25,
+                    "rshares": 2038311163738
+                },
+                {
+                    "account": "mystory03",
+                    "percentage": 3.12,
+                    "rshares": 1956306146323
+                },
+                {
+                    "account": "hjk96",
+                    "percentage": 3.02,
+                    "rshares": 1894973164940
+                },
+                {
+                    "account": "forhappywomen",
+                    "percentage": 3.01,
+                    "rshares": 1884624720007
+                },
+                {
+                    "account": "leeja19",
+                    "percentage": 1.89,
+                    "rshares": 1183040100786
+                },
+                {
+                    "account": "dkim86",
+                    "percentage": 1.6,
+                    "rshares": 1003980036486
+                },
+                {
+                    "account": "serenawu",
+                    "percentage": 1.58,
+                    "rshares": 988435592344
+                },
+                {
+                    "account": "helena00",
+                    "percentage": 1.52,
+                    "rshares": 952585596766
+                },
+                {
+                    "account": "familydoctor",
+                    "percentage": 1.51,
+                    "rshares": 947449474838
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-01",
+            "end_date": "2018-03-08",
+            "days": 7,
+            "all_vweight": 447100.0,
+            "plus_rshares": 10822674164734.0,
+            "minus_rshares": 10822674164734.0,
+            "self_rshares": 1148064126978.0,
+            "sum_of_share_squared": 0.06358673605206061,
+            "vcount": 47,
+            "inverse_simpson": 15.726550253833853,
+            "avg_full_voting_per_day": 6.387142857142857,
+            "upvcount": 47,
+            "upvotee_count": 26,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 10.607952429345055,
+            "upvotee": [
+                {
+                    "account": "annvely",
+                    "percentage": 11.12,
+                    "rshares": 1203770348055
+                },
+                {
+                    "account": "forhappywomen",
+                    "percentage": 10.61,
+                    "rshares": 1148064126978
+                },
+                {
+                    "account": "skuld2000",
+                    "percentage": 10.56,
+                    "rshares": 1143256906256
+                },
+                {
+                    "account": "hjk96",
+                    "percentage": 7.54,
+                    "rshares": 815713689587
+                },
+                {
+                    "account": "easysteemit",
+                    "percentage": 7.12,
+                    "rshares": 771041659595
+                },
+                {
+                    "account": "gochuchamchi",
+                    "percentage": 6.49,
+                    "rshares": 702833321783
+                },
+                {
+                    "account": "radiologist",
+                    "percentage": 4.77,
+                    "rshares": 516776142181
+                },
+                {
+                    "account": "lee5",
+                    "percentage": 4.73,
+                    "rshares": 511846641779
+                },
+                {
+                    "account": "jaytop",
+                    "percentage": 3.88,
+                    "rshares": 419804887241
+                },
+                {
+                    "account": "lovehm1223",
+                    "percentage": 3.4,
+                    "rshares": 367496871805
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-22",
+            "end_date": "2018-03-01",
+            "days": 7,
+            "all_vweight": 1374200.0,
+            "plus_rshares": 28780564453241.0,
+            "minus_rshares": 28780564453241.0,
+            "self_rshares": 1577754895145.0,
+            "sum_of_share_squared": 0.018244641925823372,
+            "vcount": 140,
+            "inverse_simpson": 54.81061256590655,
+            "avg_full_voting_per_day": 19.631428571428568,
+            "upvcount": 140,
+            "upvotee_count": 82,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 5.482015120684431,
+            "upvotee": [
+                {
+                    "account": "forhappywomen",
+                    "percentage": 5.48,
+                    "rshares": 1577754895145
+                },
+                {
+                    "account": "realgr",
+                    "percentage": 3.9,
+                    "rshares": 1122629123457
+                },
+                {
+                    "account": "hjk96",
+                    "percentage": 3.43,
+                    "rshares": 987906560279
+                },
+                {
+                    "account": "lovehm1223",
+                    "percentage": 3.01,
+                    "rshares": 867685622863
+                },
+                {
+                    "account": "twinbraid",
+                    "percentage": 2.99,
+                    "rshares": 861889098614
+                },
+                {
+                    "account": "yjiq150",
+                    "percentage": 2.68,
+                    "rshares": 770802880313
+                },
+                {
+                    "account": "carrotcake",
+                    "percentage": 2.55,
+                    "rshares": 735098596565
+                },
+                {
+                    "account": "gochuchamchi",
+                    "percentage": 2.55,
+                    "rshares": 733248266296
+                },
+                {
+                    "account": "successtrainer",
+                    "percentage": 2.36,
+                    "rshares": 679716359686
+                },
+                {
+                    "account": "bree1042",
+                    "percentage": 2.21,
+                    "rshares": 634682184956
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-15",
+            "end_date": "2018-02-22",
+            "days": 7,
+            "all_vweight": 930000.0,
+            "plus_rshares": 16148561248375.0,
+            "minus_rshares": 16148561248375.0,
+            "self_rshares": 370852613245.0,
+            "sum_of_share_squared": 0.01880275333121104,
+            "vcount": 96,
+            "inverse_simpson": 53.18370040732712,
+            "avg_full_voting_per_day": 13.285714285714286,
+            "upvcount": 95,
+            "upvotee_count": 68,
+            "dnvcount": 1,
+            "dnvotee_count": 1,
+            "self_vote_rate": 2.2965055991122316,
+            "upvotee": [
+                {
+                    "account": "easysteemit",
+                    "percentage": 4.0,
+                    "rshares": 645165363779
+                },
+                {
+                    "account": "mystory03",
+                    "percentage": 3.57,
+                    "rshares": 576392142973
+                },
+                {
+                    "account": "xinnong",
+                    "percentage": 3.41,
+                    "rshares": 551434401425
+                },
+                {
+                    "account": "lovehm1223",
+                    "percentage": 3.37,
+                    "rshares": 544448026591
+                },
+                {
+                    "account": "cagecorn",
+                    "percentage": 3.13,
+                    "rshares": 504694207144
+                },
+                {
+                    "account": "keepit",
+                    "percentage": 2.93,
+                    "rshares": 472882105453
+                },
+                {
+                    "account": "familydoctor",
+                    "percentage": 2.75,
+                    "rshares": 443968577376
+                },
+                {
+                    "account": "hyoree",
+                    "percentage": 2.37,
+                    "rshares": 382041790751
+                },
+                {
+                    "account": "forhappywomen",
+                    "percentage": 2.3,
+                    "rshares": 370852613245
+                },
+                {
+                    "account": "bree1042",
+                    "percentage": 2.28,
+                    "rshares": 367723947383
+                }
+            ],
+            "downvotee": [
+                {
+                    "account": "kinz",
+                    "percentage": 100.0,
+                    "rshares": 183069095624
+                }
+            ]
+        },
+        {
+            "start_date": "2018-02-08",
+            "end_date": "2018-02-15",
+            "days": 7,
+            "all_vweight": 1520400.0,
+            "plus_rshares": 25465106911593.0,
+            "minus_rshares": 25465106911593.0,
+            "self_rshares": 565705224892.0,
+            "sum_of_share_squared": 0.01762105840665778,
+            "vcount": 153,
+            "inverse_simpson": 56.75028008659055,
+            "avg_full_voting_per_day": 21.72,
+            "upvcount": 153,
+            "upvotee_count": 81,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 2.2214916546628065,
+            "upvotee": [
+                {
+                    "account": "nhj12311",
+                    "percentage": 4.55,
+                    "rshares": 1159765975929
+                },
+                {
+                    "account": "hjk96",
+                    "percentage": 4.32,
+                    "rshares": 1099513997466
+                },
+                {
+                    "account": "junn",
+                    "percentage": 3.13,
+                    "rshares": 797343760017
+                },
+                {
+                    "account": "rayheyna",
+                    "percentage": 2.75,
+                    "rshares": 699020174740
+                },
+                {
+                    "account": "seunglimdaddy",
+                    "percentage": 2.61,
+                    "rshares": 665751306925
+                },
+                {
+                    "account": "segyepark",
+                    "percentage": 2.48,
+                    "rshares": 632349006203
+                },
+                {
+                    "account": "leemikyung",
+                    "percentage": 2.46,
+                    "rshares": 627629672770
+                },
+                {
+                    "account": "skuld2000",
+                    "percentage": 2.35,
+                    "rshares": 598811556115
+                },
+                {
+                    "account": "asbear",
+                    "percentage": 2.35,
+                    "rshares": 597416577626
+                },
+                {
+                    "account": "lovehm1223",
+                    "percentage": 2.31,
+                    "rshares": 587639670618
+                }
+            ],
+            "downvotee": []
+        }
+    ]
+}

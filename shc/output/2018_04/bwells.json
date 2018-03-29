@@ -1,302 +1,828 @@
-[
-    {
-        "start_date": 1521711608.506135,
-        "end_date": 1522312808.506135,
-        "days": 7,
-        "avg_full_voting_per_day": 8.051428571428572,
-        "self_vote": 21.300969562962273,
-        "invers_simpson": 2.7226355070711894,
-        "top_votee": [
-            {
-                "account": "jgullinese",
-                "percentage": 53.04604644214016,
-                "rshares": 44671807111688
-            },
-            {
-                "account": "bwells",
-                "percentage": 21.300969562962273,
-                "rshares": 17938241724508
-            },
-            {
-                "account": "coinexchange",
-                "percentage": 19.068652638064528,
-                "rshares": 16058334780077
-            },
-            {
-                "account": "frimmcoin",
-                "percentage": 6.456125861139621,
-                "rshares": 5436914313156
-            },
-            {
-                "account": "mmasim",
-                "percentage": 0.018368318183217117,
-                "rshares": 15468560277
-            },
-            {
-                "account": "masum44",
-                "percentage": 0.018368318183217117,
-                "rshares": 15468560277
-            },
-            {
-                "account": "davidblackwell",
-                "percentage": 0.018368318183217117,
-                "rshares": 15468560277
-            },
-            {
-                "account": "masril",
-                "percentage": 0.018368318183217117,
-                "rshares": 15468560277
-            },
-            {
-                "account": "cassidyandfranks",
-                "percentage": 0.018368318183217117,
-                "rshares": 15468560277
-            },
-            {
-                "account": "myfinanceteacher",
-                "percentage": 0.018368318183217117,
-                "rshares": 15468560277
-            }
-        ]
-    },
-    {
-        "start_date": 1521106808.506135,
-        "end_date": 1522312808.506135,
-        "days": 14,
-        "avg_full_voting_per_day": 8.581428571428571,
-        "self_vote": 24.870660706412373,
-        "invers_simpson": 3.094592490608935,
-        "top_votee": [
-            {
-                "account": "jgullinese",
-                "percentage": 38.163356933925705,
-                "rshares": 91738422785919
-            },
-            {
-                "account": "coinexchange",
-                "percentage": 33.92795676350768,
-                "rshares": 81557218544005
-            },
-            {
-                "account": "bwells",
-                "percentage": 24.870660706412373,
-                "rshares": 59784970981464
-            },
-            {
-                "account": "frimmcoin",
-                "percentage": 2.261766610445693,
-                "rshares": 5436914313156
-            },
-            {
-                "account": "slickwilly",
-                "percentage": 0.4722532737422763,
-                "rshares": 1135219067956
-            },
-            {
-                "account": "fruitdaddy",
-                "percentage": 0.06288964247864932,
-                "rshares": 151176339664
-            },
-            {
-                "account": "cassidyandfranks",
-                "percentage": 0.018701269053436904,
-                "rshares": 44954769834
-            },
-            {
-                "account": "bluntsmasha",
-                "percentage": 0.012268099174961694,
-                "rshares": 29490489289
-            },
-            {
-                "account": "cutiepie",
-                "percentage": 0.012268099174961694,
-                "rshares": 29490489289
-            },
-            {
-                "account": "emwalker",
-                "percentage": 0.012268099174961694,
-                "rshares": 29490489289
-            }
-        ]
-    },
-    {
-        "start_date": 1519724408.506135,
-        "end_date": 1522312808.506135,
-        "days": 30,
-        "avg_full_voting_per_day": 8.584666666666667,
-        "self_vote": 25.955414257560783,
-        "invers_simpson": 3.0208958267456367,
-        "top_votee": [
-            {
-                "account": "coinexchange",
-                "percentage": 40.19733863780009,
-                "rshares": 263040052831262
-            },
-            {
-                "account": "jgullinese",
-                "percentage": 31.936990156196927,
-                "rshares": 208986660874554
-            },
-            {
-                "account": "bwells",
-                "percentage": 25.955414257560783,
-                "rshares": 169844914338332
-            },
-            {
-                "account": "frimmcoin",
-                "percentage": 0.8308601045287642,
-                "rshares": 5436914313156
-            },
-            {
-                "account": "slickwilly",
-                "percentage": 0.221066521324362,
-                "rshares": 1446596999178
-            },
-            {
-                "account": "penguinpablo",
-                "percentage": 0.16051010735744314,
-                "rshares": 1050332896406
-            },
-            {
-                "account": "josixh-29",
-                "percentage": 0.14262656353313732,
-                "rshares": 933308026806
-            },
-            {
-                "account": "masril",
-                "percentage": 0.07365717296074867,
-                "rshares": 481991776659
-            },
-            {
-                "account": "abhicrypto",
-                "percentage": 0.027178873537542447,
-                "rshares": 177850886986
-            },
-            {
-                "account": "krnel",
-                "percentage": 0.026916713727007255,
-                "rshares": 176135387086
-            }
-        ]
-    },
-    {
-        "start_date": 1517132408.506135,
-        "end_date": 1522312808.506135,
-        "days": 60,
-        "avg_full_voting_per_day": 8.7665,
-        "self_vote": 30.82580723719043,
-        "invers_simpson": 3.079338100703347,
-        "top_votee": [
-            {
-                "account": "jgullinese",
-                "percentage": 36.34944189058431,
-                "rshares": 535516432635542
-            },
-            {
-                "account": "coinexchange",
-                "percentage": 31.2364140248323,
-                "rshares": 460188991546470
-            },
-            {
-                "account": "bwells",
-                "percentage": 30.82580723719043,
-                "rshares": 454139746477019
-            },
-            {
-                "account": "frimmcoin",
-                "percentage": 0.36904339222145016,
-                "rshares": 5436914313156
-            },
-            {
-                "account": "kvalt",
-                "percentage": 0.20895463869910008,
-                "rshares": 3078414327120
-            },
-            {
-                "account": "masril",
-                "percentage": 0.12126067969803267,
-                "rshares": 1786467225723
-            },
-            {
-                "account": "slickwilly",
-                "percentage": 0.09819118584639384,
-                "rshares": 1446596999178
-            },
-            {
-                "account": "rewossky",
-                "percentage": 0.07534101032089877,
-                "rshares": 1109957869495
-            },
-            {
-                "account": "penguinpablo",
-                "percentage": 0.071293824534536,
-                "rshares": 1050332896406
-            },
-            {
-                "account": "josixh-29",
-                "percentage": 0.06335048528658165,
-                "rshares": 933308026806
-            }
-        ]
-    },
-    {
-        "start_date": 1514540408.506135,
-        "end_date": 1522312808.506135,
-        "days": 90,
-        "avg_full_voting_per_day": 9.083111111111112,
-        "self_vote": 35.9241751847096,
-        "invers_simpson": 2.9608086256241632,
-        "top_votee": [
-            {
-                "account": "jgullinese",
-                "percentage": 40.53360382063586,
-                "rshares": 907618593103233
-            },
-            {
-                "account": "bwells",
-                "percentage": 35.9241751847096,
-                "rshares": 804405388768827
-            },
-            {
-                "account": "coinexchange",
-                "percentage": 21.056683192793653,
-                "rshares": 471496126015179
-            },
-            {
-                "account": "kvalt",
-                "percentage": 0.6671790607289602,
-                "rshares": 14939311173177
-            },
-            {
-                "account": "frimmcoin",
-                "percentage": 0.24280874416941783,
-                "rshares": 5436914313156
-            },
-            {
-                "account": "jr11",
-                "percentage": 0.08344569862302151,
-                "rshares": 1868495777476
-            },
-            {
-                "account": "masril",
-                "percentage": 0.07978236157373472,
-                "rshares": 1786467225723
-            },
-            {
-                "account": "blazing",
-                "percentage": 0.06948536215622071,
-                "rshares": 1555899320489
-            },
-            {
-                "account": "jerrybanfield",
-                "percentage": 0.06608400027276716,
-                "rshares": 1479736852899
-            },
-            {
-                "account": "slickwilly",
-                "percentage": 0.06460399786690188,
-                "rshares": 1446596999178
-            }
-        ]
-    }
-]
+{
+    "accumulated": [
+        {
+            "start_date": "2018-03-22",
+            "end_date": "2018-03-29",
+            "days": 7,
+            "all_vweight": 572200.0,
+            "plus_rshares": 85554531053595.0,
+            "minus_rshares": 85554531053595.0,
+            "self_rshares": 17938241724508.0,
+            "sum_of_share_squared": 0.365808111215444,
+            "vcount": 69,
+            "inverse_simpson": 2.733673664800304,
+            "avg_full_voting_per_day": 8.174285714285714,
+            "upvcount": 69,
+            "upvotee_count": 12,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 20.96702711545543,
+            "upvotee": [
+                {
+                    "account": "jgullinese",
+                    "percentage": 53.07,
+                    "rshares": 45401858431873
+                },
+                {
+                    "account": "bwells",
+                    "percentage": 20.97,
+                    "rshares": 17938241724508
+                },
+                {
+                    "account": "coinexchange",
+                    "percentage": 18.77,
+                    "rshares": 16058334780077
+                },
+                {
+                    "account": "frimmcoin",
+                    "percentage": 7.07,
+                    "rshares": 6048130084635
+                },
+                {
+                    "account": "myfinanceteacher",
+                    "percentage": 0.02,
+                    "rshares": 15468560277
+                },
+                {
+                    "account": "cassidyandfranks",
+                    "percentage": 0.02,
+                    "rshares": 15468560277
+                },
+                {
+                    "account": "masril",
+                    "percentage": 0.02,
+                    "rshares": 15468560277
+                },
+                {
+                    "account": "davidblackwell",
+                    "percentage": 0.02,
+                    "rshares": 15468560277
+                },
+                {
+                    "account": "masum44",
+                    "percentage": 0.02,
+                    "rshares": 15468560277
+                },
+                {
+                    "account": "mmasim",
+                    "percentage": 0.02,
+                    "rshares": 15468560277
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-15",
+            "end_date": "2018-03-29",
+            "days": 14,
+            "all_vweight": 1205500.0,
+            "plus_rshares": 239685137581537.0,
+            "minus_rshares": 239685137581537.0,
+            "self_rshares": 59784970981464.0,
+            "sum_of_share_squared": 0.32208556701362906,
+            "vcount": 164,
+            "inverse_simpson": 3.104765014067473,
+            "avg_full_voting_per_day": 8.610714285714286,
+            "upvcount": 164,
+            "upvotee_count": 30,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 24.943128132475934,
+            "upvotee": [
+                {
+                    "account": "jgullinese",
+                    "percentage": 38.92,
+                    "rshares": 93285804485866
+                },
+                {
+                    "account": "coinexchange",
+                    "percentage": 32.82,
+                    "rshares": 78670767424615
+                },
+                {
+                    "account": "bwells",
+                    "percentage": 24.94,
+                    "rshares": 59784970981464
+                },
+                {
+                    "account": "frimmcoin",
+                    "percentage": 2.52,
+                    "rshares": 6048130084635
+                },
+                {
+                    "account": "slickwilly",
+                    "percentage": 0.47,
+                    "rshares": 1135219067956
+                },
+                {
+                    "account": "fruitdaddy",
+                    "percentage": 0.06,
+                    "rshares": 151176339664
+                },
+                {
+                    "account": "cassidyandfranks",
+                    "percentage": 0.02,
+                    "rshares": 44954769834
+                },
+                {
+                    "account": "sirapa",
+                    "percentage": 0.01,
+                    "rshares": 29490489289
+                },
+                {
+                    "account": "cutiepie",
+                    "percentage": 0.01,
+                    "rshares": 29490489289
+                },
+                {
+                    "account": "bluntsmasha",
+                    "percentage": 0.01,
+                    "rshares": 29490489289
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-27",
+            "end_date": "2018-03-29",
+            "days": 30,
+            "all_vweight": 2604500.0,
+            "plus_rshares": 661206818112734.0,
+            "minus_rshares": 661206818112734.0,
+            "self_rshares": 172951597532033.0,
+            "sum_of_share_squared": 0.32937309907479534,
+            "vcount": 421,
+            "inverse_simpson": 3.0360706530344665,
+            "avg_full_voting_per_day": 8.681666666666667,
+            "upvcount": 421,
+            "upvotee_count": 91,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 26.156959183464622,
+            "upvotee": [
+                {
+                    "account": "coinexchange",
+                    "percentage": 39.78,
+                    "rshares": 263040052831262
+                },
+                {
+                    "account": "jgullinese",
+                    "percentage": 32.03,
+                    "rshares": 211793039276507
+                },
+                {
+                    "account": "bwells",
+                    "percentage": 26.16,
+                    "rshares": 172951597532033
+                },
+                {
+                    "account": "frimmcoin",
+                    "percentage": 0.91,
+                    "rshares": 6048130084635
+                },
+                {
+                    "account": "slickwilly",
+                    "percentage": 0.22,
+                    "rshares": 1446596999178
+                },
+                {
+                    "account": "penguinpablo",
+                    "percentage": 0.16,
+                    "rshares": 1050332896406
+                },
+                {
+                    "account": "josixh-29",
+                    "percentage": 0.14,
+                    "rshares": 933308026806
+                },
+                {
+                    "account": "masril",
+                    "percentage": 0.12,
+                    "rshares": 792721489206
+                },
+                {
+                    "account": "abhicrypto",
+                    "percentage": 0.03,
+                    "rshares": 177850886986
+                },
+                {
+                    "account": "krnel",
+                    "percentage": 0.03,
+                    "rshares": 176135387086
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-01-28",
+            "end_date": "2018-03-29",
+            "days": 60,
+            "all_vweight": 5259100.0,
+            "plus_rshares": 1470559212723749.0,
+            "minus_rshares": 1470559212723749.0,
+            "self_rshares": 448028436677161.0,
+            "sum_of_share_squared": 0.3220123814613145,
+            "vcount": 881,
+            "inverse_simpson": 3.105470651351761,
+            "avg_full_voting_per_day": 8.765166666666666,
+            "upvcount": 881,
+            "upvotee_count": 171,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 30.46653496171222,
+            "upvotee": [
+                {
+                    "account": "jgullinese",
+                    "percentage": 36.31,
+                    "rshares": 533992446884478
+                },
+                {
+                    "account": "coinexchange",
+                    "percentage": 31.19,
+                    "rshares": 458653665608790
+                },
+                {
+                    "account": "bwells",
+                    "percentage": 30.47,
+                    "rshares": 448028436677161
+                },
+                {
+                    "account": "kvalt",
+                    "percentage": 0.6,
+                    "rshares": 8890236634472
+                },
+                {
+                    "account": "frimmcoin",
+                    "percentage": 0.41,
+                    "rshares": 6048130084635
+                },
+                {
+                    "account": "masril",
+                    "percentage": 0.12,
+                    "rshares": 1786467225723
+                },
+                {
+                    "account": "slickwilly",
+                    "percentage": 0.1,
+                    "rshares": 1446596999178
+                },
+                {
+                    "account": "rewossky",
+                    "percentage": 0.08,
+                    "rshares": 1109957869495
+                },
+                {
+                    "account": "penguinpablo",
+                    "percentage": 0.07,
+                    "rshares": 1050332896406
+                },
+                {
+                    "account": "josixh-29",
+                    "percentage": 0.06,
+                    "rshares": 933308026806
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2017-12-29",
+            "end_date": "2018-03-29",
+            "days": 90,
+            "all_vweight": 8161400.0,
+            "plus_rshares": 2237065014506225.0,
+            "minus_rshares": 2237065014506225.0,
+            "self_rshares": 803155539863997.0,
+            "sum_of_share_squared": 0.3374440847105771,
+            "vcount": 1828,
+            "inverse_simpson": 2.9634539329906806,
+            "avg_full_voting_per_day": 9.068222222222222,
+            "upvcount": 1828,
+            "upvotee_count": 344,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 35.902199294877136,
+            "upvotee": [
+                {
+                    "account": "jgullinese",
+                    "percentage": 40.51,
+                    "rshares": 906131323829651
+                },
+                {
+                    "account": "bwells",
+                    "percentage": 35.9,
+                    "rshares": 803155539863997
+                },
+                {
+                    "account": "coinexchange",
+                    "percentage": 21.08,
+                    "rshares": 471496126015179
+                },
+                {
+                    "account": "kvalt",
+                    "percentage": 0.67,
+                    "rshares": 14939311173177
+                },
+                {
+                    "account": "frimmcoin",
+                    "percentage": 0.27,
+                    "rshares": 6048130084635
+                },
+                {
+                    "account": "jr11",
+                    "percentage": 0.08,
+                    "rshares": 1868495777476
+                },
+                {
+                    "account": "masril",
+                    "percentage": 0.08,
+                    "rshares": 1786467225723
+                },
+                {
+                    "account": "blazing",
+                    "percentage": 0.07,
+                    "rshares": 1555899320489
+                },
+                {
+                    "account": "jerrybanfield",
+                    "percentage": 0.07,
+                    "rshares": 1479736852899
+                },
+                {
+                    "account": "slickwilly",
+                    "percentage": 0.06,
+                    "rshares": 1446596999178
+                }
+            ],
+            "downvotee": []
+        }
+    ],
+    "weekly": [
+        {
+            "start_date": "2018-03-22",
+            "end_date": "2018-03-29",
+            "days": 7,
+            "all_vweight": 572200.0,
+            "plus_rshares": 85554531053595.0,
+            "minus_rshares": 85554531053595.0,
+            "self_rshares": 17938241724508.0,
+            "sum_of_share_squared": 0.365808111215444,
+            "vcount": 69,
+            "inverse_simpson": 2.733673664800304,
+            "avg_full_voting_per_day": 8.174285714285714,
+            "upvcount": 69,
+            "upvotee_count": 12,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 20.96702711545543,
+            "upvotee": [
+                {
+                    "account": "jgullinese",
+                    "percentage": 53.07,
+                    "rshares": 45401858431873
+                },
+                {
+                    "account": "bwells",
+                    "percentage": 20.97,
+                    "rshares": 17938241724508
+                },
+                {
+                    "account": "coinexchange",
+                    "percentage": 18.77,
+                    "rshares": 16058334780077
+                },
+                {
+                    "account": "frimmcoin",
+                    "percentage": 7.07,
+                    "rshares": 6048130084635
+                },
+                {
+                    "account": "myfinanceteacher",
+                    "percentage": 0.02,
+                    "rshares": 15468560277
+                },
+                {
+                    "account": "cassidyandfranks",
+                    "percentage": 0.02,
+                    "rshares": 15468560277
+                },
+                {
+                    "account": "masril",
+                    "percentage": 0.02,
+                    "rshares": 15468560277
+                },
+                {
+                    "account": "davidblackwell",
+                    "percentage": 0.02,
+                    "rshares": 15468560277
+                },
+                {
+                    "account": "masum44",
+                    "percentage": 0.02,
+                    "rshares": 15468560277
+                },
+                {
+                    "account": "mmasim",
+                    "percentage": 0.02,
+                    "rshares": 15468560277
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-15",
+            "end_date": "2018-03-22",
+            "days": 7,
+            "all_vweight": 633300.0,
+            "plus_rshares": 154130606527942.0,
+            "minus_rshares": 154130606527942.0,
+            "self_rshares": 41846729256956.0,
+            "sum_of_share_squared": 0.3353082310644406,
+            "vcount": 95,
+            "inverse_simpson": 2.982330606157464,
+            "avg_full_voting_per_day": 9.047142857142857,
+            "upvcount": 95,
+            "upvotee_count": 22,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 27.15017490661058,
+            "upvotee": [
+                {
+                    "account": "coinexchange",
+                    "percentage": 40.62,
+                    "rshares": 62612432644538
+                },
+                {
+                    "account": "jgullinese",
+                    "percentage": 31.07,
+                    "rshares": 47883946053993
+                },
+                {
+                    "account": "bwells",
+                    "percentage": 27.15,
+                    "rshares": 41846729256956
+                },
+                {
+                    "account": "slickwilly",
+                    "percentage": 0.74,
+                    "rshares": 1135219067956
+                },
+                {
+                    "account": "fruitdaddy",
+                    "percentage": 0.1,
+                    "rshares": 151176339664
+                },
+                {
+                    "account": "sirapa",
+                    "percentage": 0.02,
+                    "rshares": 29490489289
+                },
+                {
+                    "account": "cutiepie",
+                    "percentage": 0.02,
+                    "rshares": 29490489289
+                },
+                {
+                    "account": "bluntsmasha",
+                    "percentage": 0.02,
+                    "rshares": 29490489289
+                },
+                {
+                    "account": "emwalker",
+                    "percentage": 0.02,
+                    "rshares": 29490489289
+                },
+                {
+                    "account": "marcuswahl",
+                    "percentage": 0.02,
+                    "rshares": 29486209557
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-08",
+            "end_date": "2018-03-15",
+            "days": 7,
+            "all_vweight": 617400.0,
+            "plus_rshares": 180563037438355.0,
+            "minus_rshares": 180563037438355.0,
+            "self_rshares": 55365810115307.0,
+            "sum_of_share_squared": 0.33895374036148845,
+            "vcount": 131,
+            "inverse_simpson": 2.950255096561309,
+            "avg_full_voting_per_day": 8.82,
+            "upvcount": 131,
+            "upvotee_count": 59,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 30.66287037523343,
+            "upvotee": [
+                {
+                    "account": "coinexchange",
+                    "percentage": 42.19,
+                    "rshares": 76181267446287
+                },
+                {
+                    "account": "bwells",
+                    "percentage": 30.66,
+                    "rshares": 55365810115307
+                },
+                {
+                    "account": "jgullinese",
+                    "percentage": 25.87,
+                    "rshares": 46709718414196
+                },
+                {
+                    "account": "krnel",
+                    "percentage": 0.1,
+                    "rshares": 176135387086
+                },
+                {
+                    "account": "abhicrypto",
+                    "percentage": 0.08,
+                    "rshares": 146781036901
+                },
+                {
+                    "account": "webstar",
+                    "percentage": 0.08,
+                    "rshares": 146781036901
+                },
+                {
+                    "account": "penguinpablo",
+                    "percentage": 0.07,
+                    "rshares": 117508650177
+                },
+                {
+                    "account": "abdoelhadi",
+                    "percentage": 0.07,
+                    "rshares": 117376766433
+                },
+                {
+                    "account": "saimegh",
+                    "percentage": 0.05,
+                    "rshares": 88032574824
+                },
+                {
+                    "account": "steemitci",
+                    "percentage": 0.03,
+                    "rshares": 58707765095
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-01",
+            "end_date": "2018-03-08",
+            "days": 7,
+            "all_vweight": 604600.0,
+            "plus_rshares": 186092870814467.0,
+            "minus_rshares": 186092870814467.0,
+            "self_rshares": 43583025445785.0,
+            "sum_of_share_squared": 0.3550078555465558,
+            "vcount": 92,
+            "inverse_simpson": 2.816839076590123,
+            "avg_full_voting_per_day": 8.637142857142857,
+            "upvcount": 92,
+            "upvotee_count": 8,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 23.420040356751176,
+            "upvotee": [
+                {
+                    "account": "coinexchange",
+                    "percentage": 46.48,
+                    "rshares": 86497927714736
+                },
+                {
+                    "account": "jgullinese",
+                    "percentage": 29.0,
+                    "rshares": 53958220461235
+                },
+                {
+                    "account": "bwells",
+                    "percentage": 23.42,
+                    "rshares": 43583025445785
+                },
+                {
+                    "account": "josixh-29",
+                    "percentage": 0.5,
+                    "rshares": 933308026806
+                },
+                {
+                    "account": "masril",
+                    "percentage": 0.23,
+                    "rshares": 435453366297
+                },
+                {
+                    "account": "penguinpablo",
+                    "percentage": 0.17,
+                    "rshares": 311377931222
+                },
+                {
+                    "account": "slickwilly",
+                    "percentage": 0.17,
+                    "rshares": 311377931222
+                },
+                {
+                    "account": "aamaksal",
+                    "percentage": 0.03,
+                    "rshares": 62179937164
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-22",
+            "end_date": "2018-03-01",
+            "days": 7,
+            "all_vweight": 580300.0,
+            "plus_rshares": 178965576477361.0,
+            "minus_rshares": 178965576477361.0,
+            "self_rshares": 60934433965862.0,
+            "sum_of_share_squared": 0.326577070233606,
+            "vcount": 95,
+            "inverse_simpson": 3.062064336864445,
+            "avg_full_voting_per_day": 8.290000000000001,
+            "upvcount": 95,
+            "upvotee_count": 21,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 34.048131023437435,
+            "upvotee": [
+                {
+                    "account": "coinexchange",
+                    "percentage": 35.99,
+                    "rshares": 64415717297383
+                },
+                {
+                    "account": "bwells",
+                    "percentage": 34.05,
+                    "rshares": 60934433965862
+                },
+                {
+                    "account": "jgullinese",
+                    "percentage": 28.47,
+                    "rshares": 50944122692690
+                },
+                {
+                    "account": "masril",
+                    "percentage": 0.73,
+                    "rshares": 1304538196239
+                },
+                {
+                    "account": "penguinpablo",
+                    "percentage": 0.35,
+                    "rshares": 621446315007
+                },
+                {
+                    "account": "taillah",
+                    "percentage": 0.07,
+                    "rshares": 124257456665
+                },
+                {
+                    "account": "zubir01",
+                    "percentage": 0.07,
+                    "rshares": 124203816174
+                },
+                {
+                    "account": "adson",
+                    "percentage": 0.03,
+                    "rshares": 62119922562
+                },
+                {
+                    "account": "kay1",
+                    "percentage": 0.03,
+                    "rshares": 62082570309
+                },
+                {
+                    "account": "saikr",
+                    "percentage": 0.02,
+                    "rshares": 31069850085
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-15",
+            "end_date": "2018-02-22",
+            "days": 7,
+            "all_vweight": 605800.0,
+            "plus_rshares": 184603968132019.0,
+            "minus_rshares": 184603968132019.0,
+            "self_rshares": 49161641876201.0,
+            "sum_of_share_squared": 0.3397176842274381,
+            "vcount": 119,
+            "inverse_simpson": 2.9436206780760594,
+            "avg_full_voting_per_day": 8.654285714285715,
+            "upvcount": 119,
+            "upvotee_count": 36,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 26.63086951686932,
+            "upvotee": [
+                {
+                    "account": "coinexchange",
+                    "percentage": 41.06,
+                    "rshares": 75805261205111
+                },
+                {
+                    "account": "jgullinese",
+                    "percentage": 31.65,
+                    "rshares": 58427339559545
+                },
+                {
+                    "account": "bwells",
+                    "percentage": 26.63,
+                    "rshares": 49161641876201
+                },
+                {
+                    "account": "godofbit",
+                    "percentage": 0.05,
+                    "rshares": 93084763480
+                },
+                {
+                    "account": "jkenny",
+                    "percentage": 0.05,
+                    "rshares": 93012642687
+                },
+                {
+                    "account": "blazing",
+                    "percentage": 0.03,
+                    "rshares": 62062523764
+                },
+                {
+                    "account": "abdurrahim007",
+                    "percentage": 0.03,
+                    "rshares": 62021952284
+                },
+                {
+                    "account": "adson",
+                    "percentage": 0.02,
+                    "rshares": 31031261882
+                },
+                {
+                    "account": "maxresin",
+                    "percentage": 0.02,
+                    "rshares": 31031261882
+                },
+                {
+                    "account": "enigm4",
+                    "percentage": 0.02,
+                    "rshares": 31031261882
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-08",
+            "end_date": "2018-02-15",
+            "days": 7,
+            "all_vweight": 627700.0,
+            "plus_rshares": 191009579920838.0,
+            "minus_rshares": 191009579920838.0,
+            "self_rshares": 49893496041078.0,
+            "sum_of_share_squared": 0.3412820074325288,
+            "vcount": 88,
+            "inverse_simpson": 2.9301280999927877,
+            "avg_full_voting_per_day": 8.967142857142857,
+            "upvcount": 88,
+            "upvotee_count": 6,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 26.120939097272426,
+            "upvotee": [
+                {
+                    "account": "coinexchange",
+                    "percentage": 38.83,
+                    "rshares": 74162849960119
+                },
+                {
+                    "account": "jgullinese",
+                    "percentage": 34.97,
+                    "rshares": 66798638450404
+                },
+                {
+                    "account": "bwells",
+                    "percentage": 26.12,
+                    "rshares": 49893496041078
+                },
+                {
+                    "account": "apukb",
+                    "percentage": 0.05,
+                    "rshares": 92757281543
+                },
+                {
+                    "account": "enigm4",
+                    "percentage": 0.02,
+                    "rshares": 30919093847
+                },
+                {
+                    "account": "ganjarecords",
+                    "percentage": 0.02,
+                    "rshares": 30919093847
+                }
+            ],
+            "downvotee": []
+        }
+    ]
+}

@@ -1,106 +1,322 @@
-[
-    {
-        "start_date": 1521711608.506135,
-        "end_date": 1522312808.506135,
-        "days": 7,
-        "avg_full_voting_per_day": 0.0,
-        "self_vote": 0,
-        "invers_simpson": 100,
-        "top_votee": []
-    },
-    {
-        "start_date": 1521106808.506135,
-        "end_date": 1522312808.506135,
-        "days": 14,
-        "avg_full_voting_per_day": 0.07142857142857142,
-        "self_vote": 100.0,
-        "invers_simpson": 1.0,
-        "top_votee": [
-            {
-                "account": "coachjin",
-                "percentage": 100.0,
-                "rshares": 471333068845
-            }
-        ]
-    },
-    {
-        "start_date": 1519724408.506135,
-        "end_date": 1522312808.506135,
-        "days": 30,
-        "avg_full_voting_per_day": 0.03333333333333333,
-        "self_vote": 100.0,
-        "invers_simpson": 1.0,
-        "top_votee": [
-            {
-                "account": "coachjin",
-                "percentage": 100.0,
-                "rshares": 471333068845
-            }
-        ]
-    },
-    {
-        "start_date": 1517132408.506135,
-        "end_date": 1522312808.506135,
-        "days": 60,
-        "avg_full_voting_per_day": 0.05,
-        "self_vote": 100.0,
-        "invers_simpson": 1.0,
-        "top_votee": [
-            {
-                "account": "coachjin",
-                "percentage": 100.0,
-                "rshares": 1413970636013
-            }
-        ]
-    },
-    {
-        "start_date": 1514540408.506135,
-        "end_date": 1522312808.506135,
-        "days": 90,
-        "avg_full_voting_per_day": 0.16666666666666666,
-        "self_vote": 53.69131509233532,
-        "invers_simpson": 3.1356021669647998,
-        "top_votee": [
-            {
-                "account": "coachjin",
-                "percentage": 53.69131509233532,
-                "rshares": 3769384490210
-            },
-            {
-                "account": "hiconcep",
-                "percentage": 6.712768648988801,
-                "rshares": 471268136911
-            },
-            {
-                "account": "yunasdiy",
-                "percentage": 6.710967833332513,
-                "rshares": 471141711127
-            },
-            {
-                "account": "ohthisisit",
-                "percentage": 6.710967833332513,
-                "rshares": 471141711127
-            },
-            {
-                "account": "dreammak",
-                "percentage": 6.610912521658302,
-                "rshares": 464117354593
-            },
-            {
-                "account": "geniee",
-                "percentage": 6.610303315845417,
-                "rshares": 464074585461
-            },
-            {
-                "account": "indend007",
-                "percentage": 6.476680795334914,
-                "rshares": 454693651962
-            },
-            {
-                "account": "anysia",
-                "percentage": 6.476083959172215,
-                "rshares": 454651751238
-            }
-        ]
-    }
-]
+{
+    "accumulated": [
+        {
+            "start_date": "2018-03-22",
+            "end_date": "2018-03-29",
+            "days": 7,
+            "all_vweight": 0,
+            "plus_rshares": 0,
+            "minus_rshares": 0,
+            "self_rshares": 0,
+            "sum_of_share_squared": 0,
+            "vcount": 0,
+            "inverse_simpson": 100,
+            "avg_full_voting_per_day": 0.0,
+            "upvcount": 0,
+            "upvotee_count": 0,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 0,
+            "upvotee": [],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-15",
+            "end_date": "2018-03-29",
+            "days": 14,
+            "all_vweight": 10000.0,
+            "plus_rshares": 471333068845.0,
+            "minus_rshares": 471333068845.0,
+            "self_rshares": 471333068845.0,
+            "sum_of_share_squared": 1.0,
+            "vcount": 1,
+            "inverse_simpson": 1.0,
+            "avg_full_voting_per_day": 0.07142857142857142,
+            "upvcount": 1,
+            "upvotee_count": 1,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 100.0,
+            "upvotee": [
+                {
+                    "account": "coachjin",
+                    "percentage": 100.0,
+                    "rshares": 471333068845
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-27",
+            "end_date": "2018-03-29",
+            "days": 30,
+            "all_vweight": 10000.0,
+            "plus_rshares": 471333068845.0,
+            "minus_rshares": 471333068845.0,
+            "self_rshares": 471333068845.0,
+            "sum_of_share_squared": 1.0,
+            "vcount": 1,
+            "inverse_simpson": 1.0,
+            "avg_full_voting_per_day": 0.03333333333333333,
+            "upvcount": 1,
+            "upvotee_count": 1,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 100.0,
+            "upvotee": [
+                {
+                    "account": "coachjin",
+                    "percentage": 100.0,
+                    "rshares": 471333068845
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-01-28",
+            "end_date": "2018-03-29",
+            "days": 60,
+            "all_vweight": 30000.0,
+            "plus_rshares": 1413970636013.0,
+            "minus_rshares": 1413970636013.0,
+            "self_rshares": 1413970636013.0,
+            "sum_of_share_squared": 1.0,
+            "vcount": 3,
+            "inverse_simpson": 1.0,
+            "avg_full_voting_per_day": 0.05,
+            "upvcount": 3,
+            "upvotee_count": 1,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 100.0,
+            "upvotee": [
+                {
+                    "account": "coachjin",
+                    "percentage": 100.0,
+                    "rshares": 1413970636013
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2017-12-29",
+            "end_date": "2018-03-29",
+            "days": 90,
+            "all_vweight": 160000.0,
+            "plus_rshares": 7020473392629.0,
+            "minus_rshares": 7020473392629.0,
+            "self_rshares": 3769384490210.0,
+            "sum_of_share_squared": 0.3189180089666732,
+            "vcount": 16,
+            "inverse_simpson": 3.1356021669647998,
+            "avg_full_voting_per_day": 0.17777777777777778,
+            "upvcount": 16,
+            "upvotee_count": 9,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 53.69131509233532,
+            "upvotee": [
+                {
+                    "account": "coachjin",
+                    "percentage": 53.69,
+                    "rshares": 3769384490210
+                },
+                {
+                    "account": "hiconcep",
+                    "percentage": 6.71,
+                    "rshares": 471268136911
+                },
+                {
+                    "account": "yunasdiy",
+                    "percentage": 6.71,
+                    "rshares": 471141711127
+                },
+                {
+                    "account": "ohthisisit",
+                    "percentage": 6.71,
+                    "rshares": 471141711127
+                },
+                {
+                    "account": "dreammak",
+                    "percentage": 6.61,
+                    "rshares": 464117354593
+                },
+                {
+                    "account": "geniee",
+                    "percentage": 6.61,
+                    "rshares": 464074585461
+                },
+                {
+                    "account": "indend007",
+                    "percentage": 6.48,
+                    "rshares": 454693651962
+                },
+                {
+                    "account": "anysia",
+                    "percentage": 6.48,
+                    "rshares": 454651751238
+                },
+                {
+                    "account": "jruit",
+                    "percentage": 0.0,
+                    "rshares": 0
+                }
+            ],
+            "downvotee": []
+        }
+    ],
+    "weekly": [
+        {
+            "start_date": "2018-03-22",
+            "end_date": "2018-03-29",
+            "days": 7,
+            "all_vweight": 0,
+            "plus_rshares": 0,
+            "minus_rshares": 0,
+            "self_rshares": 0,
+            "sum_of_share_squared": 0,
+            "vcount": 0,
+            "inverse_simpson": 100,
+            "avg_full_voting_per_day": 0.0,
+            "upvcount": 0,
+            "upvotee_count": 0,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 0,
+            "upvotee": [],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-15",
+            "end_date": "2018-03-22",
+            "days": 7,
+            "all_vweight": 10000.0,
+            "plus_rshares": 471333068845.0,
+            "minus_rshares": 471333068845.0,
+            "self_rshares": 471333068845.0,
+            "sum_of_share_squared": 1.0,
+            "vcount": 1,
+            "inverse_simpson": 1.0,
+            "avg_full_voting_per_day": 0.14285714285714285,
+            "upvcount": 1,
+            "upvotee_count": 1,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 100.0,
+            "upvotee": [
+                {
+                    "account": "coachjin",
+                    "percentage": 100.0,
+                    "rshares": 471333068845
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-08",
+            "end_date": "2018-03-15",
+            "days": 7,
+            "all_vweight": 0,
+            "plus_rshares": 0,
+            "minus_rshares": 0,
+            "self_rshares": 0,
+            "sum_of_share_squared": 0,
+            "vcount": 0,
+            "inverse_simpson": 100,
+            "avg_full_voting_per_day": 0.0,
+            "upvcount": 0,
+            "upvotee_count": 0,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 0,
+            "upvotee": [],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-01",
+            "end_date": "2018-03-08",
+            "days": 7,
+            "all_vweight": 0,
+            "plus_rshares": 0,
+            "minus_rshares": 0,
+            "self_rshares": 0,
+            "sum_of_share_squared": 0,
+            "vcount": 0,
+            "inverse_simpson": 100,
+            "avg_full_voting_per_day": 0.0,
+            "upvcount": 0,
+            "upvotee_count": 0,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 0,
+            "upvotee": [],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-22",
+            "end_date": "2018-03-01",
+            "days": 7,
+            "all_vweight": 0,
+            "plus_rshares": 0,
+            "minus_rshares": 0,
+            "self_rshares": 0,
+            "sum_of_share_squared": 0,
+            "vcount": 0,
+            "inverse_simpson": 100,
+            "avg_full_voting_per_day": 0.0,
+            "upvcount": 0,
+            "upvotee_count": 0,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 0,
+            "upvotee": [],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-15",
+            "end_date": "2018-02-22",
+            "days": 7,
+            "all_vweight": 20000.0,
+            "plus_rshares": 942637567168.0,
+            "minus_rshares": 942637567168.0,
+            "self_rshares": 942637567168.0,
+            "sum_of_share_squared": 1.0,
+            "vcount": 2,
+            "inverse_simpson": 1.0,
+            "avg_full_voting_per_day": 0.2857142857142857,
+            "upvcount": 2,
+            "upvotee_count": 1,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 100.0,
+            "upvotee": [
+                {
+                    "account": "coachjin",
+                    "percentage": 100.0,
+                    "rshares": 942637567168
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-08",
+            "end_date": "2018-02-15",
+            "days": 7,
+            "all_vweight": 0,
+            "plus_rshares": 0,
+            "minus_rshares": 0,
+            "self_rshares": 0,
+            "sum_of_share_squared": 0,
+            "vcount": 0,
+            "inverse_simpson": 100,
+            "avg_full_voting_per_day": 0.0,
+            "upvcount": 0,
+            "upvotee_count": 0,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 0,
+            "upvotee": [],
+            "downvotee": []
+        }
+    ]
+}

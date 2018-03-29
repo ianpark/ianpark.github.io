@@ -128,9 +128,9 @@ html {
 
   /* Chart cell style */
   div.chart_frame {
-      width: 300;
+      width: 250;
   }
   div.chart_cell {
-      width: 250;
-      height: 300;
+      width: 200;
+      height: 200;
   }

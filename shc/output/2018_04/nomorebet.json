@@ -1,176 +1,424 @@
-[
-    {
-        "start_date": 1521711959.18049,
-        "end_date": 1522313159.18049,
-        "days": 7,
-        "avg_full_voting_per_day": 0.0,
-        "self_vote": 0,
-        "invers_simpson": 100,
-        "top_votee": []
-    },
-    {
-        "start_date": 1521107159.18049,
-        "end_date": 1522313159.18049,
-        "days": 14,
-        "avg_full_voting_per_day": 0.075,
-        "self_vote": 100.0,
-        "invers_simpson": 1.0,
-        "top_votee": [
-            {
-                "account": "nomorebet",
-                "percentage": 100.0,
-                "rshares": 411837433000
-            },
-            {
-                "account": "fenrir78",
-                "percentage": 0.0,
-                "rshares": 0
-            }
-        ]
-    },
-    {
-        "start_date": 1519724759.18049,
-        "end_date": 1522313159.18049,
-        "days": 30,
-        "avg_full_voting_per_day": 0.07833333333333334,
-        "self_vote": 86.95652173913044,
-        "invers_simpson": 1.312655086848635,
-        "top_votee": [
-            {
-                "account": "nomorebet",
-                "percentage": 86.95652173913044,
-                "rshares": 823674866000
-            },
-            {
-                "account": "gonair",
-                "percentage": 4.3478260869565215,
-                "rshares": 41183743300
-            },
-            {
-                "account": "agar",
-                "percentage": 4.3478260869565215,
-                "rshares": 41183743300
-            },
-            {
-                "account": "travelkorea",
-                "percentage": 4.3478260869565215,
-                "rshares": 41183743300
-            },
-            {
-                "account": "fenrir78",
-                "percentage": 0.0,
-                "rshares": 0
-            }
-        ]
-    },
-    {
-        "start_date": 1517132759.18049,
-        "end_date": 1522313159.18049,
-        "days": 60,
-        "avg_full_voting_per_day": 0.06416666666666666,
-        "self_vote": 79.9522835802559,
-        "invers_simpson": 1.5374591999413367,
-        "top_votee": [
-            {
-                "account": "nomorebet",
-                "percentage": 79.9522835802559,
-                "rshares": 823674866000
-            },
-            {
-                "account": "valueup",
-                "percentage": 7.99522835802559,
-                "rshares": 82367486600
-            },
-            {
-                "account": "gonair",
-                "percentage": 3.997614179012795,
-                "rshares": 41183743300
-            },
-            {
-                "account": "agar",
-                "percentage": 3.997614179012795,
-                "rshares": 41183743300
-            },
-            {
-                "account": "travelkorea",
-                "percentage": 3.997614179012795,
-                "rshares": 41183743300
-            },
-            {
-                "account": "dreamya",
-                "percentage": 0.05964552468013584,
-                "rshares": 614473000
-            },
-            {
-                "account": "fenrir78",
-                "percentage": 0.0,
-                "rshares": 0
-            },
-            {
-                "account": "signalandnoise",
-                "percentage": 0.0,
-                "rshares": 0
-            }
-        ]
-    },
-    {
-        "start_date": 1514540759.18049,
-        "end_date": 1522313159.18049,
-        "days": 90,
-        "avg_full_voting_per_day": 0.12055555555555555,
-        "self_vote": 79.74077840586962,
-        "invers_simpson": 1.5455888952960029,
-        "top_votee": [
-            {
-                "account": "nomorebet",
-                "percentage": 79.74077840586962,
-                "rshares": 824891522540
-            },
-            {
-                "account": "valueup",
-                "percentage": 7.962316640853273,
-                "rshares": 82367486600
-            },
-            {
-                "account": "gonair",
-                "percentage": 4.039667319101803,
-                "rshares": 41788999205
-            },
-            {
-                "account": "agar",
-                "percentage": 3.9811583204266365,
-                "rshares": 41183743300
-            },
-            {
-                "account": "travelkorea",
-                "percentage": 3.9811583204266365,
-                "rshares": 41183743300
-            },
-            {
-                "account": "dreamya",
-                "percentage": 0.059399998654991536,
-                "rshares": 614473000
-            },
-            {
-                "account": "jkenny",
-                "percentage": 0.059399998654991536,
-                "rshares": 614473000
-            },
-            {
-                "account": "polonius79",
-                "percentage": 0.059399998654991536,
-                "rshares": 614473000
-            },
-            {
-                "account": "izalam",
-                "percentage": 0.059399998654991536,
-                "rshares": 614473000
-            },
-            {
-                "account": "crypt0",
-                "percentage": 0.05732099870206683,
-                "rshares": 592966445
-            }
-        ]
-    }
-]
+{
+    "accumulated": [
+        {
+            "start_date": "2018-03-22",
+            "end_date": "2018-03-29",
+            "days": 7,
+            "all_vweight": 0,
+            "plus_rshares": 0,
+            "minus_rshares": 0,
+            "self_rshares": 0,
+            "sum_of_share_squared": 0,
+            "vcount": 0,
+            "inverse_simpson": 100,
+            "avg_full_voting_per_day": 0.0,
+            "upvcount": 0,
+            "upvotee_count": 0,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 0,
+            "upvotee": [],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-15",
+            "end_date": "2018-03-29",
+            "days": 14,
+            "all_vweight": 10500.0,
+            "plus_rshares": 411837433000.0,
+            "minus_rshares": 411837433000.0,
+            "self_rshares": 411837433000.0,
+            "sum_of_share_squared": 1.0,
+            "vcount": 2,
+            "inverse_simpson": 1.0,
+            "avg_full_voting_per_day": 0.075,
+            "upvcount": 2,
+            "upvotee_count": 2,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 100.0,
+            "upvotee": [
+                {
+                    "account": "nomorebet",
+                    "percentage": 100.0,
+                    "rshares": 411837433000
+                },
+                {
+                    "account": "fenrir78",
+                    "percentage": 0.0,
+                    "rshares": 0
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-27",
+            "end_date": "2018-03-29",
+            "days": 30,
+            "all_vweight": 26500.0,
+            "plus_rshares": 947226095900.0,
+            "minus_rshares": 947226095900.0,
+            "self_rshares": 823674866000.0,
+            "sum_of_share_squared": 0.7618147448015123,
+            "vcount": 7,
+            "inverse_simpson": 1.312655086848635,
+            "avg_full_voting_per_day": 0.08833333333333333,
+            "upvcount": 7,
+            "upvotee_count": 6,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 86.95652173913044,
+            "upvotee": [
+                {
+                    "account": "nomorebet",
+                    "percentage": 86.96,
+                    "rshares": 823674866000
+                },
+                {
+                    "account": "agar",
+                    "percentage": 4.35,
+                    "rshares": 41183743300
+                },
+                {
+                    "account": "gonair",
+                    "percentage": 4.35,
+                    "rshares": 41183743300
+                },
+                {
+                    "account": "travelkorea",
+                    "percentage": 4.35,
+                    "rshares": 41183743300
+                },
+                {
+                    "account": "fenrir78",
+                    "percentage": 0.0,
+                    "rshares": 0
+                },
+                {
+                    "account": "signalandnoise",
+                    "percentage": 0.0,
+                    "rshares": 0
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-01-28",
+            "end_date": "2018-03-29",
+            "days": 60,
+            "all_vweight": 38500.0,
+            "plus_rshares": 1030208055500.0,
+            "minus_rshares": 1030208055500.0,
+            "self_rshares": 823674866000.0,
+            "sum_of_share_squared": 0.650423764115598,
+            "vcount": 9,
+            "inverse_simpson": 1.5374591999413367,
+            "avg_full_voting_per_day": 0.06416666666666666,
+            "upvcount": 9,
+            "upvotee_count": 8,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 79.9522835802559,
+            "upvotee": [
+                {
+                    "account": "nomorebet",
+                    "percentage": 79.95,
+                    "rshares": 823674866000
+                },
+                {
+                    "account": "valueup",
+                    "percentage": 8.0,
+                    "rshares": 82367486600
+                },
+                {
+                    "account": "agar",
+                    "percentage": 4.0,
+                    "rshares": 41183743300
+                },
+                {
+                    "account": "gonair",
+                    "percentage": 4.0,
+                    "rshares": 41183743300
+                },
+                {
+                    "account": "travelkorea",
+                    "percentage": 4.0,
+                    "rshares": 41183743300
+                },
+                {
+                    "account": "dreamya",
+                    "percentage": 0.06,
+                    "rshares": 614473000
+                },
+                {
+                    "account": "fenrir78",
+                    "percentage": 0.0,
+                    "rshares": 0
+                },
+                {
+                    "account": "signalandnoise",
+                    "percentage": 0.0,
+                    "rshares": 0
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2017-12-29",
+            "end_date": "2018-03-29",
+            "days": 90,
+            "all_vweight": 108500.0,
+            "plus_rshares": 1034466353390.0,
+            "minus_rshares": 1034466353390.0,
+            "self_rshares": 824891522540.0,
+            "sum_of_share_squared": 0.6470025781393087,
+            "vcount": 16,
+            "inverse_simpson": 1.5455888952960029,
+            "avg_full_voting_per_day": 0.12055555555555555,
+            "upvcount": 16,
+            "upvotee_count": 12,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 79.74077840586962,
+            "upvotee": [
+                {
+                    "account": "nomorebet",
+                    "percentage": 79.74,
+                    "rshares": 824891522540
+                },
+                {
+                    "account": "valueup",
+                    "percentage": 7.96,
+                    "rshares": 82367486600
+                },
+                {
+                    "account": "gonair",
+                    "percentage": 4.04,
+                    "rshares": 41788999205
+                },
+                {
+                    "account": "agar",
+                    "percentage": 3.98,
+                    "rshares": 41183743300
+                },
+                {
+                    "account": "travelkorea",
+                    "percentage": 3.98,
+                    "rshares": 41183743300
+                },
+                {
+                    "account": "dreamya",
+                    "percentage": 0.06,
+                    "rshares": 614473000
+                },
+                {
+                    "account": "izalam",
+                    "percentage": 0.06,
+                    "rshares": 614473000
+                },
+                {
+                    "account": "jkenny",
+                    "percentage": 0.06,
+                    "rshares": 614473000
+                },
+                {
+                    "account": "polonius79",
+                    "percentage": 0.06,
+                    "rshares": 614473000
+                },
+                {
+                    "account": "crypt0",
+                    "percentage": 0.06,
+                    "rshares": 592966445
+                }
+            ],
+            "downvotee": []
+        }
+    ],
+    "weekly": [
+        {
+            "start_date": "2018-03-22",
+            "end_date": "2018-03-29",
+            "days": 7,
+            "all_vweight": 0,
+            "plus_rshares": 0,
+            "minus_rshares": 0,
+            "self_rshares": 0,
+            "sum_of_share_squared": 0,
+            "vcount": 0,
+            "inverse_simpson": 100,
+            "avg_full_voting_per_day": 0.0,
+            "upvcount": 0,
+            "upvotee_count": 0,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 0,
+            "upvotee": [],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-15",
+            "end_date": "2018-03-22",
+            "days": 7,
+            "all_vweight": 10500.0,
+            "plus_rshares": 411837433000.0,
+            "minus_rshares": 411837433000.0,
+            "self_rshares": 411837433000.0,
+            "sum_of_share_squared": 1.0,
+            "vcount": 2,
+            "inverse_simpson": 1.0,
+            "avg_full_voting_per_day": 0.15,
+            "upvcount": 2,
+            "upvotee_count": 2,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 100.0,
+            "upvotee": [
+                {
+                    "account": "nomorebet",
+                    "percentage": 100.0,
+                    "rshares": 411837433000
+                },
+                {
+                    "account": "fenrir78",
+                    "percentage": 0.0,
+                    "rshares": 0
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-08",
+            "end_date": "2018-03-15",
+            "days": 7,
+            "all_vweight": 15000.0,
+            "plus_rshares": 494204919600.0,
+            "minus_rshares": 494204919600.0,
+            "self_rshares": 411837433000.0,
+            "sum_of_share_squared": 0.7083333333333334,
+            "vcount": 4,
+            "inverse_simpson": 1.4117647058823528,
+            "avg_full_voting_per_day": 0.21428571428571427,
+            "upvcount": 4,
+            "upvotee_count": 4,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 83.33333333333334,
+            "upvotee": [
+                {
+                    "account": "nomorebet",
+                    "percentage": 83.33,
+                    "rshares": 411837433000
+                },
+                {
+                    "account": "agar",
+                    "percentage": 8.33,
+                    "rshares": 41183743300
+                },
+                {
+                    "account": "gonair",
+                    "percentage": 8.33,
+                    "rshares": 41183743300
+                },
+                {
+                    "account": "signalandnoise",
+                    "percentage": 0.0,
+                    "rshares": 0
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-03-01",
+            "end_date": "2018-03-08",
+            "days": 7,
+            "all_vweight": 0,
+            "plus_rshares": 0,
+            "minus_rshares": 0,
+            "self_rshares": 0,
+            "sum_of_share_squared": 0,
+            "vcount": 0,
+            "inverse_simpson": 100,
+            "avg_full_voting_per_day": 0.0,
+            "upvcount": 0,
+            "upvotee_count": 0,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 0,
+            "upvotee": [],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-22",
+            "end_date": "2018-03-01",
+            "days": 7,
+            "all_vweight": 1000.0,
+            "plus_rshares": 41183743300.0,
+            "minus_rshares": 41183743300.0,
+            "self_rshares": 0,
+            "sum_of_share_squared": 1.0,
+            "vcount": 1,
+            "inverse_simpson": 1.0,
+            "avg_full_voting_per_day": 0.014285714285714287,
+            "upvcount": 1,
+            "upvotee_count": 1,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 0.0,
+            "upvotee": [
+                {
+                    "account": "travelkorea",
+                    "percentage": 100.0,
+                    "rshares": 41183743300
+                }
+            ],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-15",
+            "end_date": "2018-02-22",
+            "days": 7,
+            "all_vweight": 0,
+            "plus_rshares": 0,
+            "minus_rshares": 0,
+            "self_rshares": 0,
+            "sum_of_share_squared": 0,
+            "vcount": 0,
+            "inverse_simpson": 100,
+            "avg_full_voting_per_day": 0.0,
+            "upvcount": 0,
+            "upvotee_count": 0,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 0,
+            "upvotee": [],
+            "downvotee": []
+        },
+        {
+            "start_date": "2018-02-08",
+            "end_date": "2018-02-15",
+            "days": 7,
+            "all_vweight": 2000.0,
+            "plus_rshares": 82367486600.0,
+            "minus_rshares": 82367486600.0,
+            "self_rshares": 0,
+            "sum_of_share_squared": 1.0,
+            "vcount": 1,
+            "inverse_simpson": 1.0,
+            "avg_full_voting_per_day": 0.028571428571428574,
+            "upvcount": 1,
+            "upvotee_count": 1,
+            "dnvcount": 0,
+            "dnvotee_count": 0,
+            "self_vote_rate": 0.0,
+            "upvotee": [
+                {
+                    "account": "valueup",
+                    "percentage": 100.0,
+                    "rshares": 82367486600
+                }
+            ],
+            "downvotee": []
+        }
+    ]
+}

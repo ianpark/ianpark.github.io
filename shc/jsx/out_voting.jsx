@@ -37,6 +37,8 @@ class OutVoting extends React.Component {
         this.retrieveData = this.retrieveData.bind(this);
         this.getDataUrl = this.getDataUrl.bind(this);
         this.accumulatedVotingTrend = this.accumulatedVotingTrend.bind(this);
+        this.weeklyVotingTrend = this.weeklyVotingTrend.bind(this);
+        this.weeklyPieCharts = this.weeklyPieCharts.bind(this);
     }
 
     componentDidMount() {
@@ -74,7 +76,7 @@ class OutVoting extends React.Component {
         return (<div>Input</div>);
     }
 
-    accumulatedVotingTrend() {
+    accumulatedVotingTrend(data) {
         return (
             <div>
                 <div className='row'>
@@ -83,39 +85,214 @@ class OutVoting extends React.Component {
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col-xs-6 col-md-4 chart_frame'>
+                    <div className='col-xs-4 col-md-3 chart_frame'>
                         <div className='chart_cell'>
                             <SimpleLineChart 
                             title='Inverse Simpson Index'
-                            chart_id='inverse_simpson' 
-                            label={this.state.data.map((period) => period.days)}
+                            chart_id='acc_inverse_simpson' 
+                            label={data.map((period) => period.days).reverse()}
                             yAxisString='IS index'
-                            xAxisString='Days Accumulated'
-                            data={this.state.data.map((period) => period.invers_simpson)}
+                            xAxisString='accumulated days'
+                            data={data.map((period) => period.inverse_simpson).reverse()}
                             />
                         </div>
                     </div>
-                    <div className='col-xs-6 col-md-4 chart_frame'>
+                    <div className='col-xs-4 col-md-3 chart_frame'>
                         <div className='chart_cell'>
                             <SimpleLineChart 
                             title='Self voting'
-                            chart_id='self_voting' 
-                            label={this.state.data.map((period) => period.days).reverse()}
+                            chart_id='acc_self_voting' 
+                            label={data.map((period) => period.days).reverse()}
                             yAxisString='Self voting %'
-                            xAxisString='Days Accumulated'
-                            data={this.state.data.map((period) => period.self_vote).reverse()}
+                            xAxisString='accumulated days'
+                            data={data.map((period) => period.self_vote_rate).reverse()}
                             />
                         </div>
                     </div>
-                    <div className='col-xs-6 col-md-4 chart_frame'>
+                    <div className='col-xs-4 col-md-3 chart_frame'>
                         <div className='chart_cell'>
                             <SimpleLineChart 
                             title='Average full-voting per day'
-                            chart_id='avg_self_voting_per_day' 
-                            label={this.state.data.map((period) => period.days).reverse()}
+                            chart_id='acc_avg_self_voting_per_day' 
+                            label={data.map((period) => period.days).reverse()}
                             yAxisString='Avg. full-voting per day'
-                            xAxisString='Days Accumulated'
-                            data={this.state.data.map((period) => period.avg_full_voting_per_day).reverse()}
+                            xAxisString='accumulated days'
+                            data={data.map((period) => period.avg_full_voting_per_day).reverse()}
+                            />
+                        </div>
+                    </div>
+                    <div className='col-xs-4 col-md-3 chart_frame'>
+                        <div className='chart_cell'>
+                            <SimpleLineChart 
+                            title='Up-voting count'
+                            chart_id='acc_up_voting_count' 
+                            label={data.map((period) => period.days).reverse()}
+                            yAxisString='dp-voting count'
+                            xAxisString='accumulated days'
+                            data={data.map((period) => period.upvcount).reverse()}
+                            />
+                        </div>
+                    </div>
+                    <div className='col-xs-4 col-md-3 chart_frame'>
+                        <div className='chart_cell'>
+                            <SimpleLineChart 
+                            title='Down-voting count'
+                            chart_id='acc_down_voting_count' 
+                            label={data.map((period) => period.days).reverse()}
+                            yAxisString='down-voting count'
+                            xAxisString='accumulated days'
+                            data={data.map((period) => period.dnvcount).reverse()}
+                            />
+                        </div>
+                    </div>
+                    <div className='col-xs-4 col-md-3 chart_frame'>
+                        <div className='chart_cell'>
+                            <SimpleLineChart 
+                            title='Unique upvotee count'
+                            chart_id='acc_unique_upvotee_count' 
+                            label={data.map((period) => period.days).reverse()}
+                            yAxisString='unique user count'
+                            xAxisString='accumulated days'
+                            data={data.map((period) => period.upvotee_count).reverse()}
+                            />
+                        </div>
+                    </div>
+                    <div className='col-xs-4 col-md-3 chart_frame'>
+                        <div className='chart_cell'>
+                            <SimpleLineChart 
+                            title='Unique downvotee count'
+                            chart_id='acc_unique_downvotee_count' 
+                            label={data.map((period) => period.days).reverse()}
+                            yAxisString='unique user count'
+                            xAxisString='accumulated days'
+                            data={data.map((period) => period.dnvotee_count).reverse()}
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
+    weeklyVotingTrend(data) {
+        var label = data.map((period) => period.end_date.slice(5)).reverse()
+        return (
+            <div>
+                <div className='row'>
+                    <div className='col-xs-12 col-md-12'>
+                        <h2>Weekly Voting Trend</h2>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='col-xs-4 col-md-3 chart_frame'>
+                        <div className='chart_cell'>
+                            <SimpleLineChart 
+                            title='Inverse Simpson Index'
+                            chart_id='weekly_inverse_simpson' 
+                            label={label}
+                            yAxisString='IS index'
+                            data={data.map((period) => period.inverse_simpson).reverse()}
+                            />
+                        </div>
+                    </div>
+                    <div className='col-xs-4 col-md-3 chart_frame'>
+                        <div className='chart_cell'>
+                            <SimpleLineChart 
+                            title='Self voting'
+                            chart_id='weekly_self_voting' 
+                            label={label}
+                            yAxisString='Self voting %'
+                            data={data.map((period) => period.self_vote_rate).reverse()}
+                            />
+                        </div>
+                    </div>
+                    <div className='col-xs-4 col-md-3 chart_frame'>
+                        <div className='chart_cell'>
+                            <SimpleLineChart 
+                            title='Average full-voting per day'
+                            chart_id='weekly_avg_self_voting_per_day' 
+                            label={label}
+                            yAxisString='Avg. full-voting per day'
+                            data={data.map((period) => period.avg_full_voting_per_day).reverse()}
+                            />
+                        </div>
+                    </div>
+                    <div className='col-xs-4 col-md-3 chart_frame'>
+                        <div className='chart_cell'>
+                            <SimpleLineChart 
+                            title='Up-voting count'
+                            chart_id='weekly_up_voting_count' 
+                            label={label}
+                            yAxisString='dp-voting count'
+                            data={data.map((period) => period.upvcount).reverse()}
+                            />
+                        </div>
+                    </div>
+                    <div className='col-xs-4 col-md-3 chart_frame'>
+                        <div className='chart_cell'>
+                            <SimpleLineChart 
+                            title='Down-voting count'
+                            chart_id='weekly_down_voting_count' 
+                            label={label}
+                            yAxisString='down-voting count'
+                            data={data.map((period) => period.dnvcount).reverse()}
+                            />
+                        </div>
+                    </div>
+                    <div className='col-xs-4 col-md-3 chart_frame'>
+                        <div className='chart_cell'>
+                            <SimpleLineChart 
+                            title='Unique upvotee count'
+                            chart_id='weekly_unique_upvotee_count' 
+                            label={label}
+                            yAxisString='unique user count'
+                            data={data.map((period) => period.upvotee_count).reverse()}
+                            />
+                        </div>
+                    </div>
+                    <div className='col-xs-4 col-md-3 chart_frame'>
+                        <div className='chart_cell'>
+                            <SimpleLineChart 
+                            title='Unique downvotee count'
+                            chart_id='weekly_unique_downvotee_count' 
+                            label={label}
+                            yAxisString='unique user count'
+                            data={data.map((period) => period.dnvotee_count).reverse()}
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
+    weeklyPieCharts(data) {
+        return (
+            <div>
+                <div className='row'>
+                    <div className='col-xs-6 col-md-4'>
+                        <h2>Weekly Outgoing Voting</h2>
+                    </div>
+                </div>
+                <div className='row'>
+                    {data.map((period, idx) =>
+                        <div className='col-xs-6 col-md-4 chart_frame'>
+                            <div className='chart_cell'>
+                                <PieChart 
+                                chart_id={'top_votee' + idx}
+                                title={period.start_date + ' ~ ' + period.end_date}
+                                data={period.upvotee}
+                                total_vote={period.upvotee_count}
+                                />
+                            </div>
+                        </div>
+                    )}
+                    <div className='col-xs-6 col-md-4 chart_frame'>
+                        <div className='chart_cell'>
+                            <CombinedPieChart 
+                            chart_id={'top_votee_combined'}
+                            title={'Merged (outskirts: older)'}
+                            data={data.reverse()}
                             />
                         </div>
                     </div>
@@ -129,32 +306,10 @@ class OutVoting extends React.Component {
         <div className='container'>
             {this.state.data ? (
                 <div class="container-fluid">
-                    {this.accumulatedVotingTrend()}
-                    <div className='row'>
-                        <div className='col-xs-6 col-md-4'>
-                            <h2>Top Votees</h2>
-                        </div>
-                    </div>
-                    <div className='row'>
-                        {this.state.data.map((period, idx) =>
-                            <div className='col-xs-6 col-md-4' style={{width: 300, height: 300}}>
-                                <PieChart 
-                                chart_id={'top_votee' + idx}
-                                title={'Top votees for ' + period.days + ' days'}
-                                data={period.top_votee}
-                                />
-                            </div>
-                        )}
-                    </div>
-                    <div className='row'>
-                        <div className='col-xs-6 col-md-4' style={{width: 600, height: 600}}>
-                            <CombinedPieChart 
-                            chart_id={'top_votee_combined'}
-                            title={'Top votees for various days (Outside is the longest term)'}
-                            data={this.state.data.reverse()}
-                            />
-                        </div>
-                    </div>
+                    {this.weeklyVotingTrend(this.state.data.weekly)}
+                    {this.weeklyPieCharts(this.state.data.weekly)}
+                    {this.accumulatedVotingTrend(this.state.data.accumulated)}
+                    
                 </div>
             ):(
                 <div><img src="./img/spinner.gif"/></div>
@@ -192,6 +347,9 @@ class SimpleLineChart extends React.Component {
 
             // Configuration options go here
             options: {
+                legend: {
+                    display: false
+                  },
                 responsive: true,
                 maintainAspectRatio: false,
                 title:{
@@ -209,6 +367,10 @@ class SimpleLineChart extends React.Component {
                 scales: {
                     yAxes: [{
                         display: true,
+                        ticks: {
+                            beginAtZero: true,
+                            fontSize: 9
+                        },
                         scaleLabel: {
                             display: true,
                             labelString: this.props.yAxisString
@@ -217,9 +379,12 @@ class SimpleLineChart extends React.Component {
                     xAxes: [{
                         display: true,
                         scaleLabel: {
-							display: true,
+							display: this.props.xAxisString ? true : false,
 							labelString: this.props.xAxisString
-						}
+                        },
+                        ticks: {
+                            fontSize: 9
+                        }
                     }]
                 }
             }
@@ -240,7 +405,7 @@ class PieChart extends React.Component {
 
     componentDidMount() {
         var labels = this.props.data.map((votee) => votee.account);
-        labels.push('others');
+        labels.push((this.props.total_vote - this.props.data.length) + ' users');
         var data = this.props.data.map((votee) => votee.percentage.toFixed(2));
         data.push(100 - data.reduce((a, b) => parseInt(a) + parseInt(b), 0));
         var colorList = palette('tol', data.length).map((hex) => '#' + hex);
@@ -283,11 +448,10 @@ class PieChart extends React.Component {
     
     render() {
         return (
-            <canvas id={this.props.chart_id} style={{width: 300, height: 300, maxHeight: 600}}></canvas>
+            <canvas id={this.props.chart_id}></canvas>
         )
     }
 }
-
 
 class CombinedPieChart extends React.Component {
     constructor(props){
@@ -295,9 +459,9 @@ class CombinedPieChart extends React.Component {
         this.prepareForPeriod = this.prepareForPeriod.bind(this);
     }
 
-    prepareForPeriod(data) {
+    prepareForPeriod(data, total_count) {
         var labels = data.map((votee) => votee.account);
-        labels.push('others');
+        labels.push((total_count - data.length) + ' users');
         var chartData = data.map((votee) => votee.percentage.toFixed(2));
         chartData.push(100 - chartData.reduce((a, b) => parseInt(a) + parseInt(b), 0));
         var colorList = data.map((votee) => '#' + intToRGB(hashCode(votee.account)));
@@ -309,7 +473,7 @@ class CombinedPieChart extends React.Component {
         var chart = new Chart(ctx, {
 			type: 'doughnut',
 			data: {
-                datasets: this.props.data.map((period) => this.prepareForPeriod(period.top_votee)),
+                datasets: this.props.data.map((period) => this.prepareForPeriod(period.upvotee, period.upvotee_count)),
             },
 			options: {
 				responsive: true,
@@ -338,7 +502,7 @@ class CombinedPieChart extends React.Component {
     
     render() {
         return (
-            <canvas id={this.props.chart_id} style={{width: 300, height: 300, maxHeight: 600}}></canvas>
+            <canvas id={this.props.chart_id}></canvas>
         )
     }
 }
