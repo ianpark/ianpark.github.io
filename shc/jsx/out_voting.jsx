@@ -79,7 +79,7 @@ class OutVoting extends React.Component {
             <div>
                 <div className='row'>
                     <div className='col-xs-12 col-md-12'>
-                        <h2>Accoumiated Voting Trend</h2>
+                        <h2>Accumulated Voting Trend</h2>
                     </div>
                 </div>
                 <div className='row'>
