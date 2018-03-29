@@ -37,8 +37,9 @@ def calc(acc_name ,res, last_day, numdays):
     result['self_vote'] = self_rshares/all_rshares*100 if all_rshares > 0 else 0
     result['invers_simpson'] = inverse_simpson
     result['top_votee'] = []
-    for v in sorted(vtarget, key=vtarget.get, reverse=True)[0:10]:
-        result['top_votee'].append({'account': v, 'percentage': vtarget[v]/all_rshares*100, 'rshares': int(vtarget[v])})
+    if all_rshares > 0:
+        for v in sorted(vtarget, key=vtarget.get, reverse=True)[0:10]:
+            result['top_votee'].append({'account': v, 'percentage': vtarget[v]/all_rshares*100, 'rshares': int(vtarget[v])})
     return result
 
 def vote_stats(acc_name, last_day):

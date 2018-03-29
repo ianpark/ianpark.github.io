@@ -125,7 +125,7 @@ class OutVoting extends React.Component {
                             <div className='col-xs-6 col-md-4' style={{width: 300, height: 300}}>
                                 <PieChart 
                                 chart_id={'top_votee' + idx}
-                                title={'Top voters for ' + period.days + ' days'}
+                                title={'Top votees for ' + period.days + ' days'}
                                 data={period.top_votee}
                                 />
                             </div>
@@ -135,7 +135,7 @@ class OutVoting extends React.Component {
                         <div className='col-xs-6 col-md-4' style={{width: 600, height: 600}}>
                             <CombinedPieChart 
                             chart_id={'top_votee_combined'}
-                            title={'Top voters for various days (Outside is the shortest period)'}
+                            title={'Top votees for various days (Outside is the shortest period)'}
                             data={this.state.data}
                             />
                         </div>
