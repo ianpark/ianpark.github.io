@@ -101,9 +101,10 @@ html {
     padding: 60px 15px 0;
   }
   
-  .footer > .container {
+  .footer > .footer-text {
     padding-right: 15px;
     padding-left: 15px;
+    font-family: 'Quicksand', sans-serif;
   }
   
   code {
@@ -123,7 +124,27 @@ html {
     vertical-align:middle;
     display: table-cell;
     color:#cccccc;
-    font-size:18pt
+    font-size:18pt;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  div.subject-title {
+    background-color: rgb(230, 230, 230);
+    color:#666666;
+    font-size: 18pt;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 20;
+    padding-top:10;
+    padding-bottom: 10;
+  }
+
+  div.main-panel {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  div.chart-area {
+    padding-bottom: 20px;
   }
 
   /* Chart cell style */

@@ -49,7 +49,7 @@ def calculate_for_duration(acc_name ,res, last_day, numdays, index = 0):
     else:
         for v in upvtarget:
             sum_of_share_squared += (upvtarget[v] / float(plus_rshares)) ** 2
-        inverse_simpson = 1.0 / float(sum_of_share_squared)
+        inverse_simpson = round(1.0 / float(sum_of_share_squared))
 
     upvotee = []
     downvotee = []
@@ -71,12 +71,12 @@ def calculate_for_duration(acc_name ,res, last_day, numdays, index = 0):
         'sum_of_share_squared': sum_of_share_squared,
         'vcount': count,
         'inverse_simpson': inverse_simpson,
-        'avg_full_voting_per_day': all_vweight/10000/numdays,
+        'avg_full_voting_per_day': round(all_vweight/10000/numdays, 2),
         'upvcount': upvote,
         'upvotee_count': len(upvtarget),
         'dnvcount': downvote,
         'dnvotee_count': len(dnvtarget),
-        'self_vote_rate': self_rshares/plus_rshares*100 if plus_rshares > 0 else 0,
+        'self_vote_rate': round(self_rshares/plus_rshares*100 if plus_rshares > 0 else 0, 2),
         'upvotee': upvotee,
         'downvotee': downvotee
     }
