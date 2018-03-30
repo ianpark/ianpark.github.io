@@ -11,6 +11,7 @@
         <script src="./js/browser.min.js"></script>
         <script src="./js/Chart.min.js"></script>
         <script src="./js/pallete.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap/0.32.1/react-bootstrap.min.js"></script>
     </head>
     <body>
         <div class="page_header">
@@ -24,4 +25,9 @@
         </footer>         
     </body>
 </html>
-<script type="text/babel" src="./jsx/out_voting.jsx"></script>
+<script type="text/babel" src="./jsx/summary.jsx"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>

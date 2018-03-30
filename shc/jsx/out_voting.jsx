@@ -511,6 +511,10 @@ class PieChart extends React.Component {
                           return label + ': ' + value + "%";
                         }
                     }
+                },
+                onClick: (event, array) => {
+                    var index = array[0]._index;
+                    //window.open("./?user=" + labels[index]);
                 }
 			}
 		});
