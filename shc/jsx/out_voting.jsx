@@ -424,14 +424,13 @@ class OutVoting extends React.Component {
                                     <p>{user.name} ({steem.formatter.reputation(user.reputation)})</p>
                                 </span>
                                 <span className='user-status'>
-                                    <p>Current Steem Power : {currentSp.toFixed(0)}</p>
+                                    <p>Total Steem Power : {currentSp.toFixed(0)}</p>
                                     <p>Owning Steem Power : {ownSp.toFixed(0)}</p>
                                     <p>Delegated SP : {delegatedSp.toFixed(0)}</p>
                                     <p>Received Steem Power : {receivedSp.toFixed(0)}</p>
                                     <p><a href={"http://www.steemreports.com/delegation-info/?account=" + user.name} target="_blank">Check Delegation Detail</a></p>
-                                    <p><a href={"http://steemit.com/@" + user.name} target="_blank">View on steemit.com</a></p>
-                                    <p><a href={"http://steemd.com/@" + user.name} target="_blank">View on steemd.com</a></p>
-
+                                    <p>View on <a href={"http://steemit.com/@" + user.name} target="_blank">steemit</a> <a href={"http://steemd.com/@" + user.name} target="_blank">steemd</a>
+                                    </p>
                                 </span>
                             </td>
                         </tr>
