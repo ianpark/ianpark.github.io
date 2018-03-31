@@ -402,35 +402,41 @@ class OutVoting extends React.Component {
             <div>
                 <div className='row'>
                     <div className='col-xs-12 col-md-12 subject-title'>
-                        Profile
+                        Steemian Profile
                     </div>
                 </div>
-                <table>
-                    <tr>
-                        <td >
-                            <div style={{padding: 10}}>
-                                <div style={{
-                                    background: "url('" + imgPath + "') 50% 50% no-repeat",
-                                    backgroundSize: 'cover',
-                                    width: 120,
-                                    height: 120,
-                                    borderRadius: 15,
-                                }}></div>
-                            </div>
-                        </td>
-                        <td>
-                            <span className='user-name'>
-                                <p>{user.name} ({steem.formatter.reputation(user.reputation)})</p>
-                            </span>
-                            <span className='user-status'>
-                                <p>Current Steem Power : {currentSp.toFixed(0)}</p>
-                                <p>Owning Steem Power : {ownSp.toFixed(0)}</p>
-                                <p>Delegated SP : {delegatedSp.toFixed(0)}</p>
-                                <p>Received Steem Power : {receivedSp.toFixed(0)}</p>
-                            </span>
-                        </td>
-                    </tr>
-                </table>
+                <div className='user-profile-panel'>
+                    <table>
+                        <tr>
+                            <td className='user-status'>
+                                <div style={{paddingRight: 15}}>
+                                    <div style={{
+                                        background: "url('" + imgPath + "') 50% 50% no-repeat",
+                                        backgroundSize: 'cover',
+                                        width: 120,
+                                        height: 120,
+                                        borderRadius: 15,
+                                    }}></div>
+                                </div>
+                            </td>
+                            <td className='user-status'>
+                                <span className='user-name'>
+                                    <p>{user.name} ({steem.formatter.reputation(user.reputation)})</p>
+                                </span>
+                                <span className='user-status'>
+                                    <p>Current Steem Power : {currentSp.toFixed(0)}</p>
+                                    <p>Owning Steem Power : {ownSp.toFixed(0)}</p>
+                                    <p>Delegated SP : {delegatedSp.toFixed(0)}</p>
+                                    <p>Received Steem Power : {receivedSp.toFixed(0)}</p>
+                                    <p><a href={"http://www.steemreports.com/delegation-info/?account=" + user.name} target="_blank">Check Delegation Detail</a></p>
+                                    <p><a href={"http://steemit.com/@" + user.name} target="_blank">View on steemit.com</a></p>
+                                    <p><a href={"http://steemd.com/@" + user.name} target="_blank">View on steemd.com</a></p>
+
+                                </span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         )
     }

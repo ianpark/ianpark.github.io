@@ -83,7 +83,7 @@ html {
     height: 60px;
     background-color: #363636;
     text-align: left;
-    vertical-align:middle;
+    vertical-align: middle;
     display: table-cell;
     color:#cccccc;
     font-size:18pt;
@@ -108,6 +108,10 @@ html {
   div.main-panel {
     padding-right: 15px;
     padding-left: 15px;
+  }
+
+  div.user-profile-panel {
+    padding: 15px;
   }
 
   div.chart-area {
@@ -136,12 +140,16 @@ html {
     /* User Profile */
     span.user-name {
         color: #666666;
-        font-family: 'Arial', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: 700;
-        font-size: 10pt;
+        font-size: 14pt;
     }
     span.user-status {
         color: #666666;
         font-family: 'Roboto', sans-serif;
         font-size: 10pt;
+    }
+
+    td.user-status {
+        vertical-align: top;
     }
