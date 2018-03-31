@@ -41,6 +41,8 @@ class OutVoting extends React.Component {
         this.accumulatedVotingTrend = this.accumulatedVotingTrend.bind(this);
         this.weeklyVotingTrend = this.weeklyVotingTrend.bind(this);
         this.weeklyPieCharts = this.weeklyPieCharts.bind(this);
+        this.processUser = this.processUser.bind(this);
+        this.userProfile = this.userProfile.bind(this);
     }
 
     componentDidMount() {
@@ -79,8 +81,27 @@ class OutVoting extends React.Component {
         }
     }
 
+    processUser() {
+        document.location.href = './?user=' + this.userId.value;
+    }
+
     showInputForm() {
-        return (<div>Input</div>);
+        return (
+            <div>
+                <div className='main-panel' style={{paddingTop: 10}}>
+                    <div className="input-group input-group-lg" role="group">
+                        <span className="input-group-addon" id="sizing-addon1">@</span>
+                        <input type="input" ref={(input) => { this.userId = input; }} className="form-control" id="user_id" placeholder="Steemit ID here" defaultValue={this.state.userId}/>
+                        <span className="input-group-btn">
+                            <button className="btn btn-primary"
+                                    onClick={this.processUser}>
+                                    Go
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        );
     }
 
     accumulatedVotingTrend(data) {
@@ -363,6 +384,57 @@ class OutVoting extends React.Component {
         }
     }
 
+    userProfile() {
+        var user = this.state.data.account;
+        var imgPath = "https://steemitimages.com/DQmb3WFxzxYHEdzB7JPC4vVbWFoLqv4ZTPddbS5mjZXPYBv/default1.jpg";
+        
+        if (user.json_metadata) {
+            var jsonMetadata = JSON.parse(user['json_metadata']);
+            imgPath = "https://steemitimages.com/240x240/" + jsonMetadata.profile.profile_image;
+        }
+       
+        var ownSp = tools.vestToSp(user.vesting_shares);
+        var delegatedSp = tools.vestToSp(user.delegated_vesting_shares);
+        var receivedSp = tools.vestToSp(user.received_vesting_shares);
+        var currentSp = (ownSp - delegatedSp + receivedSp);
+        
+        return (
+            <div>
+                <div className='row'>
+                    <div className='col-xs-12 col-md-12 subject-title'>
+                        Profile
+                    </div>
+                </div>
+                <table>
+                    <tr>
+                        <td >
+                            <div style={{padding: 10}}>
+                                <div style={{
+                                    background: "url('" + imgPath + "') 50% 50% no-repeat",
+                                    backgroundSize: 'cover',
+                                    width: 120,
+                                    height: 120,
+                                    borderRadius: 15,
+                                }}></div>
+                            </div>
+                        </td>
+                        <td>
+                            <span className='user-name'>
+                                <p>{user.name} ({steem.formatter.reputation(user.reputation)})</p>
+                            </span>
+                            <span className='user-status'>
+                                <p>Current Steem Power : {currentSp.toFixed(0)}</p>
+                                <p>Owning Steem Power : {ownSp.toFixed(0)}</p>
+                                <p>Delegated SP : {delegatedSp.toFixed(0)}</p>
+                                <p>Received Steem Power : {receivedSp.toFixed(0)}</p>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        )
+    }
+
     showResult() {
         if (!this.state.errorMessage) {
             return (
@@ -370,6 +442,7 @@ class OutVoting extends React.Component {
             {this.state.dataReady ?
                 this.state.data ? (
                     <div class="container-fluid">
+                        {this.userProfile()}
                         {this.weeklyVotingTrend(this.state.data.weekly)}
                         {this.weeklyPieCharts(this.state.data.weekly)}
                         {this.accumulatedVotingTrend(this.state.data.accumulated)}
@@ -383,7 +456,8 @@ class OutVoting extends React.Component {
             )}
             </div>);
         } else {
-            return (<div>{this.state.errorMessage.toString()}</div>)
+            console.log(this.state.errorMessage);
+            return (<div className='main-panel'>Not analyzed user.</div>)
         }
     }
 

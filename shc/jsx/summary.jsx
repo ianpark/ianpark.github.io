@@ -1,3 +1,24 @@
+var sorter = {
+    byName : function(a,b) {
+        return a.userid.localeCompare(b.userid);
+    },
+    bySP : function(a,b) {
+        return (b.sp - b.delegated_sp + b.received_sp) - (a.sp - a.delegated_sp + a.received_sp);
+    },
+    byRshare : function(a,b) {
+        return b.acc_rshare[4] - a.acc_rshare[4];
+    },
+    byIS : function(a,b) {
+        return b.acc_is[4]- a.acc_is[4];
+    },
+    bySelfVote : function(a,b) {
+        return b.acc_selfvote_rate[4] - a.acc_selfvote_rate[4];
+    },
+    byDailyFullVote: function(a,b) {
+        return b.acc_avg_fullvote_day[4] - a.acc_avg_fullvote_day[4];
+    }
+};
+
 class Summary extends React.Component {
     constructor(props) {
         super(props);
@@ -10,6 +31,7 @@ class Summary extends React.Component {
         this.getDataUrl = this.getDataUrl.bind(this);
         this.showSummary = this.showSummary.bind(this);
         this.showOperationPage = this.showOperationPage.bind(this);
+        this.sortData = this.sortData.bind(this);
     }
 
     componentDidMount() {
@@ -44,33 +66,42 @@ class Summary extends React.Component {
         });
     }
 
+    sortData(sorter) {
+        this.state.data.sort(sorter);
+        this.setState({data: this.state.data});
+    }
+
     showSummary() {
         return (
             <div>
                 <div className='subject-title'>
-                    Rank
+                    Dive Deep - 90 days accumulated
                 </div>
                 <div className='main-panel'>
                     <table className="table table-sm table-hover">
                         <thead>
                             <tr>
-                                <th>Name</th>
-                                <th>Steem Power</th>
-                                <th>Inverse Simpson</th>
-                                <th>Self Vote</th>
-                                <th>Daily Full Vote</th>
+                                <th><span className="item_name" onClick={() => this.sortData(sorter.byName)}>Name</span></th>
+                                <th><span className="item_name" onClick={() => this.sortData(sorter.bySP)}>SP</span></th>
+                                <th><span className="item_name" onClick={() => this.sortData(sorter.byRshare)}>Used Rshare</span></th>
+                                <th><span className="item_name" onClick={() => this.sortData(sorter.byIS)}>Inverse Simpson</span></th>
+                                <th><span className="item_name" onClick={() => this.sortData(sorter.bySelfVote)}>Self Vote</span></th>
+                                <th><span className="item_name" onClick={() => this.sortData(sorter.byDailyFullVote)}>Daily Full Vote</span></th>
                             </tr>
                         </thead>
                         <tbody>
-                        {this.state.data.map((user) => (
-                            <tr>
-                                <td><a href={"./?user=" + user.userid}>{user.userid}</a></td>
-                                <td title={user.sp + " + " + user.received_sp + " - " +user.delegated_sp}>{user.sp - user.delegated_sp + user.received_sp}</td>
-                                <td>{user.acc_is[4]}</td>
-                                <td>{user.acc_selfvote_rate[4]}</td>
-                                <td>{user.acc_avg_fullvote_day[4]}</td>
-                            </tr>
-                        ))}
+                        {this.state.data.map((user) => {
+                            return (
+                                <tr>
+                                    <td><a href={"./?user=" + user.userid}>{user.userid}</a></td>
+                                    <td title={user.sp + " + " + user.received_sp + " - " +user.delegated_sp}>{user.sp - user.delegated_sp + user.received_sp}</td>
+                                    <td>{tools.shortenNumber(user.acc_rshare[4], 2)}</td>
+                                    <td>{user.acc_is[4]}</td>
+                                    <td>{user.acc_selfvote_rate[4]}</td>
+                                    <td>{user.acc_avg_fullvote_day[4]}</td>
+                                </tr>
+                            );
+                        })}
                         </tbody>
                     </table>
                 </div>

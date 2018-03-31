@@ -70,7 +70,7 @@ def calculate_for_duration(acc_name ,res, last_day, numdays, index = 0):
         'days': numdays,
         'all_vweight': all_vweight,
         'plus_rshares': plus_rshares,
-        'minus_rshares': plus_rshares,
+        'minus_rshares': minus_rshares,
         'self_rshares': self_rshares,
         'sum_of_share_squared': sum_of_share_squared,
         'vcount': count,
@@ -142,7 +142,7 @@ def summary(path):
     files = glob.glob(path + '/*.json')
     result = []
     for file in files:
-        if file.endswith('__summary.json'):
+        if file.endswith('0_summary.json'):
             continue
         data = read_json(file)
         account = data['account']
@@ -152,6 +152,7 @@ def summary(path):
                 'sp': vestToSp(account['vesting_shares']),
                 'delegated_sp': vestToSp(account['delegated_vesting_shares']),
                 'received_sp': vestToSp(account['received_vesting_shares']),
+                'acc_rshare': [item['plus_rshares'] for item in data['accumulated']],
                 'acc_is': [item['inverse_simpson'] for item in data['accumulated']],
                 'acc_avg_fullvote_day': [item['avg_full_voting_per_day'] for item in data['accumulated']],
                 'acc_selfvote_rate': [item['self_vote_rate'] for item in data['accumulated']],
@@ -162,7 +163,7 @@ def summary(path):
         )
     # Order by acc_is 90 days
     result = sorted(result, key=lambda k: k['acc_is'][-1], reverse=True)
-    with open(path + '/__summary.json', 'w') as fp:
+    with open(path + '/0_summary.json', 'w') as fp:
         json.dump(result, fp)
     print('Summary out is generated')
     
