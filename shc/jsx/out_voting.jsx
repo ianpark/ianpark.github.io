@@ -674,7 +674,7 @@ var sorter = {
         return b.acc_rshare[4] - a.acc_rshare[4];
     },
     byIS : function(a,b) {
-        return b.acc_is[4]- a.acc_is[4];
+        return a.acc_is[4] - b.acc_is[4];
     },
     bySelfVote : function(a,b) {
         return b.acc_selfvote_rate[4] - a.acc_selfvote_rate[4];
@@ -744,16 +744,15 @@ class Summary extends React.Component {
                 </div>
                 <div style={{padding: 10}}>
                     <div className="alert alert-warning" role="alert">
-                    Users listed below are selected for pre-diagnose with the filtering options:<br/>
-                        - Received or original STEEM POWER is over 10,000<br/>
-                        - Posted with kr tag at least once<br/>
-                    <br/>
-                    <b>SP:</b> Holding STEEM POWER<br/>
-                    <b>Used Rshare:</b> Total rshare the user spend for the last 90 days<br/>
-                    <b>Inverse Simpson:</b> Voting diversity index for the last 90 days<br/>
-                    <b>Self Vote:</b> Percentage of self voting for the last 90 days<br/>
-                    <b>Daily Full Vote:</b> Avarage daily full voting for the last 90 days. 1 = 10,000 weight<br/>
-
+                        Users listed below are selected for pre-diagnose with the filtering options:<br/>
+                            - Received or original STEEM POWER is over 10,000<br/>
+                            - Posted with kr tag at least once<br/>
+                        <br/>
+                        <b>SP:</b> Holding STEEM POWER (owning + receiving - delegating)<br/>
+                        <b>Used Rshare:</b> Total rshare the user spend for the last 90 days<br/>
+                        <b>Inverse Simpson:</b> Voting diversity index for the last 90 days. If this value is too low, the user could have been abusing.<br/>
+                        <b>Self Vote:</b> Percentage of self voting for the last 90 days<br/>
+                        <b>Daily Full Vote:</b> Avarage daily full voting for the last 90 days. 1 unit = 10,000 voting weight<br/>
                     </div>
                 </div>
                 <div className='main-panel'>

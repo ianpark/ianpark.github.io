@@ -162,7 +162,7 @@ def summary(path):
             }
         )
     # Order by acc_is 90 days
-    result = sorted(result, key=lambda k: k['acc_is'][-1], reverse=True)
+    result = sorted(result, key=lambda k: k['sp'] + k['received_sp'] - k['delegated_sp'], reverse=True)
     with open(path + '/0_summary.json', 'w') as fp:
         json.dump(result, fp)
     print('Summary out is generated')

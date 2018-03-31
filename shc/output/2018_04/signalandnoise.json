@@ -1,12 +1,12 @@
 {
     "accumulated": [
         {
-            "start_date": "2018-03-23",
-            "end_date": "2018-03-30",
+            "start_date": "2018-03-24",
+            "end_date": "2018-03-31",
             "days": 7,
             "all_vweight": 10000.0,
             "plus_rshares": 3106725124597.0,
-            "minus_rshares": 3106725124597.0,
+            "minus_rshares": 0,
             "self_rshares": 0,
             "sum_of_share_squared": 1.0,
             "vcount": 1,
@@ -27,12 +27,12 @@
             "downvotee": []
         },
         {
-            "start_date": "2018-03-16",
-            "end_date": "2018-03-30",
+            "start_date": "2018-03-17",
+            "end_date": "2018-03-31",
             "days": 14,
             "all_vweight": 274600.0,
             "plus_rshares": 78089643762237.0,
-            "minus_rshares": 78089643762237.0,
+            "minus_rshares": 0,
             "self_rshares": 0,
             "sum_of_share_squared": 0.021598354900199877,
             "vcount": 51,
@@ -98,89 +98,89 @@
             "downvotee": []
         },
         {
-            "start_date": "2018-02-28",
-            "end_date": "2018-03-30",
+            "start_date": "2018-03-01",
+            "end_date": "2018-03-31",
             "days": 30,
-            "all_vweight": 1320500.0,
-            "plus_rshares": 357990135219846.0,
-            "minus_rshares": 357990135219846.0,
+            "all_vweight": 1033500.0,
+            "plus_rshares": 287710572717075.0,
+            "minus_rshares": 0,
             "self_rshares": 0,
-            "sum_of_share_squared": 0.0052758985197610825,
-            "vcount": 235,
-            "inverse_simpson": 190,
-            "avg_full_voting_per_day": 4.4,
-            "upvcount": 235,
-            "upvotee_count": 226,
+            "sum_of_share_squared": 0.006493488951403152,
+            "vcount": 185,
+            "inverse_simpson": 154,
+            "avg_full_voting_per_day": 3.44,
+            "upvcount": 185,
+            "upvotee_count": 180,
             "dnvcount": 0,
             "dnvotee_count": 0,
             "self_vote_rate": 0.0,
             "upvotee": [
                 {
                     "account": "nomorebet",
-                    "percentage": 1.7,
+                    "percentage": 2.12,
                     "rshares": 6097994630609
                 },
                 {
-                    "account": "sunsallo",
-                    "percentage": 1.36,
-                    "rshares": 4872112100376
-                },
-                {
-                    "account": "creamer7",
-                    "percentage": 1.32,
-                    "rshares": 4732245538955
-                },
-                {
                     "account": "musicholic",
-                    "percentage": 1.21,
+                    "percentage": 1.5,
                     "rshares": 4329370943534
                 },
                 {
                     "account": "noctisk",
-                    "percentage": 1.12,
+                    "percentage": 1.39,
                     "rshares": 4003175711145
                 },
                 {
-                    "account": "hwa2ting",
-                    "percentage": 1.07,
-                    "rshares": 3817012523343
-                },
-                {
-                    "account": "coolzero",
-                    "percentage": 0.94,
-                    "rshares": 3368000392770
-                },
-                {
                     "account": "yungonkim",
-                    "percentage": 0.87,
+                    "percentage": 1.08,
                     "rshares": 3106725124597
                 },
                 {
                     "account": "shiho",
-                    "percentage": 0.87,
+                    "percentage": 1.08,
                     "rshares": 3106725124597
                 },
                 {
-                    "account": "hanyeol",
-                    "percentage": 0.87,
+                    "account": "sunsallo",
+                    "percentage": 1.08,
                     "rshares": 3103491715795
+                },
+                {
+                    "account": "hanyeol",
+                    "percentage": 1.08,
+                    "rshares": 3103491715795
+                },
+                {
+                    "account": "lklab2013",
+                    "percentage": 1.08,
+                    "rshares": 3103491715795
+                },
+                {
+                    "account": "letsgobjones",
+                    "percentage": 1.08,
+                    "rshares": 3103111828823
+                },
+                {
+                    "account": "eosys",
+                    "percentage": 1.08,
+                    "rshares": 3103111828823
                 }
             ],
             "downvotee": []
         },
         {
-            "start_date": "2018-01-29",
-            "end_date": "2018-03-30",
+            "start_date": "2018-01-30",
+            "end_date": "2018-03-31",
             "days": 60,
-            "all_vweight": 1983800.0,
-            "plus_rshares": 515031195160747.0,
-            "minus_rshares": 515031195160747.0,
+            "all_vweight": 1973800.0,
+            "plus_rshares": 512725343247493.0,
+            "minus_rshares": 0,
             "self_rshares": 1896400356643.0,
-            "sum_of_share_squared": 0.006252233220381659,
-            "vcount": 304,
+            "sum_of_share_squared": 0.006255268820464291,
+            "vcount": 303,
             "inverse_simpson": 160,
-            "avg_full_voting_per_day": 3.31,
-            "upvcount": 304,
+            "avg_full_voting_per_day": 3.29,
+            "upvcount": 303,
             "upvotee_count": 267,
             "dnvcount": 0,
             "dnvotee_count": 0,
@@ -188,42 +188,42 @@
             "upvotee": [
                 {
                     "account": "granturismo",
-                    "percentage": 2.74,
+                    "percentage": 2.75,
                     "rshares": 14097444189336
                 },
                 {
                     "account": "nomorebet",
-                    "percentage": 2.6,
+                    "percentage": 2.61,
                     "rshares": 13404097346307
                 },
                 {
                     "account": "sunsallo",
-                    "percentage": 1.89,
+                    "percentage": 1.9,
                     "rshares": 9748089213805
                 },
                 {
                     "account": "musicholic",
-                    "percentage": 1.89,
+                    "percentage": 1.9,
                     "rshares": 9737550724874
                 },
                 {
                     "account": "noctisk",
-                    "percentage": 1.59,
+                    "percentage": 1.6,
                     "rshares": 8178329167135
                 },
                 {
                     "account": "koreancrypter",
-                    "percentage": 1.46,
+                    "percentage": 1.47,
                     "rshares": 7530378832384
                 },
                 {
                     "account": "morning",
-                    "percentage": 1.18,
+                    "percentage": 1.19,
                     "rshares": 6098652626540
                 },
                 {
                     "account": "segyepark",
-                    "percentage": 1.05,
+                    "percentage": 1.06,
                     "rshares": 5410041884665
                 },
                 {
@@ -233,78 +233,78 @@
                 },
                 {
                     "account": "project7",
-                    "percentage": 1.0,
+                    "percentage": 1.01,
                     "rshares": 5175667423535
                 }
             ],
             "downvotee": []
         },
         {
-            "start_date": "2017-12-30",
-            "end_date": "2018-03-30",
+            "start_date": "2017-12-31",
+            "end_date": "2018-03-31",
             "days": 90,
-            "all_vweight": 2994600.0,
-            "plus_rshares": 740226808959657.0,
-            "minus_rshares": 740226808959657.0,
+            "all_vweight": 2954600.0,
+            "plus_rshares": 731393403413739.0,
+            "minus_rshares": 0,
             "self_rshares": 1896400356643.0,
-            "sum_of_share_squared": 0.005843162997220101,
-            "vcount": 407,
-            "inverse_simpson": 171,
-            "avg_full_voting_per_day": 3.33,
-            "upvcount": 407,
-            "upvotee_count": 327,
+            "sum_of_share_squared": 0.005827704583170603,
+            "vcount": 403,
+            "inverse_simpson": 172,
+            "avg_full_voting_per_day": 3.28,
+            "upvcount": 403,
+            "upvotee_count": 325,
             "dnvcount": 0,
             "dnvotee_count": 0,
             "self_vote_rate": 0.26,
             "upvotee": [
                 {
                     "account": "sunsallo",
-                    "percentage": 2.46,
+                    "percentage": 2.49,
                     "rshares": 18216957730247
                 },
                 {
-                    "account": "noctisk",
-                    "percentage": 2.0,
-                    "rshares": 14782088326372
-                },
-                {
                     "account": "granturismo",
-                    "percentage": 1.9,
+                    "percentage": 1.93,
                     "rshares": 14097444189336
                 },
                 {
                     "account": "nomorebet",
-                    "percentage": 1.81,
+                    "percentage": 1.83,
                     "rshares": 13404097346307
                 },
                 {
                     "account": "morning",
-                    "percentage": 1.71,
+                    "percentage": 1.73,
                     "rshares": 12630064344594
                 },
                 {
+                    "account": "noctisk",
+                    "percentage": 1.71,
+                    "rshares": 12520012642398
+                },
+                {
                     "account": "project7",
-                    "percentage": 1.62,
+                    "percentage": 1.64,
                     "rshares": 11963886490246
                 },
                 {
                     "account": "koreancrypter",
-                    "percentage": 1.32,
+                    "percentage": 1.33,
                     "rshares": 9755076878178
                 },
                 {
                     "account": "musicholic",
-                    "percentage": 1.32,
+                    "percentage": 1.33,
                     "rshares": 9737550724874
                 },
                 {
                     "account": "pius.pius",
-                    "percentage": 1.26,
+                    "percentage": 1.28,
                     "rshares": 9342200970161
                 },
                 {
                     "account": "starjuno",
-                    "percentage": 1.23,
+                    "percentage": 1.25,
                     "rshares": 9135084388337
                 }
             ],
@@ -313,12 +313,12 @@
     ],
     "weekly": [
         {
-            "start_date": "2018-03-23",
-            "end_date": "2018-03-30",
+            "start_date": "2018-03-24",
+            "end_date": "2018-03-31",
             "days": 7,
             "all_vweight": 10000.0,
             "plus_rshares": 3106725124597.0,
-            "minus_rshares": 3106725124597.0,
+            "minus_rshares": 0,
             "self_rshares": 0,
             "sum_of_share_squared": 1.0,
             "vcount": 1,
@@ -339,12 +339,12 @@
             "downvotee": []
         },
         {
-            "start_date": "2018-03-16",
-            "end_date": "2018-03-23",
+            "start_date": "2018-03-17",
+            "end_date": "2018-03-24",
             "days": 7,
             "all_vweight": 264600.0,
             "plus_rshares": 74982918637640.0,
-            "minus_rshares": 74982918637640.0,
+            "minus_rshares": 0,
             "self_rshares": 0,
             "sum_of_share_squared": 0.021708529733044952,
             "vcount": 50,
@@ -410,341 +410,341 @@
             "downvotee": []
         },
         {
-            "start_date": "2018-03-09",
-            "end_date": "2018-03-16",
+            "start_date": "2018-03-10",
+            "end_date": "2018-03-17",
             "days": 7,
-            "all_vweight": 337400.0,
-            "plus_rshares": 95079606678895.0,
-            "minus_rshares": 95079606678895.0,
+            "all_vweight": 184800.0,
+            "plus_rshares": 52980741554132.0,
+            "minus_rshares": 0,
             "self_rshares": 0,
-            "sum_of_share_squared": 0.01927675891290522,
-            "vcount": 60,
-            "inverse_simpson": 52,
-            "avg_full_voting_per_day": 4.82,
-            "upvcount": 60,
-            "upvotee_count": 59,
+            "sum_of_share_squared": 0.03482958355003504,
+            "vcount": 32,
+            "inverse_simpson": 29,
+            "avg_full_voting_per_day": 2.64,
+            "upvcount": 32,
+            "upvotee_count": 32,
             "dnvcount": 0,
             "dnvotee_count": 0,
             "self_vote_rate": 0.0,
             "upvotee": [
                 {
                     "account": "musicholic",
-                    "percentage": 4.55,
-                    "rshares": 4329370943534
+                    "percentage": 5.86,
+                    "rshares": 3103491715795
                 },
                 {
                     "account": "nomorebet",
-                    "percentage": 3.26,
+                    "percentage": 5.86,
                     "rshares": 3103491715795
                 },
                 {
                     "account": "sunsallo",
-                    "percentage": 3.26,
+                    "percentage": 5.86,
                     "rshares": 3103491715795
                 },
                 {
                     "account": "hanyeol",
-                    "percentage": 3.26,
+                    "percentage": 5.86,
                     "rshares": 3103491715795
-                },
-                {
-                    "account": "lklab2013",
-                    "percentage": 3.26,
-                    "rshares": 3103491715795
-                },
-                {
-                    "account": "hanwoo",
-                    "percentage": 3.2,
-                    "rshares": 3041421881480
                 },
                 {
                     "account": "wansoon16",
-                    "percentage": 1.99,
+                    "percentage": 3.57,
                     "rshares": 1893129946635
                 },
                 {
                     "account": "coolzero",
-                    "percentage": 1.67,
+                    "percentage": 2.99,
                     "rshares": 1583865794289
                 },
                 {
                     "account": "sonki999",
-                    "percentage": 1.67,
+                    "percentage": 2.99,
                     "rshares": 1583865794289
                 },
                 {
                     "account": "davidike",
-                    "percentage": 1.66,
+                    "percentage": 2.99,
                     "rshares": 1582780775055
+                },
+                {
+                    "account": "eric.broster",
+                    "percentage": 2.96,
+                    "rshares": 1567263316476
+                },
+                {
+                    "account": "rinis",
+                    "percentage": 2.93,
+                    "rshares": 1551745857897
                 }
             ],
             "downvotee": []
         },
         {
-            "start_date": "2018-03-02",
-            "end_date": "2018-03-09",
+            "start_date": "2018-03-03",
+            "end_date": "2018-03-10",
             "days": 7,
-            "all_vweight": 421500.0,
-            "plus_rshares": 114541322275943.0,
-            "minus_rshares": 114541322275943.0,
+            "all_vweight": 477600.0,
+            "plus_rshares": 131458434909811.0,
+            "minus_rshares": 0,
             "self_rshares": 0,
-            "sum_of_share_squared": 0.0156823735033025,
-            "vcount": 74,
-            "inverse_simpson": 64,
-            "avg_full_voting_per_day": 6.02,
-            "upvcount": 74,
-            "upvotee_count": 73,
+            "sum_of_share_squared": 0.01354094310504894,
+            "vcount": 85,
+            "inverse_simpson": 74,
+            "avg_full_voting_per_day": 6.82,
+            "upvcount": 85,
+            "upvotee_count": 83,
             "dnvcount": 0,
             "dnvotee_count": 0,
             "self_vote_rate": 0.0,
             "upvotee": [
                 {
-                    "account": "noctisk",
-                    "percentage": 3.49,
-                    "rshares": 4003175711145
+                    "account": "lklab2013",
+                    "percentage": 2.36,
+                    "rshares": 3103491715795
                 },
                 {
                     "account": "letsgobjones",
-                    "percentage": 2.71,
+                    "percentage": 2.36,
                     "rshares": 3103111828823
                 },
                 {
                     "account": "eosys",
-                    "percentage": 2.71,
+                    "percentage": 2.36,
                     "rshares": 3103111828823
                 },
                 {
+                    "account": "hanwoo",
+                    "percentage": 2.31,
+                    "rshares": 3041421881480
+                },
+                {
                     "account": "muhammadaqsha",
-                    "percentage": 2.65,
+                    "percentage": 2.31,
                     "rshares": 3041049592247
                 },
                 {
                     "account": "seungjae1012",
-                    "percentage": 2.64,
+                    "percentage": 2.3,
                     "rshares": 3025534033102
                 },
                 {
                     "account": "indrake6",
-                    "percentage": 2.61,
+                    "percentage": 2.28,
                     "rshares": 2994502914814
                 },
                 {
                     "account": "nomorebet",
-                    "percentage": 2.61,
+                    "percentage": 2.28,
                     "rshares": 2994502914814
                 },
                 {
                     "account": "koreancrypter",
-                    "percentage": 2.59,
+                    "percentage": 2.25,
                     "rshares": 2963471796526
                 },
                 {
-                    "account": "creamer7",
-                    "percentage": 2.38,
-                    "rshares": 2730738409364
-                },
-                {
-                    "account": "sqrible",
-                    "percentage": 1.38,
-                    "rshares": 1582780775055
+                    "account": "michia",
+                    "percentage": 2.2,
+                    "rshares": 2886068748813
                 }
             ],
             "downvotee": []
         },
         {
-            "start_date": "2018-02-23",
-            "end_date": "2018-03-02",
+            "start_date": "2018-02-24",
+            "end_date": "2018-03-03",
             "days": 7,
-            "all_vweight": 387000.0,
-            "plus_rshares": 100097881618262.0,
-            "minus_rshares": 100097881618262.0,
+            "all_vweight": 473500.0,
+            "plus_rshares": 122176791329189.0,
+            "minus_rshares": 0,
             "self_rshares": 0,
-            "sum_of_share_squared": 0.020405297816775247,
-            "vcount": 60,
-            "inverse_simpson": 49,
-            "avg_full_voting_per_day": 5.53,
-            "upvcount": 60,
-            "upvotee_count": 59,
+            "sum_of_share_squared": 0.01651460596835476,
+            "vcount": 76,
+            "inverse_simpson": 61,
+            "avg_full_voting_per_day": 6.76,
+            "upvcount": 76,
+            "upvotee_count": 74,
             "dnvcount": 0,
             "dnvotee_count": 0,
             "self_vote_rate": 0.0,
             "upvotee": [
                 {
                     "account": "sunsallo",
-                    "percentage": 4.87,
+                    "percentage": 3.99,
                     "rshares": 4871463164549
                 },
                 {
+                    "account": "creamer7",
+                    "percentage": 3.87,
+                    "rshares": 4732245538955
+                },
+                {
                     "account": "airbud23",
-                    "percentage": 3.1,
+                    "percentage": 2.54,
                     "rshares": 3102842779968
                 },
                 {
                     "account": "gochuchamchi",
-                    "percentage": 3.1,
+                    "percentage": 2.54,
                     "rshares": 3102842779968
                 },
                 {
                     "account": "granturismo",
-                    "percentage": 3.1,
-                    "rshares": 3102842779968
-                },
-                {
-                    "account": "segyepark",
-                    "percentage": 3.1,
+                    "percentage": 2.54,
                     "rshares": 3102842779968
                 },
                 {
                     "account": "sodaui",
-                    "percentage": 3.04,
+                    "percentage": 2.49,
                     "rshares": 3040785924368
                 },
                 {
                     "account": "wony",
-                    "percentage": 2.99,
+                    "percentage": 2.45,
                     "rshares": 2994243282669
                 },
                 {
                     "account": "tea.leaf",
-                    "percentage": 2.93,
+                    "percentage": 2.4,
                     "rshares": 2932186427070
                 },
                 {
                     "account": "ludorum",
-                    "percentage": 2.87,
+                    "percentage": 2.35,
                     "rshares": 2870129571470
                 },
                 {
                     "account": "pius.pius",
-                    "percentage": 2.81,
+                    "percentage": 2.3,
                     "rshares": 2808072715871
                 }
             ],
             "downvotee": []
         },
         {
-            "start_date": "2018-02-16",
-            "end_date": "2018-02-23",
+            "start_date": "2018-02-17",
+            "end_date": "2018-02-24",
             "days": 7,
-            "all_vweight": 70000.0,
-            "plus_rshares": 20879846901829.0,
-            "minus_rshares": 20879846901829.0,
+            "all_vweight": 80000.0,
+            "plus_rshares": 23982689681797.0,
+            "minus_rshares": 0,
             "self_rshares": 0,
-            "sum_of_share_squared": 0.14302903987159143,
-            "vcount": 7,
-            "inverse_simpson": 7,
-            "avg_full_voting_per_day": 1.0,
-            "upvcount": 7,
-            "upvotee_count": 7,
+            "sum_of_share_squared": 0.12515220415908646,
+            "vcount": 8,
+            "inverse_simpson": 8,
+            "avg_full_voting_per_day": 1.14,
+            "upvcount": 8,
+            "upvotee_count": 8,
             "dnvcount": 0,
             "dnvotee_count": 0,
             "self_vote_rate": 0.0,
             "upvotee": [
                 {
+                    "account": "segyepark",
+                    "percentage": 12.94,
+                    "rshares": 3102842779968
+                },
+                {
                     "account": "granturismo",
-                    "percentage": 14.86,
+                    "percentage": 12.94,
                     "rshares": 3102503254358
                 },
                 {
                     "account": "nomorebet",
-                    "percentage": 14.86,
+                    "percentage": 12.94,
                     "rshares": 3102503254358
                 },
                 {
                     "account": "nuhorizon",
-                    "percentage": 14.64,
+                    "percentage": 12.74,
                     "rshares": 3055965705543
                 },
                 {
                     "account": "eternalight",
-                    "percentage": 14.34,
+                    "percentage": 12.48,
                     "rshares": 2993915640455
                 },
                 {
                     "account": "easydimes",
-                    "percentage": 14.04,
+                    "percentage": 12.22,
                     "rshares": 2931865575368
                 },
                 {
                     "account": "project7",
-                    "percentage": 13.74,
+                    "percentage": 11.97,
                     "rshares": 2869815510281
                 },
                 {
                     "account": "cocacola40",
-                    "percentage": 13.52,
+                    "percentage": 11.77,
                     "rshares": 2823277961466
                 }
             ],
             "downvotee": []
         },
         {
-            "start_date": "2018-02-09",
-            "end_date": "2018-02-16",
+            "start_date": "2018-02-10",
+            "end_date": "2018-02-17",
             "days": 7,
-            "all_vweight": 140000.0,
-            "plus_rshares": 30040079929819.0,
-            "minus_rshares": 30040079929819.0,
-            "self_rshares": 1896400356643.0,
-            "sum_of_share_squared": 0.08832807794616777,
-            "vcount": 14,
-            "inverse_simpson": 11,
-            "avg_full_voting_per_day": 2.0,
-            "upvcount": 14,
-            "upvotee_count": 13,
+            "all_vweight": 90000.0,
+            "plus_rshares": 20652898164437.0,
+            "minus_rshares": 0,
+            "self_rshares": 0,
+            "sum_of_share_squared": 0.11796996448890443,
+            "vcount": 9,
+            "inverse_simpson": 8,
+            "avg_full_voting_per_day": 1.29,
+            "upvcount": 9,
+            "upvotee_count": 9,
             "dnvcount": 0,
             "dnvotee_count": 0,
-            "self_vote_rate": 6.31,
+            "self_vote_rate": 0.0,
             "upvotee": [
                 {
-                    "account": "yguhan",
-                    "percentage": 16.64,
-                    "rshares": 4997381033286
+                    "account": "morrisonseo",
+                    "percentage": 15.01,
+                    "rshares": 3100980676643
                 },
                 {
-                    "account": "morrisonseo",
-                    "percentage": 10.32,
+                    "account": "yguhan",
+                    "percentage": 15.01,
                     "rshares": 3100980676643
                 },
                 {
                     "account": "musicholic",
-                    "percentage": 10.32,
+                    "percentage": 15.01,
                     "rshares": 3100980676643
                 },
                 {
                     "account": "indend007",
-                    "percentage": 6.31,
+                    "percentage": 9.18,
                     "rshares": 1896400356643
                 },
                 {
                     "account": "morning",
-                    "percentage": 6.31,
+                    "percentage": 9.18,
                     "rshares": 1896400356643
                 },
                 {
                     "account": "nomorebet",
-                    "percentage": 6.31,
+                    "percentage": 9.18,
                     "rshares": 1896400356643
                 },
                 {
                     "account": "granturismo",
-                    "percentage": 6.31,
+                    "percentage": 9.18,
                     "rshares": 1896400356643
                 },
                 {
                     "account": "sports-bong",
-                    "percentage": 6.31,
+                    "percentage": 9.18,
                     "rshares": 1896400356643
                 },
                 {
-                    "account": "lynxit",
-                    "percentage": 6.31,
-                    "rshares": 1896400356643
-                },
-                {
-                    "account": "signalandnoise",
-                    "percentage": 6.31,
-                    "rshares": 1896400356643
+                    "account": "callihappiness",
+                    "percentage": 9.04,
+                    "rshares": 1867954351293
                 }
             ],
             "downvotee": []
@@ -770,9 +770,9 @@
         "last_vote_time": "2018-03-30T07:11:27",
         "balance": "0.003 STEEM",
         "savings_balance": "0.000 STEEM",
-        "sbd_balance": "200.237 SBD",
-        "sbd_seconds": "465883213656",
-        "sbd_seconds_last_update": "2018-03-30T15:20:27",
+        "sbd_balance": "200.797 SBD",
+        "sbd_seconds": "487350313512",
+        "sbd_seconds_last_update": "2018-03-31T21:05:15",
         "sbd_last_interest_payment": "2018-03-02T19:40:09",
         "savings_sbd_balance": "0.000 SBD",
         "savings_sbd_seconds": "0",
