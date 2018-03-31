@@ -744,7 +744,7 @@ class Summary extends React.Component {
                 </div>
                 <div style={{padding: 10}}>
                     <div className="alert alert-warning" role="alert">
-                    Users listd below are selected for pre-diagnose with the filtering options:<br/>
+                    Users listed below are selected for pre-diagnose with the filtering options:<br/>
                         - Received or original STEEM POWER is over 10,000<br/>
                         - Posted with kr tag at least once<br/>
                     <br/>
