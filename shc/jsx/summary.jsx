@@ -82,11 +82,11 @@ class Summary extends React.Component {
                         <thead>
                             <tr>
                                 <th><span className="item_name" onClick={() => this.sortData(sorter.byName)}>Name</span></th>
-                                <th><span className="item_name" onClick={() => this.sortData(sorter.bySP)}>SP</span></th>
-                                <th><span className="item_name" onClick={() => this.sortData(sorter.byRshare)}>Used Rshare</span></th>
-                                <th><span className="item_name" onClick={() => this.sortData(sorter.byIS)}>Inverse Simpson</span></th>
-                                <th><span className="item_name" onClick={() => this.sortData(sorter.bySelfVote)}>Self Vote</span></th>
-                                <th><span className="item_name" onClick={() => this.sortData(sorter.byDailyFullVote)}>Daily Full Vote</span></th>
+                                <th className="right"><span className="item_name" onClick={() => this.sortData(sorter.bySP)}>SP</span></th>
+                                <th className="right"><span className="item_name" onClick={() => this.sortData(sorter.byRshare)}>Used Rshare</span></th>
+                                <th className="right"><span className="item_name" onClick={() => this.sortData(sorter.byIS)}>Inverse Simpson</span></th>
+                                <th className="right"><span className="item_name" onClick={() => this.sortData(sorter.bySelfVote)}>Self Vote</span></th>
+                                <th className="right"><span className="item_name" onClick={() => this.sortData(sorter.byDailyFullVote)}>Daily Full Vote</span></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -94,11 +94,11 @@ class Summary extends React.Component {
                             return (
                                 <tr>
                                     <td><a href={"./?user=" + user.userid}>{user.userid}</a></td>
-                                    <td title={user.sp + " + " + user.received_sp + " - " +user.delegated_sp}>{user.sp - user.delegated_sp + user.received_sp}</td>
-                                    <td>{tools.shortenNumber(user.acc_rshare[4], 2)}</td>
-                                    <td>{user.acc_is[4]}</td>
-                                    <td>{user.acc_selfvote_rate[4]}</td>
-                                    <td>{user.acc_avg_fullvote_day[4]}</td>
+                                    <td className="right">{user.sp - user.delegated_sp + user.received_sp}</td>
+                                    <td className="right">{tools.shortenNumber(user.acc_rshare[4], 2)}</td>
+                                    <td className="right">{user.acc_is[4]}</td>
+                                    <td className="right">{user.acc_selfvote_rate[4]}</td>
+                                    <td className="right">{user.acc_avg_fullvote_day[4]}</td>
                                 </tr>
                             );
                         })}
