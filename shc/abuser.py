@@ -103,32 +103,40 @@ def accumulated_trend(acc_name ,res, last_day):
         periods.append(calculate_for_duration(acc_name, res, last_day, period))
     return periods
 
-def vote_stats(acc_name, last_day):
-    result = {'accumulated': [], 'weekly': []}
-    # Read account info
+def get_account(acc_name):
     sub = json.dumps({"jsonrpc": "2.0", "id": 0, "method": "call", "params": [0, "get_accounts", [[acc_name]]]})
     res = requests.post("https://api.steemit.com", data=sub).json()['result'][0]
     for key in ['owner', 'active', 'posting', 'memo_key']:
         del res[key]
-    result['account'] = res
+    return res
 
-    # Read voting history
+def get_account_votes(acc_name):
     sub = json.dumps({"jsonrpc": "2.0", "id": 0, "method": "call", "params": [0, "get_account_votes", [acc_name]]})
     res = requests.post("https://api.steemit.com", data=sub).json()["result"]
+    return sorted(res, key=itemgetter('time'), reverse=True)
 
-    res = sorted(res, key=itemgetter('time'), reverse=True)
+def vote_stats(acc_name, last_day):
+    result = {'accumulated': [], 'weekly': []}
+    # Read account info
+    result['account'] = get_account(acc_name)
 
+    # Read voting history
+    res = get_account_votes(acc_name)
     result['accumulated'] = accumulated_trend(acc_name, res, last_day)
     result['weekly'] = weekly_trend(acc_name, res, last_day, 7)
     return result
 
-def process(users, output_path):
+def process(users, index, output_path):
     start_date = datetime.datetime.now()
-    for idx, user in enumerate(users):
-        print('Processing %s [%d/%d]' % (user, idx+1, len(users)))
-        result_list = vote_stats(user, start_date)
-        with open(output_path + '/%s.json' % user, 'w') as fp:
-            json.dump(result_list, fp, indent=4)
+    for idx, user in enumerate(users[index:]):
+        print('Processing %s [%d/%d]' % (user, idx + index, len(users)))
+        try:
+            result_list = vote_stats(user, start_date)
+            with open(output_path + '/%s.json' % user, 'w') as fp:
+                json.dump(result_list, fp)
+        except Exception as e:
+            print ("Failed to analyse %s: Skip" % user)
+
 
 def read_json(path):
     with open(path) as f:
@@ -191,7 +199,7 @@ def main():
     else:
         parser.error("No source is specified. use --help")
 
-    process(users[int(options.index):], options.output_path)
+    process(users, int(options.index), options.output_path)
     summary(options.output_path)
 
 if __name__ == "__main__":
