@@ -10,7 +10,7 @@ import json
 import sys
 import datetime
 
-users_to_skip = ["minnowsupport"]
+users_to_skip = ["minnowsupport", "bob" ,"good-karma" ,"appreciator" ,"algeorge" ,"cheetah" ,"eric818" ,"esteemapp" ,"travelfeed" ,"pharesim"]
 
 res = requests.get("https://tool.steem.world/Api/GetUsersByVestsWithDelegation?minSP=10000").json()
 

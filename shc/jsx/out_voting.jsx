@@ -34,7 +34,8 @@ class OutVoting extends React.Component {
             dataReady: false,
             data: '',
             errorMessage: '',
-            userName: getQueryVariable('user')
+            userName: getQueryVariable('user'),
+            snapshots: props.metadata.snapshots.global
         };
         this.retrieveData = this.retrieveData.bind(this);
         this.getDataUrl = this.getDataUrl.bind(this);
@@ -50,9 +51,7 @@ class OutVoting extends React.Component {
     }
 
     getDataUrl() {
-        //return "https://1ymd9zbxlj.execute-api.us-west-2.amazonaws.com/prod/voting-trend/@" + this.state.userName;
-        // return "http://steemdata.s3-website-us-west-2.amazonaws.com/march2018/" + this.state.userName + ".json"
-        return "./output/2018_04/" + this.state.userName + ".json";
+        return "./output/" + this.state.snapshots[0].path + "/" + this.state.userName + ".json";
     }
 
     retrieveData() {
@@ -100,7 +99,7 @@ class OutVoting extends React.Component {
                         </span>
                     </div>
                 </div>
-                <Summary/>
+                <Summary snapshot={this.state.snapshots[0]}/>
             </div>
         );
     }
@@ -704,7 +703,7 @@ class Summary extends React.Component {
     }
 
     getDataUrl() {
-        return "./output/2018_04/0_summary.json";
+        return "./output/"+ this.props.snapshot.path +"/0_summary.json";
     }
 
     retrieveData() {
@@ -744,15 +743,16 @@ class Summary extends React.Component {
                 </div>
                 <div style={{padding: 10}}>
                     <div className="alert alert-warning" role="alert">
-                        Users listed below are selected for pre-diagnose with the filtering options:<br/>
-                            - Received or original STEEM POWER is over 10,000<br/>
-                            - Posted with kr tag at least once<br/>
+                        <h4>Note</h4>
+                        Users listed below are selected for pre-diagnosis, who's STEEM POWER is over 10,000 after the delegation.<br/>
+                        <b>Snapshot date:</b> {this.props.snapshot.created}<br/>
                         <br/>
+                        <h4>Metrics</h4>
                         <b>SP:</b> Holding STEEM POWER (owning + receiving - delegating)<br/>
                         <b>Used Rshare:</b> Total rshare the user spend for the last 90 days<br/>
                         <b>Inverse Simpson:</b> Voting diversity index for the last 90 days. If this value is too low, the user could have been abusing.<br/>
                         <b>Self Vote:</b> Percentage of self voting for the last 90 days<br/>
-                        <b>Daily Full Vote:</b> Avarage daily full voting for the last 90 days. 1 unit = 10,000 voting weight<br/>
+                        <b>Daily Full Vote:</b> Avarage daily full voting for the last 90 days. 1 unit = 10,000 voting weight
                     </div>
                 </div>
                 <div className='main-panel'>
@@ -801,7 +801,19 @@ class Summary extends React.Component {
     }
 }
 
-ReactDOM.render(
-    <OutVoting/>,
-    document.getElementById('content_area')
-);
+// Start reading metadata
+fetch("./output/metadata.json")
+.then(res => res.json())
+.then(
+    (result) => {
+        ReactDOM.render(
+            <OutVoting metadata={result} />,
+            document.getElementById('content_area')
+        );
+    },
+    (error) => {
+        alert("Critical Error! Please retry later.")
+    })
+.catch((error) => {
+    alert("Critical Error! Please retry later.")
+});
