@@ -1,42 +1,4 @@
-.hardshell {
-    white-space: -moz-pre-wrap; /* Firefox */
-    white-space: -o-pre-wrap; /* Opera */
-    white-space: nowrap; /* Chrome */
-    word-wrap: break-word; /* IE */
-}
 
-.user_cell {
-    display: inline-block;
-    font-size: 9pt;
-    border: 1px solid #a1a1a1;
-    padding: 4px 4px; 
-    background: #eeeeee;
-    border-radius: 25px;
-    margin: 2px;
-}
-
-tr.right {
-    text-align: right;
-}
-
-td.right {
-    text-align: right;
-}
-
-th.right {
-    text-align: right;
-}
-
-td.link {
-    cursor: pointer;
-}
-
-img.round-64 {
-    object-fit: cover;
-    border-radius: 50%;
-    width:64px;
-    height:64px;
-}
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -56,9 +18,7 @@ html {
     height: 60px;
     line-height: 60px; /* Vertically center the text there */
     background-color: #f5f5f5;
-  }
-  
-  
+  }  
   /* Custom page CSS
   -------------------------------------------------- */
   /* Not required for template or sticky footer method. */
@@ -114,53 +74,27 @@ html {
     padding-left: 15px;
   }
 
-  div.user-profile-panel {
-    padding: 15px;
+  div.receiver-panel {
+      max-width: 550;
   }
 
-  div.chart-area {
-    padding-bottom: 20px;
+  table.pay-summary {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #888888;
+    border-radius: 1px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 18pt;
+  }
+  table.td.pay-summary {
+    padding: 5px;
   }
 
-  div.memo-area {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  /* Chart cell style */
-  div.chart_frame {
-      width: 250;
-  }
-  div.chart_cell {
-      width: 200;
-      height: 200;
-  }
-
-  /* Summary table */
-  span.item_name {
-      cursor: pointer;
-  }
-
-    /* User Profile */
-    span.user-name {
-        color: #666666;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 700;
-        font-size: 14pt;
-    }
-    span.user-status {
-        color: #666666;
-        font-family: 'Roboto', sans-serif;
-        font-size: 10pt;
-    }
-
-    td.user-status {
-        vertical-align: top;
-    }
 
     /** QR **/
-    body, input {font-size:14pt}
-    input, label {vertical-align:middle}
     .qrcode-text {padding-right:1.7em; margin-right:0}
     .qrcode-text-btn {display:inline-block; background:url(//dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg) 50% 50% no-repeat; height:1em; width:1.7em; margin-left:-1.7em; cursor:pointer}
     .qrcode-text-btn > input[type=file] {position:absolute; overflow:hidden; width:1px; height:1px; opacity:0}

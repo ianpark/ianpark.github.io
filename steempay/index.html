@@ -10,11 +10,15 @@
         gtag('config', 'UA-66341159-3');
         </script>
 
-        <meta name="viewport" content="width=device-width, initial-scale=0.7, maximum-scale=1.0" />
-        <link href="./css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=0.7, maximum-scale=0.7" />
+        <link href="https://fonts.googleapis.com/css?family=Teko|Abel|Quicksand|Roboto|Nunito" rel="stylesheet">        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
         <link href="./css/viewer.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Teko|Abel|Quicksand|Roboto|Nunito" rel="stylesheet">        <script src="./js/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script src="./js/bootstrap.min.js"></script>
+
         <script src="./js/steem.min.js"></script>
         <script src="./js/react.js"></script>
         <script src="./js/react-dom.js"></script>
@@ -25,38 +29,22 @@
         <script src="https://rawgit.com/sitepoint-editors/jsqrcode/master/src/qr_packed.js">
         </script>
     </head>
-    <body>
-        
+    <body> 
         <div class="page_header">
             <span onClick="document.location.href='./'" style="cursor: pointer;">Steem Pay</span>
         </div>
         <div id="content_area"></div>
-
-        <input type=text size=16 placeholder="Tracking Code" class=qrcode-text><label class=qrcode-text-btn><input type=file accept="image/*" capture=environment onclick="return showQRIntro();" onchange="openQRCamera(this);" tabindex=-1></label> 
-<input type=button value="Go" disabled>
-
+        <!-- Modal -->
+        <div class="modal fade" id="pay-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"  data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div id="pay-detail"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </footer>         
     </body>
 </html>
 <script type="text/babel" src="./jsx/pay.jsx"></script>
-<script>
-function openQRCamera(node) {
-  var reader = new FileReader();
-  reader.onload = function() {
-    node.value = "";
-    qrcode.callback = function(res) {
-      if(res instanceof Error) {
-        alert("No QR code found. Please make sure the QR code is within the camera's frame and try again.");
-      } else {
-        node.parentNode.previousElementSibling.value = res;
-      }
-    };
-    qrcode.decode(reader.result);
-  };
-  reader.readAsDataURL(node.files[0]);
-}
-
-function showQRIntro() {
-  return confirm("Use your camera to take a picture of a QR code.");
-}
-</script>
